@@ -1,0 +1,4 @@
+type: OreBlock
+groundOre: true
+itemDrop: cadmium
+variants: 3

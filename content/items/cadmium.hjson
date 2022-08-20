@@ -1,0 +1,10 @@
+name: Cadmium
+description: To be added
+color: to be added
+radioactivity: 0.0
+explosiveness: 0.0
+flammability: 0.0
+hardness: 1.0
+research: {
+parent: Nickel
+}

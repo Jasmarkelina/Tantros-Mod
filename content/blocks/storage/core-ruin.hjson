@@ -1,0 +1,16 @@
+name: "Core Ruin"
+planet: tantros
+description: "The beginning of your journey on Tantros. Once this Core is destroyed, the sector is Lost"
+type: CoreBlock
+health: 4200
+size: 4
+itemCapacity: 4500
+category: effect
+unitCapModifier: 14
+unitType: recuperate
+buildVisibility: shown
+alwaysUnlocked: true
+research: {
+root: true
+name: "Tantros"
+}

@@ -1,0 +1,44 @@
+name: Hydrothermal Turbine
+type: ThermalGenerator
+description: Generates power when placed near Hydrothermal vents.
+category: power
+size: 3
+health: 320
+hasPower: true
+powerProduction: 0.70
+displayEfficiency: false
+attribute: steam
+effectChance: 0.04
+ambientSound: hum
+ambientSoundVolume: 0.06
+generateEffect: turbinegenerate
+buildVisibility: shown
+destructible: true
+breakable: true
+drawer: {
+	type: DrawMulti,
+        drawers: [
+      {
+        type: DrawDefault
+        },
+     {
+ type: DrawBlurSpin
+ suffix: -rotator
+ blurThresh: 0.01
+  color: 9cb0e6
+  }
+ ]
+}
+research: {
+parent: core-ruin
+requirements: [
+Nickel/21
+titanium/18
+copper/10
+ ]
+   },
+  requirements: [
+  Nickel/42
+  titanium/36
+  copper/20
+]
