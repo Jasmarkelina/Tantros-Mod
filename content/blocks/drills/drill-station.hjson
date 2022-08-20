@@ -2,18 +2,19 @@ name: "Drilling Station"
 planet: tantros
 health: 720
 size: 3
-type: Drill
+type: BurstDrill
 category: production
 destrucrible: true
-research:{
+breakable: true
+research: {
 parent: coreRuin,
 requirements: [
-Nickel/25
-copper/50
-]
+ Nickel/25
+ copper/50
+ ]
 }
 tier: 4
-drillTime: 120
+drillTime: 250
 buildVisibility: shown
 alwaysUnlocked: true
 hasPower: true
