@@ -8,7 +8,7 @@ accel: 0.09
 drag: 0.08
 mineSpeed: 5.2
 mineTier: 3
-speed: 7.3
+speed: 4.5
 rotateSpeed: 15
 armor: 3
 size: 1.95
@@ -24,8 +24,8 @@ weapons: [
     mirror: false
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    reload: 18
-    inaccuracy: 2
+    reload: 30
+    inaccuracy: 4
     bullet: {
       type: MissileBulletType
       damage: 5
