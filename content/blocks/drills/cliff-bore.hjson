@@ -1,0 +1,27 @@
+name: Cliff Bore
+type: BeamDrill
+planet: tantros
+health: 270
+size: 2
+category: production
+destrucrible: true
+breakable: true
+teir: 3
+range: 1
+drillTime: 220
+buildVisibility: shown
+itemCapacity: 10
+drawer: {
+        type: DrawMulti,
+        drawers: [
+      {
+        type: DrawDefault
+        },
+     {
+ type: drawSpinSprite
+ suffix: -rotator
+  color: 9cb0e6
+    }
+  ]
+}
+  
