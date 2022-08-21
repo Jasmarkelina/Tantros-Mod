@@ -4,9 +4,9 @@ planet: tantros
 health: 270
 size: 2
 category: production
-destrucrible: true
+destructible: true
 breakable: true
-teir: 4
+tier: 4
 range: 1
 drillTime: 220
 buildVisibility: shown
