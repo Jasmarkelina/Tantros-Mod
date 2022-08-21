@@ -24,4 +24,6 @@ drawer: {
     }
   ]
 }
-  
+research: {
+parent: core-ruin
+}
