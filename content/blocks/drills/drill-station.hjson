@@ -7,7 +7,7 @@ category: production
 destrucrible: true
 breakable: true
 research: {
-parent: coreRuin,
+parent: cliff-bore,
 requirements: [
  Nickel/25
  copper/50
