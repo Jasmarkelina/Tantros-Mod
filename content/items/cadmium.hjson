@@ -2,8 +2,8 @@ name: Cadmium
 description: Extremely soft and malleable, resistant to corrosion. Used for protective plating on other metals.
 color: 99C0C9
 radioactivity: 0.0
-explosiveness: 5.3
-flammability: 2.5
+explosiveness: 0.53
+flammability: 0.25
 hardness: 1.0
 research: {
 parent: Nickel
