@@ -1,0 +1,16 @@
+type: itemTurret
+name: Wreck
+description: "Mini torpedo turret"
+health: 1200
+size: 3
+range: 400
+ammoTypes: {
+    Nickel: {
+    speed: 5
+    damage: 21
+    areaDamage: 18
+    width: 8
+    height: 10
+   }
+ }
+//i'll finish tomorrow if i have time because school
