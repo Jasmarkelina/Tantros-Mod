@@ -13,4 +13,8 @@ ammoTypes: {
     height: 10
    }
  }
-//i'll finish tomorrow if i have time because school
+    appyphosil: {
+    damage: 10
+    areaDamage: 39
+    }
+  }
