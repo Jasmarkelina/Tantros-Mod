@@ -12,8 +12,8 @@ ammoTypes: {
     width: 8
     height: 10
    }
- }
     appyphosil: {
     damage: 10
     areaDamage: 39
-    }
+   }
+}
