@@ -1,6 +1,6 @@
 planet: tantros
 sector: 63
-difficulty: 4
+difficulty: 3
 research: {
 parent: submerged
 objectives: [
