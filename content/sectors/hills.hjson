@@ -1,12 +1,12 @@
 planet: tantros
-sector: 36
+sector: 6
 difficulty: 4
 research: {
 parent: cold-wasteland
 objectives: [
     {
       type: SectorComplete
-      preset: cold-wasteland
+      preset: frozen-forest
     }
   ]
 }
