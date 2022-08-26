@@ -2,11 +2,11 @@ planet: tantros
 sector: 45
 difficulty: 5
 research: {
-parent: cold-wasteland
+parent: hills
 objectives: [
     {
       type: SectorComplete
-      preset: cold-wasteland
+      preset: hills
     }
   ]
 }
