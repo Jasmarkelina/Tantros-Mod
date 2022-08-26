@@ -1,0 +1,12 @@
+planet: tantros
+sector: 36
+difficulty: 4
+research: {
+parent: cold-wasteland
+objectives: [
+    {
+      type: SectorComplete
+      preset: cold-wasteland
+    }
+  ]
+}
