@@ -6,7 +6,7 @@ parent: cold-wasteland
 objectives: [
     {
       type: SectorComplete
-      preset: theCraters
+      preset: groundZero
     }
   ]
 }
