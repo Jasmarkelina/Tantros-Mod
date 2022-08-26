@@ -2,7 +2,7 @@ name: "tantros"
 displayName: "Tantros"
 main: "tantros.Tantros"
 author: "Jasmarkelina"
-description: "My first Mod, adds a whole new set of content and also a tech tree for the planet: Tantros! Keep in mind that this mod is Nowhere Near Done"
+description: "My first Mod, adds a whole new set of content and also a tech tree for the planet: Tantros! Keep in mind that this mod is Nowhere Near Done, Forked by Plastel, aiming to contribute to the original mod as much as possible"
 version: "0.2"
 minGameVersion: 137
 repo: Jasmarkelina/Tantros-Mod
