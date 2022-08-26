@@ -6,7 +6,7 @@ parent: cold-wasteland
 objectives: [
     {
       type: SectorComplete
-      preset: ground-zero
+      preset: cold-wasteland 
     }
   ]
 }
