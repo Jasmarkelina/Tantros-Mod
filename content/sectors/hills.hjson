@@ -2,7 +2,7 @@ planet: tantros
 sector: 6
 difficulty: 4
 research: {
-parent: cold-wasteland
+parent: core-ruin
 objectives: [
     {
       type: SectorComplete
