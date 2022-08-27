@@ -1,12 +1,12 @@
 planet: tantros
 sector: 45
-difficulty: 5
+difficulty: 6
 research: {
-parent: hills
+parent: delta
 objectives: [
     {
       type: SectorComplete
-      preset: hills
+      preset: delta
     }
   ]
 }
