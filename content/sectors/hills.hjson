@@ -1,12 +1,12 @@
 planet: tantros
-sector: 45
-difficulty: 6
+sector: 6
+difficulty: 4
 research: {
-parent: delta
+parent: core-ruin
 objectives: [
     {
       type: SectorComplete
-      preset: delta
+      preset: groundZero
     }
   ]
 }

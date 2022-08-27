@@ -1,0 +1,8 @@
+type: SteamVent
+parent: redmat
+blendGroup: redmat
+effectColor: cdd1e2
+variants: 2
+attributes:{
+    steam: 2.2
+}
