@@ -1,6 +1,6 @@
 type: flying
 health: 470
-controller: BuilderAi
+controller: BuilderAI
 isEnemy: false
 mineWalls: true
 mineFloor: true
