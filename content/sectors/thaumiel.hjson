@@ -1,0 +1,12 @@
+planet: tantros
+sector: 87
+difficulty: 4
+research: {
+parent: hills
+objectives: [
+    {
+      type: SectorComplete
+      preset: hills
+    }
+  ]
+}
