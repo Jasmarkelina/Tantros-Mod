@@ -6,7 +6,7 @@ parent: delta
 objectives: [
     {
       type: SectorComplete
-      preset: monument
+      preset: delta
     }
   ]
 }
