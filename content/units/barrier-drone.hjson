@@ -6,8 +6,10 @@ size: 1.2
 hitSize: 1
 speed: 1
 rotateSpeed: 5
-controller: DefenderAi
-abilities: ForceFieldAbility
+controller: DefenderAI
+abilities: {
+   ForceFieldAbility
+  }
 shieldHealth: 25000
 lowAltitude: true
 accel: 0.09
