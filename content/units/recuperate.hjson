@@ -1,6 +1,6 @@
 type: flying
 health: 470
-controller: BuilderAI
+controller: BuilderAi
 isEnemy: false
 mineWalls: true
 mineFloor: true
@@ -48,12 +48,12 @@ engines: [
     x: -4.8
     y: -5.2
     rotation: 90
-    radius: 2.5
+    radius: 2
   }
   {
     x: 4.8
     y: -5.2
     rotation: 90
-    radius: 2.5
+    radius: 2
    }
  ]
