@@ -1,0 +1,12 @@
+planet: tantros
+sector: 26
+difficulty: 6
+research: {
+parent: delta
+objectives: [
+    {
+      type: SectorComplete
+      preset: monument
+    }
+  ]
+}
