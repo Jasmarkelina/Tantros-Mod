@@ -1,0 +1,20 @@
+type: flying
+flying: true
+health: 400
+armor: 1
+size: 1.2
+hitSize: 1
+speed: 1
+rotateSpeed: 5
+controller: DefenderAI
+abilities: {
+   ForceFieldAbility: {
+   health: 2500
+   size: 10
+  }
+}
+shieldHealth: 25000
+lowAltitude: true
+accel: 0.09
+drag: 0.09
+drawShields: false
