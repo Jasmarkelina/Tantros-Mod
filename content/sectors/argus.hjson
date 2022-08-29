@@ -1,0 +1,12 @@
+planet: tantros
+sector: 85
+difficulty: 7
+research: {
+parent: delta
+objectives: [
+    {
+      type: SectorComplete
+      preset: delta
+    }
+  ]
+}
