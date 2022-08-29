@@ -1,0 +1,8 @@
+type: Wall
+health: 2100
+size: 2
+category: defense
+research: oxygen-wall
+requirements : [
+        oxygen/24
+    ]
