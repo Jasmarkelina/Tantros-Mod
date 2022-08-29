@@ -1,0 +1,8 @@
+type: Wall
+health: 420
+size: 1
+category: defense
+research: core-ruin
+requirements : [
+        oxygen/6
+    ]

@@ -1,0 +1,7 @@
+type: hover
+health: 100
+size: 2
+isEnemy: false
+targettable: false
+hittable: false
+playerControllable: false
