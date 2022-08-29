@@ -21,7 +21,7 @@ outlineColor: "2d2f39"
 weapons: [
   {
     name: none
-    x: -2.5
+    x: 0
     y: 0
     mirror: false
     shootEffect: sparkShoot
