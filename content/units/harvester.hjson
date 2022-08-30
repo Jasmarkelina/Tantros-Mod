@@ -1,6 +1,6 @@
 type: flying
 health: 380
-controller: BuilderAI
+controller: MinerAI
 isEnemy: false
 mineWalls: true
 mineFloor: true
@@ -9,7 +9,7 @@ buildSpeed: 1.3
 accel: 0.09
 drag: 0.08
 mineSpeed: 8.18
-mineTier: 4
+mineTier: 5
 speed: 5.3
 rotateSpeed: 4.8
 armor: 2
