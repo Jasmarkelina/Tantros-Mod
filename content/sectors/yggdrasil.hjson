@@ -1,0 +1,12 @@
+planet: tantros
+sector: 49
+difficulty: 4
+research: {
+parent: thaumiel
+objectives: [
+    {
+      type: SectorComplete
+      preset: thaumiel
+    }
+  ]
+}

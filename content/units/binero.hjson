@@ -1,0 +1,10 @@
+type: flying
+health: 100
+size: 2
+isEnemy: false
+targettable: false
+hittable: false
+playerControllable: false
+engineSize: 0
+lightRadius: 2
+lightColor: 4FD1C2
