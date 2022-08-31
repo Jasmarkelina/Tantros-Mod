@@ -4,7 +4,7 @@
     inaccuracy : 0
     targetAir : true
     category : turret
-    research : core-ruin
+    research : wreck
     health : 670
     reload : 60
     range : 200
