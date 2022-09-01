@@ -1,0 +1,5 @@
+health: 250
+size: 2
+isEnemy: false
+hittable: false
+targettable: false
