@@ -10,7 +10,7 @@ unitCapModifier: 20
 unitType: artificer
 buildVisibility: shown
 alwaysUnlocked: true
-research: { core ruin
+research: { core-ruin
 root: false
 name: "Tantros"
 }
