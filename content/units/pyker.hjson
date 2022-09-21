@@ -1,0 +1,8 @@
+type: flying
+health: 250
+size: 2
+isEnemy: false
+hittable: false
+targettable: false
+lightRange: 0
+engineSize: 0
