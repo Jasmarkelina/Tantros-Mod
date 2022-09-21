@@ -1,0 +1,26 @@
+type: mech
+health: 630
+flying: false
+speed: 1.35
+rotateSpeed: 9
+armor: 4
+hitSize: 12.35
+itemCapacity: 45
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    continuous: true
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 60
+    bullet: {
+      type: ContinuousFlameBulletType
+      damage: 7.3
+      lifeTime: 87
+    }
+  }
+]
+research: nickel-factoryunit
