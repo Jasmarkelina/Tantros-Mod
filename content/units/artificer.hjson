@@ -38,4 +38,6 @@ weapons: [
       despawnEffect: blastExplosion
       lifeTime: 50
       shootSound: missile
-}}]
+}
+}
+]
