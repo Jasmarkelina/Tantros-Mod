@@ -1,1 +1,4 @@
-
+type: OreBlock
+wallOre: true
+itemDrop: oxygen
+variants: 2
