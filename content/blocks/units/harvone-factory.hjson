@@ -1,0 +1,26 @@
+name: "Aquomantic Factory"
+description: "Make Harvone, a unit specialized on mining"
+type: UnitFactory
+health: 820
+size: 3
+consumes: {
+power: 0.85
+}
+plans: [
+  {
+    unit: harvone
+    requirements: [
+      Nickel/80
+      Cadmium/40
+      Titanium/20
+    ]
+    time: 1425
+  }
+]
+category: units
+requirements: [
+  Nickel/300
+  graphite/100
+  copper/80
+]
+research: core-ruin
