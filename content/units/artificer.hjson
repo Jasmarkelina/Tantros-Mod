@@ -11,7 +11,7 @@ drag: 0.12
 mineSpeed: 2.8
 mineTier: 5
 speed: 5.3
-rotateSpeed: 4.6
+rotateSpeed: 1.5
 armor: 5
 size: 2.18
 itemCapacity: 49
@@ -28,7 +28,7 @@ weapons: [
     inaccuracy: 9
     bullet: {
       type: MissileBulletType
-      damage: 45
+      damage: 60
       splashDamage: 13
       splashDamageRadius: 20
       sideAngle: 45
@@ -36,7 +36,7 @@ weapons: [
       sideLength: 4
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
-      lifeTime: 50
+      lifeTime: 80
       shootSound: missile
 }
 }
