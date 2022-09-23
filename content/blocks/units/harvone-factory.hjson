@@ -11,8 +11,8 @@ plans: [
     unit: harvone
     requirements: [
       Nickel/80
-      Cadmium/40
-      Titanium/20
+      cadmium/40
+      titanium/20
     ]
     time: 2400
   }
