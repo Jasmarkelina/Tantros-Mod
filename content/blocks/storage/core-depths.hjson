@@ -4,13 +4,13 @@ description: "A Heavily modified [accent] Ruin Core [white] designed to survive 
 type: CoreBlock
 health: 7260
 size: 5
-itemCapacity: 3000
+itemCapacity: 2900
 category: effect
-unitCapModifier: 20
+unitCapModifier: 36
 unitType: artificer
-buildVisibility: shown
-alwaysUnlocked: true
-research: { core-ruin
+buildVisibility: hidden
+alwaysUnlocked: false
+research: {
 root: false
 name: "Tantros"
 }
