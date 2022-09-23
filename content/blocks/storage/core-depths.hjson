@@ -8,7 +8,7 @@ itemCapacity: 2900
 category: effect
 unitCapModifier: 36
 unitType: artificer
-buildVisibility: hidden
+buildVisibility: shown
 alwaysUnlocked: false
 research: {
 root: false
