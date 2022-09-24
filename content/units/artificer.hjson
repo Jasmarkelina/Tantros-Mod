@@ -1,6 +1,7 @@
 type: flying
 health: 1880
 controller: BuilderAI
+defaultController: BuilderAI
 isEnemy: false
 mineWalls: true
 mineFloor: true
