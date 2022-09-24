@@ -1,6 +1,7 @@
 type: flying
 health: 380
 controller: MinerAI
+defaultController: MinerAI
 isEnemy: false
 mineWalls: true
 mineFloor: true
@@ -12,5 +13,5 @@ mineTier: 5
 speed: 5.3
 rotateSpeed: 1.9
 armor: 2
-size: 3.2
+size: 5
 itemCapacity: 60
