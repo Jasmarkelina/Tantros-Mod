@@ -8,5 +8,5 @@ consumePowerBuffered: 3500
 research: Hydrothermal-turbine
 requirements: [
   Nickel/42
-  cadmium/22
+  cadmium
 ]
