@@ -1,4 +1,4 @@
 type: OreBlock
 wallOre: true
-itemDrop: cadmium
+itemDrop: oxygen
 variants: 2

@@ -1,0 +1,16 @@
+name: "Core: Depths"
+planet: tantros
+description: "A Heavily modified [accent] Ruin Core [white] designed to survive in the cold and/or deep parts of tantros"
+type: CoreBlock
+health: 7260
+size: 4
+itemCapacity: 2900
+category: effect
+unitCapModifier: 36
+unitType: artificer
+buildVisibility: shown
+alwaysUnlocked: false
+research: {
+root: false
+name: "Tantros"
+}

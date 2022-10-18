@@ -1,4 +1,4 @@
 type: OreBlock
 groundOre: true
-itemDrop: cadmium
-variants: 2
+itemDrop: silicon
+variants: 1
