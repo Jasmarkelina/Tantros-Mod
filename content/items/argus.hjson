@@ -1,0 +1,8 @@
+name: argus
+description: Used in high frequency Laser turrets
+color: 49D170
+explosiveness: 0.7
+flammability: 0
+radioactivity: 0
+charge: 0.69
+hardness: 2
