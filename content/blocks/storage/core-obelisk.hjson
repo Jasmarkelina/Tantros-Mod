@@ -3,7 +3,7 @@ planet: tantros
 description: "A Smaller but easier to transport core,To make up for it's lack of armor, the core was armed with a shielded unit"
 type: CoreBlock
 health: 1880
-size: 3
+size: 2
 itemCapacity: 2300
 category: effect
 unitCapModifier: 9
