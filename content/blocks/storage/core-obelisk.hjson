@@ -10,7 +10,7 @@ unitCapModifier: 9
 unitType: barrier-drone
 buildVisibility: shown
 alwaysUnlocked: true
-research: }
+research: {
 root: false
 name: "Tantros"
 }
