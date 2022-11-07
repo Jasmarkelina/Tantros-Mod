@@ -3,6 +3,7 @@ flying: true
 health: 155
 armor: 35
 size: 1.2
+buildSpeed: 0.51
 hitSize: 1
 speed: 1
 rotateSpeed: 3
