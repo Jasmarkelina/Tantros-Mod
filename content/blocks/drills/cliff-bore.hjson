@@ -29,5 +29,5 @@ parent: core-ruin
 }
 requirements: [
   Nickel/42
-  Cadmium/20
+  cadmium/20
 ]
