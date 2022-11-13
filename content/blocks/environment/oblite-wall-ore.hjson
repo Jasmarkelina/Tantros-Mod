@@ -1,4 +1,4 @@
 type: OreBlock
-groundOre: true
+wallOre: true
 itemDrop: oblite
 variants: 2
