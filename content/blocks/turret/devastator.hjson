@@ -6,7 +6,7 @@
     category : turret
     research : pressure
     health : 2380
-    reload : 250
+    reload : 700
     range : 700
     type : ItemTurret
     squareSprite: false
@@ -29,7 +29,7 @@
             height : 0
             speed : 0
             width : 0
-            spawnUnit: pressure-torpedo
+            spawnUnit: devastator-torpedo
         }
     }
     drawer: {
