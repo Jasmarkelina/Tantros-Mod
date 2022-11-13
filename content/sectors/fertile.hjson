@@ -1,0 +1,13 @@
+captureWave: 21
+planet: tantros
+sector: 16
+difficulty: 4
+research: {
+parent: core-ruin
+objectives: [
+    {
+      type: SectorComplete
+      preset: groundZero
+    }
+  ]
+}
