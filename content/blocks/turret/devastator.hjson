@@ -19,11 +19,11 @@
         cadmium/1000
         oxygen/1300
         titanium/500
-        tungsten/400
+        oblite/400
     ]
     
     ammoTypes : {
-        oxygen : {
+        oblite : {
             lifetime : 0
             damage : 0
             height : 0
