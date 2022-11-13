@@ -1,0 +1,34 @@
+name: Cliff Harvester
+type: BeamDrill
+planet: tantros
+health: 720
+size: 3
+category: production
+destructible: true
+breakable: true
+tier: 4
+range: 2
+drillTime: 200
+buildVisibility: shown
+itemCapacity: 20
+drawer: {
+        type: DrawMulti,
+        drawers: [
+      {
+        type: DrawDefault
+        },
+     {
+ type: drawSpinSprite
+ suffix: -rotator
+  color: 9cb0e6
+    }
+  ]
+}
+research: {
+parent: cliff-bore
+}
+requirements: [
+  Nickel/80
+  cadmium/40
+  titanium/20
+]
