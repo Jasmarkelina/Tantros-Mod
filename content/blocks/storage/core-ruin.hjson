@@ -1,5 +1,4 @@
 name: "Core Ruin"
-planet: tantros
 description: "A Core. Once this is destroyed, the sector is Lost"
 type: CoreBlock
 health: 4200
@@ -11,6 +10,7 @@ unitType: recuperate
 buildVisibility: shown
 alwaysUnlocked: true
 research: {
+planet: tantros
 root: true
 name: "Tantros"
 }
