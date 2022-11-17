@@ -1,0 +1,33 @@
+type: itemTurret
+name: Basilisk
+description: "Heavy Machinegun that packs a lot of firepower on a reduced 3x3 space."
+health: 2200
+size: 3
+range: 250
+reload: 5
+ammoTypes: {
+    cadmium: {
+        lifetime: 80
+    speed: 4
+    drag: -0.07
+    damage: 30
+    width: 8
+    height: 11
+   }
+    oxygen: {
+        lifetime: 100
+    speed: 2.8
+    drag: -0.06
+    damage: 50
+    width: 8
+    height: 11
+   }
+}
+category: turret
+research: pressure
+requirements: [
+    Nickel/300
+    titanium/165
+    cadmium/80
+    oxygen/40
+]
