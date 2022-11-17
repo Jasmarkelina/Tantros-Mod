@@ -1,1 +1,12 @@
-
+planet: tantros
+sector: 6
+difficulty: 5
+research: {
+parent: fertile
+objectives: [
+    {
+      type: SectorComplete
+      preset: fertile
+    }
+  ]
+}
