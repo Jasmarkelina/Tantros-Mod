@@ -1,0 +1,13 @@
+planet: tantros
+captureWave: 34
+sector: 50
+difficulty: 7
+research: cliff-harvester
+parent: waypoint 
+objectives: [
+    {
+      type: SectorComplete
+      preset: 
+    }
+  ]
+}
