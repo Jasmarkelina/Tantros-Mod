@@ -2,7 +2,7 @@ planet: tantros
 captureWave: 34
 sector: 50
 difficulty: 7
-research: cliff-harvester
+research: }
 parent: waypoint 
 objectives: [
     {
