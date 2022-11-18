@@ -7,7 +7,7 @@ parent: waypoint
 objectives: [
     {
       type: SectorComplete
-      preset: frozen-plateau
+      preset: Frozen-plateau
     }
   ]
 }
