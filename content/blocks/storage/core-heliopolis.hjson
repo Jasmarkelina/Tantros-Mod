@@ -1,0 +1,17 @@
+name: "Core: Heliopolis"
+planet: tantros
+description: "A Super heavy Core, that can sustain a large amount of damage, It's large Control core allows it to command a huge army."
+type: CoreBlock
+health: 30080
+size: 5
+armor: 40
+itemCapacity: 30000
+category: effect
+unitCapModifier: 100
+unitType: gjallahorn
+buildVisibility: shown
+alwaysUnlocked: false
+research: {
+root: false
+name: "Tantros"
+}
