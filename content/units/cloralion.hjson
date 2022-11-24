@@ -3,7 +3,7 @@ health: 5060
 flying: false
 speed: 0.65
 rotateSpeed: 0.88
-armor: 13
+armor: 45
 hitSize: 25
 itemCapacity: 3000
 hidden: true
@@ -16,11 +16,11 @@ weapons: [
     continuous: true
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
-    reload: 3000
+    reload: 300
     bullet: {
       type: ContinuousFlameBulletType
-      damage: 25
-      lifeTime: 4000
+      damage: 170
+      lifeTime: 6000
     }
   }
 ]
@@ -28,7 +28,7 @@ abilities: [
   {
    type: UnitSpawnAbility
       unit: cleroi
-      spawnTime: 6000,
+      spawnTime: 600,
       spawnX: 0,
       spawnY: 2
 }
