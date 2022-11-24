@@ -1,0 +1,26 @@
+type: mech
+health: 5060
+flying: false
+speed: 0.65
+rotateSpeed: 0.88
+armor: 13
+hitSize: 25
+itemCapacity: 3000
+hidden: true
+weapons: [
+  {
+    name: none
+    x: 1.15
+    y: 1
+    mirror: true
+    continuous: true
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 3000
+    bullet: {
+      type: ContinuousFlameBulletType
+      damage: 25
+      lifeTime: 4000
+    }
+  }
+]
