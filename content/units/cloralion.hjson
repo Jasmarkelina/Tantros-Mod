@@ -28,6 +28,6 @@ abilities: [
   {
    type: SpawnUnitAbility
       unit: cleroi
-      spawnTime: 2800,
+      spawnTime: 6000,
       spawnX: 0,
       spawnY: 2
