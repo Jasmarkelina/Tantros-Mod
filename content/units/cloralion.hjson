@@ -24,3 +24,9 @@ weapons: [
     }
   }
 ]
+abilities: [
+  {
+   type: SpawnUnitAbility
+   health: 1860
+   size: 13
+  }
