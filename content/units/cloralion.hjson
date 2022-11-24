@@ -27,6 +27,7 @@ weapons: [
 abilities: [
   {
    type: SpawnUnitAbility
-   health: 1860
-   size: 13
-  }
+      unit: cleroi
+      spawnTime: 2800,
+      spawnX: 0,
+      spawnY: 2
