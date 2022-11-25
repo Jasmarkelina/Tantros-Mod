@@ -1,8 +1,8 @@
 type: mech
 health: 6060
 flying: false
-defaultController: 
-speed: 0.65
+defaultController: GroundAI
+speed: 0.50
 rotateSpeed: 0.88
 armor: 25
 hitSize: 25
