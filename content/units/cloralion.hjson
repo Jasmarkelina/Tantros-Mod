@@ -4,7 +4,7 @@ flying: false
 defaultController: GroundAI
 speed: 0.50
 rotateSpeed: 0.88
-armor: 25
+armor: 45
 hitSize: 25
 itemCapacity: 300
 weapons: [
@@ -35,7 +35,7 @@ abilities: [
     {
      type: ForceFieldAbility
      health: 2000
-     size: 7
+     size: 5
     },
     {
    type: UnitSpawnAbility
