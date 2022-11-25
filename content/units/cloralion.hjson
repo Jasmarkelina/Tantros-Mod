@@ -20,7 +20,7 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       damage: 170
-      lifeTime: 1
+      lifeTime: 600
     }
   }
 ]
