@@ -16,11 +16,11 @@ weapons: [
     continuous: true
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
-    reload: 300
+    reload: 900
     bullet: {
       type: ContinuousFlameBulletType
-      damage: 170
-      lifeTime: 600
+      damage: 50
+      lifeTime: 800
     }
   }
 ]
@@ -35,7 +35,7 @@ abilities: [
     {
      type: ForceFieldAbility
      health: 2000
-     size: 10
+     size: 7
     },
     {
    type: UnitSpawnAbility
