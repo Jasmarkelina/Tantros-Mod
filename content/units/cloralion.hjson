@@ -43,5 +43,8 @@ abilities: [
       spawnTime: 2300,
       spawnX: 0,
       spawnY: -5
+    },
+    {
+    type: SuppressionFieldAbility
 }
 ]
