@@ -37,3 +37,5 @@ abilities: [
      type: ForceFieldAbility
      health: 2000
      size: 10
+}
+]
