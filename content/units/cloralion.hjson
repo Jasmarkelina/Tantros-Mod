@@ -32,8 +32,8 @@ abilities: [
       spawnTime: 600,
       spawnX: 0,
       spawnY: 2
-    {,
-    }
+    },
+    {
      type: ForceFieldAbility
      health: 2000
-     size: 20
+     size: 10
