@@ -1,7 +1,7 @@
 type: mech
 health: 6060
 flying: false
-defaultController: GroundAI
+controller: GroundAI
 speed: 0.50
 rotateSpeed: 0.88
 armor: 45
@@ -18,8 +18,8 @@ weapons: [
     smokeEffect: shootSmallSmoke
     reload: 900
     bullet: {
-      type: ContinuousFlameBulletType
-      damage: 50
+      type: LaserBulletType
+      damage: 206
       lifeTime: 800
     }
   }
