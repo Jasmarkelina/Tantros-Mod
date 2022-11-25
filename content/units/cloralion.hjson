@@ -1,6 +1,7 @@
 type: mech
 health: 5060
 flying: false
+defaultController: 
 speed: 0.65
 rotateSpeed: 0.88
 armor: 45
@@ -20,7 +21,7 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       damage: 170
-      lifeTime: 6000
+      lifeTime: 1
     }
   }
 ]
