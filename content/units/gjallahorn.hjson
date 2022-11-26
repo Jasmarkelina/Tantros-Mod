@@ -1,5 +1,5 @@
 type: flying
-health: 1800
+health: 1600
 controller: BuilderAI
 defaultController: BuilderAI
 isEnemy: false
@@ -13,7 +13,7 @@ mineSpeed: 3
 mineTier: 3
 speed: 3
 rotateSpeed: 1.3
-armor: 20
+armor: 8
 size: 9
 itemCapacity: 80
 outlineColor: "2d2f39"
@@ -25,11 +25,11 @@ weapons: [
     mirror: true
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
-    reload: 69
+    reload: 5
     inaccuracy: 15
     bullet: {
       type: MissileBulletType
-      damage: 50
+      damage: 15
       splashDamage: 25
       splashDamageRadius: 20
       sideAngle: 60
