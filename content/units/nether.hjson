@@ -30,4 +30,5 @@ abilities: [
   {
 type: SuppressionFieldAbility
 }
+}
 ]
