@@ -16,10 +16,10 @@ weapons: [
     continuous: true
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
-    reload: 900
+    reload: 0
     bullet: {
-      type: LaserBulletType
-      damage: 206
+      type: ContinuousFlameBulletType
+      damage: 20
       lifeTime: 800
     }
   }
@@ -43,8 +43,5 @@ abilities: [
       spawnTime: 2300,
       spawnX: 0,
       spawnY: -5
-    },
-    {
-    type: SuppressionFieldAbility
 }
 ]
