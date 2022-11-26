@@ -32,3 +32,17 @@ type: SuppressionFieldAbility
 }
 }
 ]
+engines: [
+  {
+    x: -4.8
+    y: -5.2
+    rotation: 75
+    radius: 3
+  }
+  {
+    x: 4.8
+    y: -5.2
+    rotation: 75
+    radius: 3
+   }
+ ]
