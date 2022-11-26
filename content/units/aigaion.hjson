@@ -4,12 +4,12 @@ controller: FlyingAI
 isEnemy: false
 flying: true
 accel: 0.06
-drag: 0.34
-speed: 0.33
+drag: 0.2
+speed: 0.35
 rotateSpeed: 1.3
 armor: 65
-size: 75
-itemCapacity: 80
+size: 155
+itemCapacity: 1000
 outlineColor: "2d2f39"
 weapons: [
   {
@@ -30,33 +30,40 @@ abilities: [
   {
    type: UnitSpawnAbility
       unit: recuperate
-      spawnTime: 900,
+      spawnTime: 650,
       spawnX: 0,
       spawnY: 2
     },
     {
      type: ForceFieldAbility
      health: 10000
-     size: 30
+     size: 70
     },
     {
    type: UnitSpawnAbility
       unit: horizon
-      spawnTime: 2300,
+      spawnTime: 1000,
       spawnX: 0,
       spawnY: -9   
     },
     {
    type: UnitSpawnAbility
       unit: artificer
-      spawnTime: 3600,
+      spawnTime: 1600,
       spawnX: 10,
       spawnY: 0   
      },
     {
    type: UnitSpawnAbility
       unit: obviate
-      spawnTime: 6300,
+      spawnTime: 2000,
+      spawnX: -10,
+      spawnY: 0   
+     },
+    {
+   type: UnitSpawnAbility
+      unit: flare
+      spawnTime: 600,
       spawnX: -10,
       spawnY: 0   
 }
