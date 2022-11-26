@@ -37,7 +37,7 @@ abilities: [
     {
      type: ForceFieldAbility
      health: 10000
-     size: 70
+     size: 150
     },
     {
    type: UnitSpawnAbility
@@ -48,7 +48,7 @@ abilities: [
     },
     {
    type: UnitSpawnAbility
-      unit: artificer
+      unit: zenith 
       spawnTime: 1600,
       spawnX: 10,
       spawnY: 0   
