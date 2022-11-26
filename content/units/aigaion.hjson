@@ -22,7 +22,7 @@ weapons: [
             lifetime: 0
             speed: 0
             damage: 0
-            spawnUnit: vertex
+            spawnUnit: scathe-missile
  }
   }
 ]
@@ -48,8 +48,8 @@ abilities: [
     },
     {
    type: UnitSpawnAbility
-      unit:  
-      spawnTime: 1600,
+      unit: zenith
+      spawnTime: 5000,
       spawnX: 10,
       spawnY: 0   
      },
