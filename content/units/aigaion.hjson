@@ -23,7 +23,42 @@ weapons: [
             speed: 0
             damage: 0
             spawnUnit: vertex
-    
+ }
+  }
+]
+abilities: [
+  {
+   type: UnitSpawnAbility
+      unit: recuperate
+      spawnTime: 900,
+      spawnX: 0,
+      spawnY: 2
+    },
+    {
+     type: ForceFieldAbility
+     health: 10000
+     size: 30
+    },
+    {
+   type: UnitSpawnAbility
+      unit: horizon
+      spawnTime: 2300,
+      spawnX: 0,
+      spawnY: -9   
+    },
+    {
+   type: UnitSpawnAbility
+      unit: artificer
+      spawnTime: 3600,
+      spawnX: 10,
+      spawnY: 0   
+     },
+    {
+   type: UnitSpawnAbility
+      unit: obviate
+      spawnTime: 6300,
+      spawnX: -10,
+      spawnY: 0   
 }
 }
 ]
