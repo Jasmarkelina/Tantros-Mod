@@ -30,8 +30,6 @@ abilities: [
   {
 type: SuppressionFieldAbility
 }
-}
-]
 engines: [
   {
     x: -4.8
