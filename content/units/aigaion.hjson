@@ -1,9 +1,7 @@
 type: flying
-health: 1800
+health: 31000
 controller: FlyingAI
 isEnemy: false
-mineWalls: true
-mineFloor: true
 flying: true
 accel: 0.06
 drag: 0.34
@@ -18,7 +16,7 @@ weapons: [
         x: 0
         y: 3
         mirror: false
-        reload: 15000
+        reload: 1500
         bullet: {
             type: BasicBulletType
             lifetime: 0
