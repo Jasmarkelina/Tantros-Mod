@@ -65,7 +65,10 @@ abilities: [
       unit: flare
       spawnTime: 600,
       spawnX: -10,
-      spawnY: 0   
+      spawnY: 0 
+      },
+      {
+   type: SuppressionFieldAbility     
 }
 ]
 engines: [
