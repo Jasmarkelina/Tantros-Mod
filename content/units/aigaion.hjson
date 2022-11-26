@@ -7,7 +7,7 @@ accel: 0.06
 drag: 0.2
 speed: 0.35
 rotateSpeed: 1.3
-armor: 65
+armor: 85
 size: 155
 itemCapacity: 1000
 outlineColor: "2d2f39"
@@ -29,7 +29,7 @@ weapons: [
 abilities: [
   {
    type: UnitSpawnAbility
-      unit: recuperate
+      unit: avert
       spawnTime: 650,
       spawnX: 0,
       spawnY: 2
@@ -41,14 +41,14 @@ abilities: [
     },
     {
    type: UnitSpawnAbility
-      unit: horizon
-      spawnTime: 1000,
+      unit: zenith
+      spawnTime: 500,
       spawnX: 0,
       spawnY: -9   
     },
     {
    type: UnitSpawnAbility
-      unit: zenith 
+      unit:  
       spawnTime: 1600,
       spawnX: 10,
       spawnY: 0   
@@ -56,14 +56,14 @@ abilities: [
     {
    type: UnitSpawnAbility
       unit: obviate
-      spawnTime: 2000,
+      spawnTime: 1000,
       spawnX: -10,
       spawnY: 0   
      },
     {
    type: UnitSpawnAbility
       unit: flare
-      spawnTime: 600,
+      spawnTime: 150,
       spawnX: -10,
       spawnY: 0 
       },
