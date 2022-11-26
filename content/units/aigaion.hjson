@@ -60,7 +60,6 @@ abilities: [
       spawnX: -10,
       spawnY: 0   
 }
-}
 ]
 engines: [
   {
