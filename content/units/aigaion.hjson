@@ -7,8 +7,8 @@ accel: 0.06
 drag: 0.2
 speed: 0.35
 rotateSpeed: 1.3
-armor: 85
-size: 155
+armor: 100
+size: 95
 itemCapacity: 1000
 outlineColor: "2d2f39"
 weapons: [
@@ -16,13 +16,13 @@ weapons: [
         x: 0
         y: 3
         mirror: false
-        reload: 1500
+        reload: 600
         bullet: {
             type: BasicBulletType
             lifetime: 0
             speed: 0
             damage: 0
-            spawnUnit: scathe-missile
+            spawnUnit: disrupt-missile
  }
   }
 ]
@@ -37,7 +37,7 @@ abilities: [
     {
      type: ForceFieldAbility
      health: 10000
-     size: 150
+     size: 66
     },
     {
    type: UnitSpawnAbility
@@ -63,7 +63,7 @@ abilities: [
     {
    type: UnitSpawnAbility
       unit: flare
-      spawnTime: 150,
+      spawnTime: 50,
       spawnX: -10,
       spawnY: 0 
       },
