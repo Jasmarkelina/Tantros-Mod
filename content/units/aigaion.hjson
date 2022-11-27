@@ -5,8 +5,8 @@ isEnemy: false
 flying: true
 accel: 0.06
 drag: 0.2
-speed: 0.35
-rotateSpeed: 1.3
+speed: 0.45
+rotateSpeed: 1.5
 armor: 16
 size: 95
 itemCapacity: 1000
