@@ -35,7 +35,7 @@ abilities: [
     {
    type: UnitSpawnAbility
       unit: flare
-      spawnTime: 25,
+      spawnTime: 125,
       spawnX: 10,
       spawnY: 0   
      },
@@ -44,7 +44,14 @@ abilities: [
       unit: avert
       spawnTime: 1000,
       spawnX: -10,
-      spawnY: 0     
+      spawnY: 0
+    },
+    {
+   type: UnitSpawnAbility
+      unit: reef
+      spawnTime: 215,
+      spawnX: 35,
+      spawnY: 0        
 }
 ]
 engines: [
