@@ -7,7 +7,7 @@ accel: 0.06
 drag: 0.2
 speed: 0.35
 rotateSpeed: 1.3
-armor: 100
+armor: 16
 size: 95
 itemCapacity: 1000
 outlineColor: "2d2f39"
@@ -22,53 +22,29 @@ weapons: [
             lifetime: 0
             speed: 0
             damage: 0
-            spawnUnit: disrupt-missile
+            spawnUnit: scathe-missile
  }
   }
 ]
 abilities: [
   {
-   type: UnitSpawnAbility
-      unit: avert
-      spawnTime: 650,
-      spawnX: 0,
-      spawnY: 2
-    },
-    {
      type: ForceFieldAbility
      health: 10000
-     size: 66
+     size: 99
     },
     {
    type: UnitSpawnAbility
-      unit: zenith
-      spawnTime: 500,
-      spawnX: 0,
-      spawnY: -9   
-    },
-    {
-   type: UnitSpawnAbility
-      unit: zenith
-      spawnTime: 5000,
+      unit: flare
+      spawnTime: 25,
       spawnX: 10,
       spawnY: 0   
      },
     {
    type: UnitSpawnAbility
-      unit: obviate
+      unit: avert
       spawnTime: 1000,
       spawnX: -10,
-      spawnY: 0   
-     },
-    {
-   type: UnitSpawnAbility
-      unit: flare
-      spawnTime: 50,
-      spawnX: -10,
-      spawnY: 0 
-      },
-      {
-   type: SuppressionFieldAbility     
+      spawnY: 0     
 }
 ]
 engines: [
