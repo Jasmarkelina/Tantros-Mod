@@ -19,25 +19,6 @@ itemCapacity: 80
 outlineColor: "2d2f39"
 weapons: [
   {
-    name: none
-    x: 0
-    y: 0
-    mirror: true
-    shootEffect: sparkShoot
-    smokeEffect: shootSmallSmoke
-    reload: 5
-    inaccuracy: 15
-    bullet: {
-      type: MissileBulletType
-      damage: 15
-      splashDamage: 25
-      splashDamageRadius: 20
-      sideAngle: 60
-      sideWidth: 5
-      sideLength: 5
-      hitEffect: blastExplosion
-      despawnEffect: blastExplosion
-      lifeTime: 900
       shootSound: missile
 }
 }
