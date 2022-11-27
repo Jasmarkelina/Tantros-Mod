@@ -16,7 +16,7 @@ weapons: [
         x: 0
         y: 3
         mirror: false
-        reload: 600
+        reload: 1300
         bullet: {
             type: BasicBulletType
             lifetime: 0
