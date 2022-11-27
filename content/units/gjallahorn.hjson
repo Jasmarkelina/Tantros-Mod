@@ -1,5 +1,5 @@
 type: flying
-health: 1600
+health: 1000
 controller: BuilderAI
 defaultController: BuilderAI
 isEnemy: false
@@ -19,7 +19,17 @@ itemCapacity: 80
 outlineColor: "2d2f39"
 weapons: [
   {
-      shootSound: missile
+        x: 0
+        y: 3
+        mirror: false
+        reload: 350
+        xRand: 2
+        bullet: {
+            type: BasicBulletType
+            lifetime: 0
+            speed: 0
+            damage: 0
+            spawnUnit: anthicus-missile
 }
 }
 ]
