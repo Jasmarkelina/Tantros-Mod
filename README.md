@@ -1,5 +1,5 @@
 # Tantros-Mod
-A mindustry mod that life to Tantros!
+A mindustry mod that brings back Tantros!
 
 The mod is being developed by three persons
 Jasmarkelina (the responsible for creating the mod), Plastel and RouterXdd
