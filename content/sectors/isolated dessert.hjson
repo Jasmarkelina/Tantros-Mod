@@ -6,8 +6,8 @@ research: {
 parent: frozen-plateau
 objectives: [
     {
-      type: Research 
-      content: waypoint
+      type: SectorComplete
+      preset: frozen-plateau
     }
   ]
 }
