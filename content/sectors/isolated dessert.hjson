@@ -1,13 +1,13 @@
 planet: tantros
 captureWave: 34
-sector: 56
+sector: 34
 difficulty: 7
 research: {
 parent: frozen-plateau
 objectives: [
     {
       type: SectorComplete
-      preset: frozen-plateau 
+      preset: Frozen Plateau
     }
   ]
 }
