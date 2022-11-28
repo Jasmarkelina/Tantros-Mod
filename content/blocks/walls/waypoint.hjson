@@ -1,13 +1,14 @@
 type: Wall
+description: Clears the path to more complex sectors.
 health: 200
 size: 1
 hidden: true
 category: defense
 research: frozen-plateau
 requirements : [
-        copper/2500
-        cadmium/1000
-        Nickel/3000
-        oxygen/2000
-        titanium/1000
+        copper/500
+        cadmium/100
+        Nickel/300
+        oxygen/200
+        titanium/100
     ]
