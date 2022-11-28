@@ -7,7 +7,7 @@ parent: frozen-plateau
 objectives: [
     {
       type: SectorComplete
-      preset: Frozen Plateau 
+      preset: frozen-plateau 
     }
   ]
 }
