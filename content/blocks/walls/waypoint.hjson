@@ -1,5 +1,5 @@
 type: Wall
-description: Clears the path to more complex sectors.
+description: Navigate further to find new sectors.
 health: 200
 size: 1
 hidden: true
