@@ -29,7 +29,7 @@ weapons: [
           x: 0
           y: 0
           despawnHit: true
-          despawnEffect: none
+          despawnEffect: ImpactReactorExplosion
           
           bullet:{
         type: BombBulletType
