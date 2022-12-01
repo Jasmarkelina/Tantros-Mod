@@ -4,7 +4,7 @@ flying: true
 speed: 2
 hitSize: 2
 maxRange: 80
-lifetime: 150
+lifetime: 1900
 hidden: true
 outlineColor: 262c47
 engineSize: 0
