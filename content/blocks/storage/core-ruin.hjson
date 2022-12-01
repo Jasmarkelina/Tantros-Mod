@@ -13,4 +13,7 @@ alwaysUnlocked: true
 research: {
 root: true
 name: "Tantros"
+requirements: ]
+ Nickel:4500
+ cadmium:2500
 }
