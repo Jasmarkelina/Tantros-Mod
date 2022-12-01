@@ -18,26 +18,17 @@ itemCapacity: 30
 outlineColor: "2d2f39"
 weapons: [
   {
-    name: none
-    x: 0
-    y: 0
-    mirror: false
-    shootEffect: sparkShoot
-    smokeEffect: shootSmallSmoke
-    reload: 50
-    inaccuracy: 25
-    bullet: {
-      type: MissileBulletType
-      damage: 80
-      splashDamage: 13
-      splashDamageRadius: 40
-      sideAngle: 45
-      sideWidth: 4
-      sideLength: 4
-      hitEffect: blastExplosion
-      despawnEffect: blastExplosion
-      lifeTime: 260
-      shootSound: missile
+        x: 0
+        y: 3
+        mirror: false
+        reload: 300
+        xRand: 2
+        bullet: {
+            type: BasicBulletType
+            lifetime: 0
+            speed: 0
+            damage: 0
+            spawnUnit: quell-missile
 }
 }
 ]
