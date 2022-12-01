@@ -5,9 +5,9 @@
     targetAir : true
     category : turret
     research : pressure
-    health : 2380
+    health : 4380
     reload : 700
-    range : 700
+    range : 1400
     type : ItemTurret
     squareSprite: false
     outlineColor: 262c47
