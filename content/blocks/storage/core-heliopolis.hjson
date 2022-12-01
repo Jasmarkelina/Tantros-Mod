@@ -14,4 +14,8 @@ alwaysUnlocked: false
 research: {
 root: false
 name: "Tantros"
+requirements : ]
+oxygen/5500
+oblite/2500
+argus/3540
 }
