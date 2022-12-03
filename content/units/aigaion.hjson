@@ -8,7 +8,7 @@ drag: 0.2
 speed: 0.45
 rotateSpeed: 1.5
 armor: 16
-size: 95
+size: 48
 itemCapacity: 1000
 outlineColor: "2d2f39"
 weapons: [
@@ -16,7 +16,7 @@ weapons: [
         x: 0
         y: 3
         mirror: false
-        reload: 1300
+        reload: 800
         bullet: {
             type: BasicBulletType
             lifetime: 0
