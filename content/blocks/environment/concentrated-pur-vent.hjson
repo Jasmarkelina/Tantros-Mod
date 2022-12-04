@@ -2,7 +2,7 @@ type: SteamVent
 parent: bluemat
 blendGroup: bluemat
 effectColor: cdd1e2
-variants: 1
+variants: 2
 attributes:{
-    steam: 0.66
+    steam: 0.88
 }
