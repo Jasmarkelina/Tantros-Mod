@@ -5,12 +5,12 @@ category: power
 size: 5
 health: 1500
 hasPower: true
-powerProduction: 5.80
+powerProduction: 6.80
 displayEfficiency: true
 attribute: steam
-effectChance: 0.85
+effectChance: 0.2
 ambientSound: hum
-ambientSoundVolume: 0.50
+ambientSoundVolume: 1.50
 generateEffect: turbinegenerate
 buildVisibility: shown
 destructible: true
@@ -39,4 +39,7 @@ oblite/175
   requirements: [
   Nickel/400
   oblite/175
+  thorium/100
+  titanium/125
+  copper/400
 ]
