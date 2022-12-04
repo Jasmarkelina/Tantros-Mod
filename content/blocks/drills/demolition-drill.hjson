@@ -15,13 +15,13 @@ requirements: [
  ]
 }
 tier: 8
-drillTime: 250
+drillTime: 100
 buildVisibility: shown
 alwaysUnlocked: true
 hasPower: true
 itemCapacity: 100
 consumes: {
-  power: 2.5
+  power: 3.5
 }
 requirements: [
    Nickel/250
