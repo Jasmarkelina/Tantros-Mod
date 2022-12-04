@@ -1,0 +1,42 @@
+name: Hydrothermal Power Plant
+type: ThermalGenerator
+description: Generates and supplies large ammounts of power when placed on top of hydrothermal vents.
+category: power
+size: 5
+health: 1500
+hasPower: true
+powerProduction: 5.80
+displayEfficiency: true
+attribute: steam
+effectChance: 0.85
+ambientSound: hum
+ambientSoundVolume: 0.50
+generateEffect: turbinegenerate
+buildVisibility: shown
+destructible: true
+breakable: true
+drawer: {
+	type: DrawMulti,
+        drawers: [
+      {
+        type: DrawDefault
+        },
+     {
+ type: DrawBlurSpin
+ suffix: -rotator
+ blurThresh: 0.01
+  color: 9cb0e6
+  }
+ ]
+}
+research: {
+parent: hydrothermal-turbine
+requirements: [
+Nickel/300
+oblite/175
+ ]
+   },
+  requirements: [
+  Nickel/400
+  oblite/175
+]
