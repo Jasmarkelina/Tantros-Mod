@@ -1,4 +1,5 @@
 name: "Demolition Drill"
+description: A Powerful drill that is capable of sustaining a good
 planet: tantros
 health: 1000
 size: 4
@@ -21,7 +22,7 @@ alwaysUnlocked: true
 hasPower: true
 itemCapacity: 100
 consumes: {
-  power: 3.5
+  power: 11.3
 }
 requirements: [
    Nickel/250
