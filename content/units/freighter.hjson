@@ -56,13 +56,13 @@ abilities: [
 ]
 engines: [
   {
-    x: -41.8
+    x: -21.25
     y: -10.2
     rotation: 170
     radius: 5
   }
   {
-    x: 41.8
+    x: 21.25
     y: -10.2
     rotation: 170
     radius: 5
