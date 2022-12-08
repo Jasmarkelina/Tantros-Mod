@@ -1,8 +1,8 @@
-name: Argus
-description: Highly valuable material with unique properties.
+name: argus
+description: Used in high value buildings.
 color: 49D170
-explosiveness: 3.25
+explosiveness: 0.7
 flammability: 0
-radioactivity: 1.25
-charge: 0.80
+radioactivity: 0
+charge: 0.69
 hardness: 5
