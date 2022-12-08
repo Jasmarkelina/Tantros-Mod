@@ -3,7 +3,7 @@ description: Bigger version of Vertex capable of fabricating the previously said
 type: flying
 flying: true
 health: 2100
-hitSize: 15
+hitSize: 22,25
 speed: 2.26
 accel: 0.16
 drag: 0.07
