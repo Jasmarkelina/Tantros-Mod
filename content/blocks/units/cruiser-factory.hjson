@@ -21,6 +21,6 @@ category: units
 requirements: [
   Nickel/1500
   thorium/1000
-  copper/4000
+  copper/400
 ]
 research: vertex-factory
