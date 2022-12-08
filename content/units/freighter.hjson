@@ -59,12 +59,12 @@ engines: [
     x: -41.8
     y: -10.2
     rotation: 110
-    radius: 10
+    radius: 14
   }
   {
     x: 41.8
     y: -10.2
     rotation: 110
-    radius: 10
+    radius: 14
    }
  ]
