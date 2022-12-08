@@ -1,0 +1,15 @@
+name: Bouy node
+type: beamNode
+health: 60
+size: 1
+range: 15
+fogRadius: 1
+consumes: {
+    powerBuffered: 2000
+    }
+requirements: [
+    Nickel/3
+]
+category: power
+research: core-ruin
+research: Hydrothermal-turbine
