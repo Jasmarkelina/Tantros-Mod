@@ -20,7 +20,7 @@ plans: [
 category: units
 requirements: [
   Nickel/300
-  graphite/100
-  copper/80
+  titanium/100
+  lead/50
 ]
 research: nickel-factoryunit
