@@ -1,6 +1,6 @@
-name: "Core Ruin"
+name: "Core: Ruin"
 planet: tantros
-description: "A Core. Once this is destroyed, the sector is Lost"
+description: "A Ruined Core. Once destroyed, the sector is Lost"
 type: CoreBlock
 health: 4200
 size: 4
