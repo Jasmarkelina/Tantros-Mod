@@ -4,7 +4,7 @@ type: flying
 flying: true
 health: 2100
 hitSize: 22,25
-speed: 2.26
+speed: 0.50
 accel: 0.16
 drag: 0.07
 rotateSpeed: 3
