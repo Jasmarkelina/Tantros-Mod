@@ -1,12 +1,12 @@
 name: Ni-Cad Battery
 type: battery
-description:
+description: Similar to a battery but with less capacity. Stores power in times of surplus energy. Outputs in times of deficit
 size: 1
 category: power
 baseExplosiveness: 1
 consumePowerBuffered: 3500
 research: Hydrothermal-turbine
 requirements: [
-  Nickel/42
+  Nickel/7
   cadmium/25
 ]
