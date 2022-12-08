@@ -1,5 +1,4 @@
 name: Freighter
-description: Bigger version of Vertex capable of fabricating the previously said units.
 type: flying
 flying: true
 health: 2100
