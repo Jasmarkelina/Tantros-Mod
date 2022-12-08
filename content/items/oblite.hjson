@@ -5,6 +5,4 @@ radioactivity: 0.30
 explosiveness: 0
 flammability: 0
 hardness: 3.1
-research: {
-parent: core-ruin
-}
+research: oxygen
