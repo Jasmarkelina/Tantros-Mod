@@ -2,7 +2,7 @@ name: Freighter
 type: flying
 flying: true
 health: 2100
-hitSize: 22,25
+hitSize: 22.25
 speed: 0.7626
 accel: 0.16
 drag: 0.07
