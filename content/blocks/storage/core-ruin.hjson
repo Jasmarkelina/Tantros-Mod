@@ -13,4 +13,6 @@ alwaysUnlocked: true
 research: {
 root: true
 name: "Tantros"
+requiresUnlock: false
+planet: tantros
 }
