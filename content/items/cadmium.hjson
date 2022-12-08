@@ -5,6 +5,5 @@ radioactivity: 0.0
 explosiveness: 0.53
 flammability: 0.25
 hardness: 1.0
-research: {
-parent: Nickel
-}
+research: Nickel
+
