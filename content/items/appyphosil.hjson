@@ -5,3 +5,7 @@ explosiveness: 1.5
 flammability: 0.65
 radioactivity: 0
 charge: 0
+hardness: 3
+research: {
+parent: oxygen
+}
