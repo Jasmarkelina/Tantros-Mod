@@ -9,9 +9,9 @@ flying: true
 accel: 0.09
 drag: 0.08
 mineSpeed: 3.5
-mineTier: 6
-speed: 5.3
+mineTier: 3
+speed: 3.5
 rotateSpeed: 1.9
 armor: 2
-size: 5
+size: 4
 itemCapacity: 25
