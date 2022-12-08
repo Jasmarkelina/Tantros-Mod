@@ -6,6 +6,9 @@ category: power
 baseExplosiveness: 1
 consumePowerBuffered: 3500
 research: Hydrothermal-turbine
+buildVisibility: shown
+destructible: true
+breakable: true
 requirements: [
   Nickel/7
   cadmium/25
