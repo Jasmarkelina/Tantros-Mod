@@ -23,6 +23,10 @@ ammoTypes: {
     height: 11
    }
 }
+drawer: {
+type: DrawTurret
+basePrefix: "tantros-"
+}
 category: turret
 research: pressure
 requirements: [

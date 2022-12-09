@@ -11,8 +11,7 @@ unitType: artificer
 buildVisibility: shown
 alwaysUnlocked: false
 research: {
-root: false
-name: "Tantros"
+parent: core-ruin
 requirements : [
 oxygen/1600
 cadmium/1500

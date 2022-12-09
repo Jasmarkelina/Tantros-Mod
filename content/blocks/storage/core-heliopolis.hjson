@@ -12,8 +12,7 @@ unitType: gjallahorn
 buildVisibility: shown
 alwaysUnlocked: false
 research: {
-root: false
-name: "Tantros"
+parent: core-depths
 requirements : [
 oxygen/5500
 oblite/2500
