@@ -1,17 +1,17 @@
 type: missile
 controller: MissileAI
 flying: true
-speed: 4
+speed: 3
 hitSize: 2
-maxRange: 6
-lifetime: 30
+maxRange: 15
+lifetime: 90
 hidden: true
 outlineColor: 262c47
-engineSize: 0
+engineSize: 1
 rotateSpeed: 0.25
-missileAccelTime: 0
+missileAccelTime: 0.21
 lowAltitude: true
-fogRadius: 6
+fogRadius: 12
 health: 220
 allowedInPayloads: false
 useUnitCap: false
@@ -34,7 +34,7 @@ weapons: [
           bullet:{
         type: BombBulletType
         splashDamageRadius: 30
-        splashDamage: 35
+        splashDamage: 48
         instantDisappear: true
         killShooter: true
         hittable: false

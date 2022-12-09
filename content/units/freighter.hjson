@@ -1,0 +1,70 @@
+name: Freighter
+type: flying
+flying: true
+health: 2100
+hitSize: 22.25
+speed: 0.7626
+accel: 0.16
+drag: 0.07
+rotateSpeed: 3
+circleTarget: false
+engineSize: 1
+outlineColor: 262c47
+lightRadius: 25
+lightColor: e65555
+itemCapacity: 40
+weapons: [
+    {
+        x: 0
+        y: 3
+        mirror: false
+        reload: 35
+        xRand: 2
+        bullet: {
+            type: BasicBulletType
+            lifetime: 0
+            speed: 0
+            damage: 0
+            spawnUnit: vertex-torpedo
+        }
+    }
+]
+weapons: [
+    {
+        x: 0
+        y: 3
+        mirror: false
+        reload: 100
+        xRand: 2
+        bullet: {
+            type: BasicBulletType
+            lifetime: 0
+            speed: 0
+            damage: 0
+            spawnUnit: quell-missile
+        }
+    }
+]
+abilities: [
+  {
+   type: UnitSpawnAbility
+      unit: vertex
+      spawnTime: 1000,
+      spawnX: 0,
+      spawnY: 2
+}
+]
+engines: [
+  {
+    x: -21.25
+    y: -10.2
+    rotation: 170
+    radius: 5
+  }
+  {
+    x: 21.25
+    y: -10.2
+    rotation: 170
+    radius: 5
+   }
+ ]

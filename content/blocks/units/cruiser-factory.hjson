@@ -1,0 +1,26 @@
+name: "Cruiser Factory"
+description: "Replicates and builds the unknown units seen on Dead city."
+type: UnitFactory
+health: 3100
+size: 4
+consumes: {
+power: 7.80
+}
+plans: [
+  {
+    unit: freighter
+    requirements: [
+      Nickel/700
+      oblite/350
+      argus/450
+    ]
+    time: 8000
+  }
+]
+category: units
+requirements: [
+  Nickel/1500
+  thorium/1000
+  copper/400
+]
+research: vertex-factory

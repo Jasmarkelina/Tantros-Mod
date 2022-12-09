@@ -5,10 +5,10 @@ category: power
 size: 3
 health: 320
 hasPower: true
-powerProduction: 0.70
-displayEfficiency: false
+powerProduction: 1.50
+displayEfficiency: true
 attribute: steam
-effectChance: 0.04
+effectChance: 0.25
 ambientSound: hum
 ambientSoundVolume: 0.06
 generateEffect: turbinegenerate
@@ -33,12 +33,10 @@ research: {
 parent: core-ruin
 requirements: [
 Nickel/21
-titanium/18
 copper/10
  ]
    },
   requirements: [
   Nickel/42
-  titanium/36
   copper/20
 ]

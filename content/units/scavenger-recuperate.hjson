@@ -1,0 +1,56 @@
+type: flying
+health: 610
+controller: FlyingAI
+isEnemy: false
+mineWalls: true
+mineFloor: true
+flying: true
+accel: 0.09
+drag: 0.01
+speed: 3.5
+rotateSpeed: 5.2
+armor: 5
+size: 3.95
+itemCapacity: 40
+outlineColor: "2d2f39"
+//Todo, add Recuperate weapons and sprites
+//todo, remove laser from recuperate, add missile. Also stats still bad
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 48
+    inaccuracy: 4
+    bullet: {
+      type: MissileBulletType
+      damage: 9
+      splashDamage: 3
+      splashDamageRadius: 16
+      sideAngle: 45
+      sideWidth: 4
+      sideLength: 4
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      lifeTime: 24
+      shootSound: missile
+    }
+  }
+]
+engines: [
+  {
+    x: -4.8
+    y: -5.2
+    rotation: 90
+    radius: 2
+  }
+  {
+    x: 4.8
+    y: -5.2
+    rotation: 90
+    radius: 2
+   }
+ ]

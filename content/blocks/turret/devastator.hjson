@@ -1,0 +1,43 @@
+{
+    
+    targetGround : true
+    inaccuracy : 0
+    targetAir : true
+    category : turret
+    research : pressure
+    health : 4380
+    reload : 700
+    range : 1400
+    type : ItemTurret
+    squareSprite: false
+    outlineColor: 262c47
+    size : 5
+    ammoPerShot: 5
+    
+    requirements : [
+        Nickel/2000
+        cadmium/1000
+        oxygen/1300
+        titanium/500
+        oblite/400
+    ]
+    
+    ammoTypes : {
+        oblite : {
+            lifetime : 0
+            damage : 0
+            height : 0
+            speed : 0
+            width : 0
+            spawnUnit: devastator-torpedo
+        }
+    }
+    drawer: {
+type: DrawTurret
+}
+    consumes : {
+        coolant : {
+            amount : 0.2
+        }
+    }
+}

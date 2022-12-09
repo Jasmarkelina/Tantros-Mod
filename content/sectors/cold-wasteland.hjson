@@ -6,7 +6,7 @@ parent: submerged
 objectives: [
     {
       type: SectorComplete
-      preset: submerged
+      preset: Submerged
     }
   ]
 }
