@@ -2,7 +2,7 @@ name: "Cruiser Factory"
 description: "Replicates and builds the unknown units seen on Dead city."
 type: UnitFactory
 health: 3100
-size: 4
+size: 6
 consumes: {
 power: 7.80
 }
