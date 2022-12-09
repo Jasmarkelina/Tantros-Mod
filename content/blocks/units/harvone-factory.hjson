@@ -1,5 +1,5 @@
 name: "Aquomantic Factory"
-description: "Make Harvone, a unit specialized on mining"
+description: "Constructs a Harvone. Outputted units can be used directly or moved into reconstructors for further upgrading."
 type: UnitFactory
 health: 400
 size: 2

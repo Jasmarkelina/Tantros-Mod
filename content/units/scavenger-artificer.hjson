@@ -1,0 +1,34 @@
+type: flying
+health: 830
+controller: FlyingAI
+isEnemy: false
+mineWalls: true
+mineFloor: true
+flying: true
+buildSpeed: 1.00
+accel: 0.06
+drag: 0.12
+mineSpeed: 2.8
+mineTier: 1
+speed: 2.5
+rotateSpeed: 1.5
+armor: 6
+size: 2.18
+itemCapacity: 30
+outlineColor: "2d2f39"
+weapons: [
+  {
+        x: 0
+        y: 3
+        mirror: false
+        reload: 300
+        xRand: 2
+        bullet: {
+            type: BasicBulletType
+            lifetime: 0
+            speed: 0
+            damage: 0
+            spawnUnit: quell-missile
+}
+}
+]

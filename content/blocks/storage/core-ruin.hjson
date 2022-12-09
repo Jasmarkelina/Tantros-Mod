@@ -1,5 +1,6 @@
-name: "Core Ruin"
-description: "A Core. Once this is destroyed, the sector is Lost"
+name: "Core: Ruin"
+planet: tantros
+description: "A Ruined Core. Once destroyed, the sector is Lost"
 type: CoreBlock
 health: 4200
 size: 4
@@ -10,7 +11,8 @@ unitType: recuperate
 buildVisibility: shown
 alwaysUnlocked: true
 research: {
-planet: tantros
 root: true
 name: "Tantros"
+requiresUnlock: false
+planet: tantros
 }

@@ -1,0 +1,8 @@
+name: "Oblite"
+description: "A Hard material"
+color: "#B1B5A5"
+radioactivity: 0.30
+explosiveness: 0
+flammability: 0
+hardness: 3.1
+research: oxygen

@@ -1,5 +1,5 @@
 type: flying
-health: 1880
+health: 900
 controller: BuilderAI
 defaultController: BuilderAI
 isEnemy: false
@@ -13,7 +13,7 @@ mineSpeed: 2.8
 mineTier: 5
 speed: 5.3
 rotateSpeed: 1.5
-armor: 5
+armor: 10
 size: 2.18
 itemCapacity: 49
 outlineColor: "2d2f39"
@@ -37,7 +37,7 @@ weapons: [
       sideLength: 4
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
-      lifeTime: 80
+      lifeTime: 190
       shootSound: missile
 }
 }

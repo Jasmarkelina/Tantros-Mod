@@ -1,0 +1,26 @@
+name: "Vertex Factory"
+description: "Factory that fabricates vertex units, these units take more time than reefs to build's"
+type: UnitFactory
+health: 1100
+size: 3
+consumes: {
+power: 1.25
+}
+plans: [
+  {
+    unit: vertex
+    requirements: [
+      Nickel/110
+      cadmium/40
+      copper/110
+    ]
+    time: 1800
+  }
+]
+category: units
+requirements: [
+  Nickel/300
+  titanium/100
+  lead/50
+]
+research: nickel-factoryunit

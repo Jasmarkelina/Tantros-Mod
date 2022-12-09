@@ -1,0 +1,40 @@
+{
+    description: "Long Range turret designed to counter high range units."
+    targetGround : true
+    inaccuracy : 35
+    targetAir : true
+    category : turret
+    research : basilisk 
+    health : 803
+    reload : 250
+    range : 590
+    type : ItemTurret
+    squareSprite: false
+    outlineColor: 262c47
+    size : 3
+    ammoPerShot: 2
+    
+    requirements : [
+        oblite/75
+        cadmium/100
+    ]
+    
+    ammoTypes : {
+        cadmium : {
+            lifetime : 0
+            damage : 0
+            height : 0
+            speed : 0
+            width : 0
+            spawnUnit: disrupt-missile 
+        }
+    }
+    drawer: {
+type: DrawTurret
+}
+    consumes : {
+        coolant : {
+            amount : 0.1
+        }
+    }
+}

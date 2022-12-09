@@ -1,0 +1,49 @@
+type: flying
+health: 1000
+controller: BuilderAI
+defaultController: BuilderAI
+isEnemy: false
+mineWalls: true
+mineFloor: true
+flying: true
+buildSpeed: 1.75
+accel: 0.04
+drag: 0.12
+mineSpeed: 3
+mineTier: 3
+speed: 3
+rotateSpeed: 1.3
+armor: 8
+size: 9
+itemCapacity: 80
+outlineColor: "2d2f39"
+weapons: [
+  {
+        x: 0
+        y: 3
+        mirror: false
+        reload: 350
+        xRand: 2
+        bullet: {
+            type: BasicBulletType
+            lifetime: 0
+            speed: 0
+            damage: 0
+            spawnUnit: anthicus-missile
+}
+}
+]
+engines: [
+  {
+    x: -4.8
+    y: -5.2
+    rotation: 75
+    radius: 3
+  }
+  {
+    x: 4.8
+    y: -5.2
+    rotation: 75
+    radius: 3
+   }
+ ]
