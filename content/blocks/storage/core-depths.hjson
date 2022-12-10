@@ -9,10 +9,14 @@ category: effect
 unitCapModifier: 36
 unitType: artificer
 buildVisibility: shown
-alwaysUnlocked: false
+requirements: [
+oxygen/1600
+cadmium/1500
+titanium/500
+]
 research: {
 parent: core-ruin
-requirements : [
+requirements: [
 oxygen/1600
 cadmium/1500
 titanium/500
