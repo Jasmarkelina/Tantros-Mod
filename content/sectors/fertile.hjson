@@ -3,11 +3,11 @@ planet: tantros
 sector: 16
 difficulty: 4
 research: {
-parent: core-ruin
+parent: Submerged
 objectives: [
     {
       type: SectorComplete
-      preset: groundZero
+      preset: Submerged
     }
   ]
 }
