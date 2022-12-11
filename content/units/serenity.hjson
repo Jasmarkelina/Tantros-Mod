@@ -13,22 +13,7 @@ outlineColor: 262c47
 lightRadius: 33
 lightColor: e65555
 itemCapacity: 60
-weapons: [
- {
-   name: none
-  x: 0
-  y: 0
-   type: MissileBulletType
-   sprite: missile
-   width: 9
-   height: 15
-   damage: 5
-   speed: 6
-   lifetime: 71
-   trailWidth: 1
-   trailLength: 35
-   homingDelay: 10
-   homingRange: 150
+
    }
   }
  ]
