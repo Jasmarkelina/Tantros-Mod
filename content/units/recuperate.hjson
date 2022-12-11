@@ -1,5 +1,5 @@
 type: flying
-health: 470
+health: 120
 controller: BuilderAI
 isEnemy: false
 mineWalls: true
