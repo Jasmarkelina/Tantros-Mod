@@ -30,7 +30,10 @@ weapons: [
     bullet: {
       type: MissileBulletType
       damage: 60
+      homingRange: 60
       splashDamage: 13
+      trailWidth: 4
+      trailLength: 16
       splashDamageRadius: 20
       sideAngle: 45
       sideWidth: 4
@@ -45,13 +48,13 @@ weapons: [
 engines: [
   {
     x: -4.8
-    y: 4.9
-    rotation: 180
+    y: 4.1
+    rotation: -180
     radius: 2
   }
   {
     x: 4.8
-    y: 4.9
+    y: 4.1
     rotation: 180
     radius: 2
    }
