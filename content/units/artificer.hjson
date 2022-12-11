@@ -39,6 +39,20 @@ weapons: [
       despawnEffect: blastExplosion
       lifeTime: 190
       shootSound: missile
-}
-}
-]
+          }
+       }
+     ]
+engines: [
+  {
+    x: -4.8
+    y: -5.2
+    rotation: 180
+    radius: 1
+  }
+  {
+    x: 4.8
+    y: -5.2
+    rotation: 180
+    radius: 1
+   }
+ ]
