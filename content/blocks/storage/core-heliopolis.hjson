@@ -10,11 +10,14 @@ category: effect
 unitCapModifier: 100
 unitType: gjallahorn
 buildVisibility: shown
-alwaysUnlocked: false
+requirements: [
+oxygen/5500
+oblite/2500
+argus/3540
+]
 research: {
-root: false
-name: "Tantros"
-requirements : [
+parent: core-depths
+requirements: [
 oxygen/5500
 oblite/2500
 argus/3540

@@ -47,13 +47,13 @@ engines: [
   {
     x: -4.8
     y: -5.2
-    rotation: 90
+    rotation: -90
     radius: 2
   }
   {
     x: 4.8
     y: -5.2
-    rotation: 90
+    rotation: -90
     radius: 2
    }
  ]
