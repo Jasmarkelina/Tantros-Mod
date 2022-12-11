@@ -16,3 +16,7 @@ name: "Tantros"
 requiresUnlock: false
 planet: tantros
 }
+requirements: [
+    Nickel/1700
+    cadmium/800
+]

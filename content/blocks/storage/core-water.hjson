@@ -1,0 +1,15 @@
+type: CoreBlock
+isFirstTier: true
+health: 3400
+size: 3
+itemCapacity: 2600
+unitCapModifier: 8
+unitType: recuperate
+squareSprite: false
+requirements: [
+  Nickel/1700
+  cadmium/1480
+  oxygen/1280
+]
+category: effect
+research: core-ruin
