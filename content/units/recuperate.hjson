@@ -30,15 +30,17 @@ weapons: [
     inaccuracy: 4
     bullet: {
       type: MissileBulletType
-      damage: 9
+      damage: 13
       splashDamage: 3
       splashDamageRadius: 16
       sideAngle: 45
       sideWidth: 4
       sideLength: 4
       hitEffect: blastExplosion
+      trailLength: 30
+      homingRange: 70
       despawnEffect: blastExplosion
-      lifeTime: 24
+      lifeTime: 150
       shootSound: missile
     }
   }
