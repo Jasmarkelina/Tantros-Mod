@@ -1,5 +1,5 @@
 type: flying
-health: 1000
+health: 590
 controller: BuilderAI
 defaultController: BuilderAI
 isEnemy: false
@@ -22,7 +22,7 @@ weapons: [
         x: 0
         y: 3
         mirror: false
-        reload: 350
+        reload: 150
         xRand: 2
         bullet: {
             type: BasicBulletType
@@ -37,13 +37,13 @@ engines: [
   {
     x: -4.8
     y: -5.2
-    rotation: 75
+    rotation: 90
     radius: 3
   }
   {
     x: 4.8
     y: -5.2
-    rotation: 75
+    rotation: 90
     radius: 3
    }
  ]
