@@ -1,5 +1,5 @@
 type: flying
-health: 900
+health: 350
 controller: BuilderAI
 defaultController: BuilderAI
 isEnemy: false
@@ -9,13 +9,13 @@ flying: true
 buildSpeed: 0.86
 accel: 0.04
 drag: 0.12
-mineSpeed: 2.8
-mineTier: 5
+mineSpeed: 5.10
+mineTier: 4
 speed: 5.3
-rotateSpeed: 1.5
+rotateSpeed: 2.5
 armor: 10
 size: 2.18
-itemCapacity: 49
+itemCapacity: 60
 outlineColor: "2d2f39"
 weapons: [
   {
