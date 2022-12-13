@@ -1,0 +1,93 @@
+{
+    rotateSpeed : 3.8
+    shootSound : laser
+    category : turret
+    scaledHealth: 180
+    reload : 85
+    range : 180
+    shake : 1.2
+    name : Blocken
+    type : PowerTurret
+    size : 2
+
+    requirements : [
+        Nickel/95
+        oxygen/130
+        zincum/80
+    ]
+    
+    shootType : {
+        
+        splashDamageRadius : 10
+        despawnEffect : none
+        splashDamage : 30
+        trailLength : 15
+        frontColor : ffffff
+        lightColor : 9D3D3DFF
+        trailWidth : 3
+        trailColor : 9D3D3DFF
+        backColor : 9D3D3DFF
+        lifetime : 36
+        hitColor : 9D3D3DFF
+        damage : 15
+        radius : 15
+        sprite : circle-bullet
+        height : 6
+        speed : 5
+        width : 6
+        type : EmpBulletType
+        status: melting
+        statusDuration: 80
+        
+        hitEffect : {
+            
+            lifetime : 40
+            type : MultiEffect
+            
+            effects : [{
+                particles : 1
+                colorFrom : 9D3D3DFF
+                lifetime : 5
+                sizeFrom : 15
+                colorTo : 9D3D3DFF
+                length : 0
+                sizeTo : 15
+                type : ParticleEffect
+            }
+            {
+                strokeFrom : 2
+                colorFrom : 9D3D3DFF
+                lifetime : 40
+                sizeFrom : 15
+                strokeTo : 0
+                colorTo : 9D3D3DFF
+                sizeTo : 15
+                type : WaveEffect
+            }
+            {
+                particles : 1
+                lifetime : 40
+                sizeFrom : 4
+                colorTo : 9D3D3DFF
+                length : 0
+                sizeTo : 0
+                type : ParticleEffect
+            }]
+        }
+    }
+    
+    consumes : {
+        
+        power : 2.8
+        
+        coolant : {
+            amount : 0.2
+        }
+    }
+    
+    research : pressure
+        drawer: {
+    type: DrawTurret
+    basePrefix: "tantros-"
+    }
+}
