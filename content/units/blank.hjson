@@ -1,0 +1,22 @@
+type: hovering
+shadowElevation: 0.2
+drag: 0.07
+speed: 1.8
+rotateSpeed: 5
+hitSize: 2
+useEngineElevation: false
+abilities: [
+  {
+   type: MoveEffectAbility
+   teamColor: true
+  }
+]
+parts: [
+  {
+  type: HoverPart
+  x: 3.9
+  y: 1
+  mirror: true
+  radius: 6
+  }
+]
