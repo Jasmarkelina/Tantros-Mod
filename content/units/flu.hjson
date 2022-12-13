@@ -1,5 +1,5 @@
 type: hover
-shadowElevation: 0.7
+shadowElevation: 0.10
 drag: 0.07
 speed: 0.7
 rotateSpeed: 1.37
@@ -25,5 +25,20 @@ weapons: [
    }
   {
    type: SuppressionFieldAbility
+}
   }
 ]
+engines: [
+  {
+    x: -7.8
+    y: 9.2
+    rotation: -90
+    radius: 2
+  }
+  {
+    x: 7.8
+    y: 9.2
+    rotation: 90
+    radius: 2
+   }
+ ]
