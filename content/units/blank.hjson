@@ -1,0 +1,39 @@
+type: hovering
+shadowElevation: 0.2
+drag: 0.07
+speed: 1.8
+rotateSpeed: 5
+hitSize: 2
+size: 2
+health: 100
+abilities: [
+  {
+   type: MoveEffectAbility
+   teamColor: true
+  }
+]
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 48
+    inaccuracy: 4
+    bullet: {
+      type: MissileBulletType
+      damage: 9
+      splashDamage: 3
+      splashDamageRadius: 16
+      sideAngle: 45
+      sideWidth: 4
+      sideLength: 4
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      lifeTime: 24
+      shootSound: missile
+    }
+  }
+]
