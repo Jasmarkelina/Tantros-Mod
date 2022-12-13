@@ -4,7 +4,9 @@ description: Similar to a battery but with less capacity. Stores power in times 
 size: 1
 category: power
 baseExplosiveness: 1
-consumePowerBuffered: 3500
+consumes: {
+    powerBuffered: 3800
+    }
 research: Hydrothermal-turbine
 buildVisibility: shown
 destructible: true

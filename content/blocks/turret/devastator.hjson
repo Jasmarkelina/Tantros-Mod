@@ -4,7 +4,22 @@
     inaccuracy : 0
     targetAir : true
     category : turret
-    research : pressure
+    research : {
+        parent: pressure
+        objectives: [
+            {
+            type: OnSector
+            preset: ice-cave
+            }
+        ]
+        requirements : [
+        Nickel/4000
+        cadmium/2000
+        oxygen/2600
+        titanium/1000
+        oblite/800
+        ]
+    }
     health : 4380
     reload : 700
     range : 1400
