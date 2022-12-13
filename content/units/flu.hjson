@@ -23,5 +23,8 @@ weapons: [
   {
    type: MoveEffectAbility
    teamColor: true
+   }
+  {
+   type: SuppressionFieldAbility
   }
 ]
