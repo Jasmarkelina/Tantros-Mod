@@ -1,4 +1,4 @@
-type: hovering
+type: hover
 shadowElevation: 0.2
 drag: 0.07
 speed: 1.8
