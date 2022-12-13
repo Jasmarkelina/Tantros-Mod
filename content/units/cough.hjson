@@ -35,8 +35,6 @@ abilities: [
   {
    type: MoveEffectAbility
    teamColor: true
-  }
-]
 }
   }
 ]
