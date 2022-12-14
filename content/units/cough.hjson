@@ -35,22 +35,7 @@ abilities: [
   {
    type: MoveEffectAbility
    teamColor: true
-}
-  }
-]
-engines: [
-  {
-    x: -4.8
-    y: 5.2
-    rotation: -90
-    radius: 1
-  }
-  {
-    x: 4.8
-    y: 5.2
-    rotation: 90
-    radius: 1
     }
    }
   ]
-research: hovership-factory 
+research: hovership-factory
