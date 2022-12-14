@@ -40,6 +40,5 @@ engines: [
     rotation: 90
     radius: 2
     }
-   }
   ]
 research: hovership-factory
