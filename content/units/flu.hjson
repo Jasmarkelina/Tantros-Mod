@@ -39,5 +39,7 @@ engines: [
     y: 9.2
     rotation: 90
     radius: 2
-}
-]
+    }
+   }
+  ]
+research: hovership-factory
