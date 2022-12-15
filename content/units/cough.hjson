@@ -1,6 +1,7 @@
 type: hover
 shadowElevation: 0.2
 drag: 0.07
+lowAltitude: false
 speed: 1.8
 rotateSpeed: 5
 hitSize: 6
@@ -20,10 +21,10 @@ weapons: [
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
     reload: 10
-    inaccuracy: 4
+    inaccuracy: 40
     bullet: {
       type: MissileBulletType
-      damage: 1
+      damage: 4
       splashDamage: 2
       splashDamageRadius: 16
       sideAngle: 45
