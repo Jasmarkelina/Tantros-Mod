@@ -11,3 +11,30 @@ abilities: [
    teamColor: true
   }
 ]
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 10
+    inaccuracy: 4
+    bullet: {
+      type: MissileBulletType
+      damage: 1
+      splashDamage: 2
+      splashDamageRadius: 16
+      sideAngle: 45
+      sideWidth: 4
+      sideLength: 4
+      hitEffect: blastExplosion
+      trailLength: 15
+      homingRange: 70
+      despawnEffect: blastExplosion
+      lifeTime: 150
+      shootSound: missile
+    }
+  }
+]
