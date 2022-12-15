@@ -1,0 +1,13 @@
+type: CoreBlock
+isFirstTier: true
+health: 1000
+size: 2
+itemCapacity: 1500
+unitCapModifier: 4
+unitType: recuperate
+squareSprite: false
+requirements: [
+  Nickel/1000
+]
+category: effect
+research: core-ruin
