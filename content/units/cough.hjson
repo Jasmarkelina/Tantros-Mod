@@ -5,37 +5,9 @@ speed: 1.8
 rotateSpeed: 5
 hitSize: 6
 useEngineElevation: false
-weapons: [
-  {
-    name: none
-    x: 0
-    y: 0
-    mirror: true
-    shootEffect: sparkShoot
-    smokeEffect: shootSmallSmoke
-    reload: 10
-    inaccuracy: 10
-    bullet: {
-      type: MissileBulletType
-      damage: 3
-      splashDamage: 3
-      splashDamageRadius: 35
-      sideAngle: 45
-      sideWidth: 4
-      sideLength: 4
-      hitEffect: blastExplosion
-      trailLength: 5
-      homingRange: 70
-      despawnEffect: blastExplosion
-      lifeTime: 150
-      shootSound: missile
-}
-]
 abilities: [
   {
    type: MoveEffectAbility
    teamColor: true
-    }
-   }
-  ]
-research: hovership-factory
+  }
+]
