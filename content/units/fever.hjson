@@ -1,5 +1,5 @@
 type: hover
-shadowElevation: 0.2
+shadowElevation: 0.11
 lowAltitude: false
 health: 670
 drag: 0.07
