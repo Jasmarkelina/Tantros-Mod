@@ -1,9 +1,11 @@
 type: hover
 shadowElevation: 0.2
+lowAltitude: false
+health: 670
 drag: 0.07
 speed: 1.8
 rotateSpeed: 5
-hitSize: 2
+hitSize: 8
 useEngineElevation: false
 abilities: [
   {
