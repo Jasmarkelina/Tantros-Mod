@@ -13,6 +13,8 @@ abilities: [
    teamColor: true
   }
 ]
+weapons: [
+  {
     name: none
     x: 0
     y: 0
@@ -23,9 +25,9 @@ abilities: [
     reload: 1
     bullet: {
       type: ContinuousFlameBulletType
-      damage: 3
-      lifeTime: 87
-     }
-   }
-  ]
-research: hovership-factory 
+      damage: 3.5
+      lifeTime: 40
+    }
+  }
+]
+research: hovership-factory
