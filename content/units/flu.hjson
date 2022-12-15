@@ -5,7 +5,6 @@ speed: 0.7
 rotateSpeed: 1.37
 hitSize: 11
 useEngineElevation: false
-           }
   abilities: [
   {
    type: MoveEffectAbility
