@@ -1,5 +1,6 @@
 type: hover
-shadowElevation: 0.10
+shadowElevation: 0.12
+lowAltitude: false
 drag: 0.07
 speed: 0.7
 rotateSpeed: 1.37
@@ -12,6 +13,7 @@ useEngineElevation: false
    }
   {
    type: SuppressionFieldAbility
+   layer: 110
 }
 ]
 engines: [
