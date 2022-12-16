@@ -11,3 +11,9 @@ abilities: [
    teamColor: true
   }
 ]
+float: [
+  {
+  x: -3
+  y:3
+  }
+]
