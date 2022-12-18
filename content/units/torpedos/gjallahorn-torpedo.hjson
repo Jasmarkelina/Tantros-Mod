@@ -1,14 +1,14 @@
 type: missile
 controller: MissileAI
 flying: true
-speed: 6.4
+speed: 2.1
 hitSize: 2
 maxRange: 6
 lifetime: 175
 hidden: true
 outlineColor: 262c47
 engineSize: 0
-rotateSpeed: 2.5
+rotateSpeed: 3.7
 missileAccelTime: 30
 lowAltitude: true
 fogRadius: 10
