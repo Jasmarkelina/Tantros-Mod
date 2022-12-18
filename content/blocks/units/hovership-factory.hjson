@@ -1,10 +1,10 @@
 name: "Hovership Factory"
 description: "Fabricates Hovercraft units that are faster but weaker than the other tantrian units."
 type: UnitFactory
-health: 1000
+health: 450
 size: 3
 consumes: {
-power: 5.71
+power: 2.71
 }
 plans: [
   {
