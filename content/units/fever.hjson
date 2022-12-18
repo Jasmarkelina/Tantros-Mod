@@ -22,10 +22,10 @@ weapons: [
     continuous: true
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
-    reload: 1
+    reload: 0.1
     bullet: {
       type: ContinuousFlameBulletType
-      damage: 3.5
+      damage: 5.5
       lifeTime: 40
     }
   }
