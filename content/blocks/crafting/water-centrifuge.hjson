@@ -1,0 +1,46 @@
+name: Water Centrifuge
+description: Centrifuges the tantrian water using vent's vapour.
+category: production
+type: AttributeCrafter
+research: core-ruin
+researchCost: [
+ Nickel/250
+ cadmium/400
+ ]
+alwaysUnlocked: false
+health: 350
+size: 3
+requirements: [
+ Nickel/35
+ cadmium/15
+ ]
+hasItems: false
+hasLiquids: true
+hasPower: false
+liquidCapacity: 30
+attribute: steam
+displayEfficiency: false
+minEfficiency: 1
+baseEfficiency: 2
+ambientSound: hum
+craftTime: 200
+craftEffect: turbinegenerate
+outputLiquid: deuterium/11.3
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -top
+   }
+  {
+   type: DrawRegion
+   suffix: -rotator
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}
+squareSprite: false
