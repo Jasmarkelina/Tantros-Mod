@@ -1,5 +1,5 @@
 name: Deuterium
-description: Gas obtained by centrifuging water
+description: Gas obtained by centrifuging water.
 research: core-ruin
 color: A6A3D4
 gas: true
