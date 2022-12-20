@@ -11,8 +11,8 @@ alwaysUnlocked: false
 health: 350
 size: 3
 requirements: [
- Nickel/35
- cadmium/15
+ Nickel/75
+ cadmium/125
  ]
 hasItems: false
 hasLiquids: true
@@ -25,7 +25,7 @@ baseEfficiency: 2
 ambientSound: hum
 craftTime: 200
 craftEffect: turbinegenerate
-outputLiquid: deuterium/11.3
+outputLiquid: deuterium/1.5
 
 drawer: {
  type: DrawMulti
