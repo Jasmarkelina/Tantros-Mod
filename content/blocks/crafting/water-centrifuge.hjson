@@ -4,8 +4,8 @@ category: production
 type: AttributeCrafter
 research: core-ruin
 researchCost: [
- Nickel/250
- cadmium/400
+ Nickel/2000
+ cadmium/4000
  ]
 alwaysUnlocked: false
 health: 350
@@ -17,7 +17,7 @@ requirements: [
 hasItems: false
 hasLiquids: true
 hasPower: false
-liquidCapacity: 30
+liquidCapacity: 1000
 attribute: steam
 displayEfficiency: false
 minEfficiency: 1
