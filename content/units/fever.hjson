@@ -11,6 +11,9 @@ abilities: [
   {
    type: MoveEffectAbility
    teamColor: true
+   }
+  {
+  type: ForceFieldAbility
   }
 ]
 weapons: [
@@ -22,7 +25,7 @@ weapons: [
     continuous: true
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
-    reload: 0.1
+    reload: 0
     bullet: {
       type: ContinuousFlameBulletType
       damage: 5.5
