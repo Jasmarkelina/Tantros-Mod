@@ -10,8 +10,8 @@ plans: [
   {
     unit: cough
     requirements: [
-      Nickel/110
-      cadmium/50
+      Nickel/10
+      cadmium/25
     ]
     time: 1142
   }
