@@ -1,0 +1,50 @@
+name: Zinc-Crucible
+description: Uses tellurium, arsenic dust, tungsten and methane to manufacture siicon.
+category: crafting
+type: GenericCrafter
+research: water-centrifuge
+alwaysUnlocked: false
+health: 290
+size: 3
+requirements: [
+ Nickel/238
+ oxygen/160
+ copper/195
+ zinc/100
+ ]
+
+itemCapacity: 25
+consumes: {
+ power: 2.38
+ items: {
+  items: [
+   tungsten/4
+   1iridium/3
+   6arsenic-dust/5
+   ]
+  }
+ liquid: {
+  liquid: deuterium
+  amount: 2.8
+  }
+ }
+craftEffect: turbinegenerate
+ambientSound: smelter
+outputItem: silicon/10
+craftTime: 210
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -top
+   }
+  {
+   type: DrawLiquidTile
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}
