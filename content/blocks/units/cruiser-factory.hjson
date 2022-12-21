@@ -1,5 +1,5 @@
 name: "Cruiser Factory"
-description: "Replicates and builds the unknown units seen on Dead city."
+description: "Builds Advanced units using Nicke, Argus, Thorium and Deuterium."
 type: UnitFactory
 health: 3100
 size: 6
@@ -14,13 +14,14 @@ plans: [
       oblite/350
       argus/450
     ]
-    time: 8000
+    time: 6000
   }
 ]
 category: units
 requirements: [
-  Nickel/1500
-  thorium/1000
+  Nickel/600
+  argus/400
+  thorium/800
   copper/400
 ]
 research: vertex-factory
