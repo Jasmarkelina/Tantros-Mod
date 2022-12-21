@@ -38,7 +38,10 @@ drawer: {
    suffix: -top
    }
   {
-   type: DrawLiquidTile
+   rotateSpeed : 9
+        spinSprite : true
+        suffix : -rotator
+        type : DrawRegion
    }
   {
    type: DrawDefault
