@@ -5,6 +5,9 @@ health: 3100
 size: 6
 consumes: {
 power: 7.80
+liquid: {
+  liquid: deuterium
+  amount: 10.7
 }
 plans: [
   {
