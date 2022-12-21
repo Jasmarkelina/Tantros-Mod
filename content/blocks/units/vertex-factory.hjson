@@ -1,18 +1,22 @@
 name: "Vertex Factory"
-description: "Factory that fabricates vertex units, these units take more time than reefs to build's"
+description: "Fabricates air units with nickel, cadmium and copper"
 type: UnitFactory
 health: 1100
 size: 3
 consumes: {
 power: 1.25
+liquid: {
+  liquid: deuterium
+  amount: 1
+}
 }
 plans: [
   {
     unit: vertex
     requirements: [
-      Nickel/110
+      Nickel/20
       cadmium/40
-      copper/110
+      copper/40
     ]
     time: 1800
   }
