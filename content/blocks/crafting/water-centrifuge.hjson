@@ -1,12 +1,8 @@
 name: Water Centrifuge
-description: Centrifuges the tantrian water using vent's vapour.
+description: Centrifuges the tantrian water,producing deuterium and water as a byproduct.
 category: production
 type: AttributeCrafter
 research: core-ruin
-researchCost: [
- Nickel/2000
- cadmium/4000
- ]
 alwaysUnlocked: false
 health: 350
 size: 3
@@ -25,7 +21,9 @@ baseEfficiency: 2
 ambientSound: hum
 craftTime: 200
 craftEffect: turbinegenerate
-outputLiquid: deuterium/1.5
+outputLiquid: 
+deuterium/1.5
+water/0.5
 
 drawer: {
  type: DrawMulti
