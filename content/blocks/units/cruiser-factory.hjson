@@ -1,5 +1,5 @@
 name: "Cruiser Factory"
-description: "Builds Advanced units using Nicke, Argus, Thorium and Deuterium."
+description: "Builds Advanced units using Nickel, Argus, Thorium and Deuterium."
 type: UnitFactory
 health: 3100
 size: 6
@@ -7,7 +7,7 @@ consumes: {
 power: 7.80
 liquid: {
   liquid: deuterium
-  amount: 10.7
+  amount: 5.428
 }
 }
 plans: [
