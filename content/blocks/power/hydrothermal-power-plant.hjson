@@ -10,7 +10,8 @@ displayEfficiency: true
 attribute: steam
 effectChance: 0.2
 ambientSound: hum
-ambientSoundVolume: 9
+ambientSoundVolume: 10
+outputLiquid: water/0.8
 generateEffect: turbinegenerate
 buildVisibility: shown
 destructible: true
