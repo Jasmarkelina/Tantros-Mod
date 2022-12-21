@@ -14,7 +14,7 @@ requirements: [
  ]
 itemCapacity: 25
 consumes: {
- power: 2.38
+ power: 3.07
  items: {
   items: [
    zincum/7
@@ -23,7 +23,7 @@ consumes: {
   }
  liquid: {
   liquid: deuterium
-  amount: 2.8
+  amount: 1.748
   }
  }
 craftEffect: turbinegenerate
