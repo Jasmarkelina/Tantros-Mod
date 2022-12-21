@@ -9,6 +9,7 @@ liquid: {
   liquid: deuterium
   amount: 10.7
 }
+}
 plans: [
   {
     unit: freighter
