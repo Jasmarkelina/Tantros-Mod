@@ -22,7 +22,6 @@ ambientSound: hum
 craftTime: 200
 craftEffect: turbinegenerate
 outputLiquid: deuterium/1.5
-}
 drawer: {
  type: DrawMulti
  drawers: [
