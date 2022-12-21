@@ -24,6 +24,8 @@ craftEffect: turbinegenerate
 outputLiquid: 
 deuterium/1.5
 water/0.5
+}
+}
 drawer: {
  type: DrawMulti
  drawers: [
