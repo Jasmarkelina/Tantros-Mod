@@ -1,10 +1,14 @@
 name: "Hovership Factory"
-description: "Fabricates Hovercraft units that are faster but weaker than the other tantrian units."
+description: "Fabricates Hovercraft units with Nickel, Cadmium and Small ammounts of Deuterium."
 type: UnitFactory
 health: 450
 size: 3
 consumes: {
-power: 2.71
+power: 1.6
+liquid: {
+  liquid: deuterium
+  amount: 0.5
+}
 }
 plans: [
   {
@@ -13,7 +17,7 @@ plans: [
       Nickel/10
       cadmium/25
     ]
-    time: 1142
+    time: 1045
   }
 ]
 category: units
