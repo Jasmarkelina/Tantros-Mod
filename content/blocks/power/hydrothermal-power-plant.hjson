@@ -11,7 +11,7 @@ attribute: steam
 effectChance: 0.2
 ambientSound: hum
 ambientSoundVolume: 10
-outputLiquid: water/0.8
+outputLiquid: water/1.3
 generateEffect: turbinegenerate
 buildVisibility: shown
 destructible: true
