@@ -28,8 +28,8 @@ consumes: {
  }
 craftEffect: turbinegenerate
 ambientSound: smelter
-outputItem: silicon/50
-craftTime: 800
+outputItem: silicon/5
+craftTime: 350
 drawer: {
  type: DrawMulti
  drawers: [
