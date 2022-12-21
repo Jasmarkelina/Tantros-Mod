@@ -1,5 +1,5 @@
 name: "Nickel factory"
-description: "Make the basics tantros units"
+description: "Fabricates decent units using only nickel."
 type: UnitFactory
 health: 820
 size: 3
@@ -10,7 +10,7 @@ plans: [
   {
     unit: reef
     requirements: [
-      Nickel/30
+      Nickel/90
     ]
     time: 1425
   }
