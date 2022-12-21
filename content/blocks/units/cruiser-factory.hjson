@@ -2,6 +2,7 @@ name: "Cruiser Factory"
 description: "Builds Advanced units using Nicke, Argus, Thorium and Deuterium."
 type: UnitFactory
 health: 3100
+research: vertex-factory
 size: 6
 consumes: {
 power: 7.80
@@ -27,4 +28,3 @@ requirements: [
   thorium/800
   copper/400
 ]
-research: vertex-factory
