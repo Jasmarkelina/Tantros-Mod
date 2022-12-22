@@ -18,17 +18,17 @@ weapons: [
     mirror: false
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
-    reload: 26
+    reload: 50
     inaccuracy: 15
     bullet: {
       type: MissileBulletType
-      damage: 2
-      splashDamage: 4
+      damage: 1
+      splashDamage: 1
       splashDamageRadius: 40
       sideAngle: 20
-      sideWidth: 4
-      sideLength: 4
-      speed: 8
+      sideWidth: 1
+      sideLength: 1
+      speed: 3
       hitEffect: blastExplosion
       trailLength: 90
       homingRange: 5
