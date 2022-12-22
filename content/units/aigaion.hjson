@@ -1,5 +1,6 @@
 type: flying
-health: 31000
+name: Aigaion
+health: 11000
 controller: FlyingAI
 isEnemy: false
 flying: true
@@ -7,8 +8,6 @@ accel: 0.06
 drag: 0.2
 speed: 0.45
 rotateSpeed: 1.5
-armor: 16
-size: 48
 itemCapacity: 1000
 outlineColor: "2d2f39"
 weapons: [
@@ -29,27 +28,27 @@ weapons: [
 abilities: [
   {
      type: ForceFieldAbility
-     health: 10000
+     health: 22000
      size: 99
     },
     {
    type: UnitSpawnAbility
-      unit: flare
-      spawnTime: 125,
+      unit: vertex
+      spawnTime: 295,
       spawnX: 10,
       spawnY: 0   
      },
     {
    type: UnitSpawnAbility
-      unit: avert
-      spawnTime: 1000,
+      unit: serenity
+      spawnTime: 640,
       spawnX: -10,
       spawnY: 0
     },
     {
    type: UnitSpawnAbility
-      unit: reef
-      spawnTime: 215,
+      unit: flare
+      spawnTime: 150,
       spawnX: 35,
       spawnY: 0        
 }
