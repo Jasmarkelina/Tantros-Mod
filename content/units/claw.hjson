@@ -35,5 +35,7 @@ weapons: [
       despawnEffect: blastExplosion
       lifeTime: 300
       shootSound: missile
-}
- ]
+        }
+    }
+]
+research: vertex-factory
