@@ -10,5 +10,7 @@ speed: 1
 rotateSpeed: 3
 controller: BuilderAI
 defaultController: BuilderAI
-miningSpeed: 1
+mineSpeed: 1
 mineTier: 2
+}
+]
