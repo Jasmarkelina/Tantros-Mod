@@ -1,4 +1,5 @@
 type: flying
+name: Scavenger Recuperate
 health: 610
 controller: FlyingAI
 isEnemy: false
