@@ -16,8 +16,6 @@ armor: 3
 size: 1.95
 itemCapacity: 40
 outlineColor: "2d2f39"
-//Todo, add Recuperate weapons and sprites
-//todo, remove laser from recuperate, add missile. Also stats still bad
 weapons: [
   {
     name: none
@@ -36,6 +34,7 @@ weapons: [
       sideAngle: 45
       sideWidth: 4
       sideLength: 4
+      speed: 7
       hitEffect: blastExplosion
       trailLength: 30
       homingRange: 70
