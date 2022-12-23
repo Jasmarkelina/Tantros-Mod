@@ -9,8 +9,7 @@ drag: 0.2
 speed: 0.45
 rotateSpeed: 1.5
 itemCapacity: 1000
-outlineColor: "2d2f39"
-}
+outlineColor: "2d2f39'
 abilities: [
   {
      type: ForceFieldAbility
