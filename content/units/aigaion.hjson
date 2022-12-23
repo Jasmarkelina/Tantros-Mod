@@ -49,7 +49,6 @@ weapons: [
             damage: 0
             spawnUnit: scathe-missile
 }
-]
 engines: [
   {
     x: -41.8
