@@ -1,5 +1,5 @@
 type: flying
-health: 10
+health: 5
 controller: FlyingAI
 isEnemy: false
 flying: true
@@ -33,7 +33,7 @@ weapons: [
       trailLength: 90
       homingRange: 5
       despawnEffect: blastExplosion
-      lifeTime: 300
+      lifeTime: 45
       shootSound: missile
         }
     }
