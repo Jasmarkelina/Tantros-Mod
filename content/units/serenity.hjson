@@ -26,7 +26,17 @@ itemCapacity: 60
             speed: 0
             damage: 0
             spawnUnit: pressure-torpedo
-        }
-    }
+}
+  }
+]
+abilities: [
+  {
+type: UnitSpawnAbility
+      unit: claw
+      spawnTime: 150,
+      spawnX: 5,
+      spawnY: 0        
+      }
+   }
 ]
 research: vertex-factory
