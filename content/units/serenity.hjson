@@ -17,8 +17,8 @@ abilities: [
   {
 type: UnitSpawnAbility
       unit: claw
-      spawnTime: 150,
-      spawnX: 5,
+      spawnTime: 250,
+      spawnX: 10,
       spawnY: 0        
       }
    }
@@ -28,7 +28,7 @@ type: UnitSpawnAbility
         x: 0
         y: 11
         mirror: true
-        reload: 50
+        reload: 100
         xRand: 2
         bullet: {
             type: BasicBulletType
