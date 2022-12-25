@@ -1,4 +1,8 @@
-# Tantros-Mod (TEST SERVER)
+# Tantros-Mod
 
-This is the "test server/fork" of Tantros mod,any changes done to the mod will be tested here before adding them into the official mod.
+A mindustry mod that gives life to Tantros!
+
+The mod is being developed by a team of three people Jasmarkelina (the responsible for creating the mod), Plastel and RouterXdd
+
+The campaign is unfinished, but playable, most things have been sprited :D
 
