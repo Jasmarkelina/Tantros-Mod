@@ -1,0 +1,6 @@
+type: Wall
+health: 300
+size: 1
+hidden: true
+category: defense
+    ]
