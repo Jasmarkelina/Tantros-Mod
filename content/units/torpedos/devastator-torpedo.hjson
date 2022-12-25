@@ -7,9 +7,9 @@ maxRange: 80
 lifetime: 1900
 hidden: true
 outlineColor: 262c47
-engineSize: 0
+engineSize: 1
 rotateSpeed: 0.22
-missileAccelTime: 0.2
+missileAccelTime: 1
 lowAltitude: true
 fogRadius: 6
 health: 550
@@ -34,7 +34,7 @@ weapons: [
           bullet:{
         type: BombBulletType
         splashDamageRadius: 100
-        splashDamage: 3659
+        splashDamage: 1829
         instantDisappear: true
         killShooter: true
         hittable: false
