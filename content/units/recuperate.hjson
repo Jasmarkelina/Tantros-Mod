@@ -25,7 +25,7 @@ weapons: [
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
     reload: 48
-    inaccuracy: 4
+    inaccuracy: 9
     bullet: {
       type: MissileBulletType
       damage: 13
@@ -34,12 +34,12 @@ weapons: [
       sideAngle: 45
       sideWidth: 4
       sideLength: 4
-      speed: 7
+      speed: 5
       hitEffect: blastExplosion
       trailLength: 30
-      homingRange: 70
+      homingRange: 150
       despawnEffect: blastExplosion
-      lifeTime: 150
+      lifeTime: 300
       shootSound: missile
     }
   }
