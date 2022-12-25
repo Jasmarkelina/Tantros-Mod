@@ -1,0 +1,19 @@
+name: Bouy tower
+type: beamNode
+health: 250
+size: 3
+range: 30
+fogRadius: 5
+destructible: true
+breakable: true
+consumesPower: true
+outputsPower: true
+consumes: {
+    powerBuffered: 4000
+    }
+requirements: [
+    Nickel/60
+    cadmium/40
+]
+category: power
+research: bouy-node
