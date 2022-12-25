@@ -37,7 +37,7 @@
         width : 6
         type : EmpBulletType
         status: melting
-        statusDuration: 80
+        statusDuration: 150
         
         hitEffect : {
             
