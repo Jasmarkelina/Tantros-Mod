@@ -8,7 +8,7 @@ reload: 34
 ammoTypes: {
     Nickel: {
         lifetime: 50
-    speed: 1
+    speed: 4
     homingRange: 250
     damage: 21
     width: 8
