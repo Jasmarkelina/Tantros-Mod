@@ -1,0 +1,39 @@
+name: Metaglass Crucible
+description: Uses Zinc,Cadmium and Deuterium to smelt great ammounts of silicon.
+category: crafting
+type: GenericCrafter
+research: water-centrifuge
+alwaysUnlocked: false
+health: 150
+size: 3
+requirements: [
+ Nickel/35
+ oxygen/10
+ copper/50
+ ]
+itemCapacity: 25
+consumes: {
+power: 1.6
+   ]
+  }
+ liquid: {
+  liquid: water
+  amount: 0.5
+  }
+ }
+craftEffect: turbinegenerate
+ambientSound: smelter
+outputItem: metaglass/1
+craftTime: 275
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -top
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}
