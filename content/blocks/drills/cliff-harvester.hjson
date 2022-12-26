@@ -8,9 +8,9 @@ destructible: true
 breakable: true
 tier: 3
 range: 2
-drillTime: 220
+drillTime: 161
 buildVisibility: shown
-itemCapacity: 10
+itemCapacity: 25
 drawer: {
         type: DrawMulti,
         drawers: [
@@ -25,3 +25,10 @@ drawer: {
   ]
 }
 research: {
+parent: cliff-bore
+}
+requirements: [
+  Nickel/80
+  cadmium/100
+  oxygen/80
+]
