@@ -1,7 +1,7 @@
 type: flying
 name: Scavenger Recuperate
 health: 370
-controller: BuilderAI
+controller: FlyingAI
 isEnemy: false
 mineWalls: true
 mineFloor: true
