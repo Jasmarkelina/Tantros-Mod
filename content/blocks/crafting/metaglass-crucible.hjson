@@ -1,29 +1,34 @@
 name: Metaglass Crucible
-description: Uses Water and power to produce metaglass..
+description: Smelts Metaglass with Water,Lead and Nickel, Requieres power.
 category: crafting
 type: GenericCrafter
 research: water-centrifuge
 alwaysUnlocked: false
-health: 150
+health: 410
 size: 3
 requirements: [
- Nickel/35
- oxygen/10
+ Nickel/100
  copper/50
+ cadmium/40
  ]
-itemCapacity: 25
+itemCapacity: 30
 consumes: {
-power: 1.6
+ power: 1.01
+ items: {
+  items: [
+   lead/3
+   Nickel/5
    ]
+  }
  liquid: {
   liquid: water
-  amount: 0.5
+  amount: 1.1
   }
  }
 craftEffect: turbinegenerate
 ambientSound: smelter
-outputItem: metaglass/1
-craftTime: 275
+outputItem: metaglass/2
+craftTime: 200
 drawer: {
  type: DrawMulti
  drawers: [
