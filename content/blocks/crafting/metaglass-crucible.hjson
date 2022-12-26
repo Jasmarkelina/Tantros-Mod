@@ -1,5 +1,5 @@
 name: Metaglass Crucible
-description: Smelts Metaglass with Water,Lead and Nickel, Requieres power.
+description: Smelts Metaglass with Deuterium,Lead and Nickel, Requieres power.
 category: crafting
 type: GenericCrafter
 research: water-centrifuge
@@ -21,14 +21,14 @@ consumes: {
    ]
   }
  liquid: {
-  liquid: water
-  amount: 1.1
+  liquid: deuterium
+  amount: 1.5
   }
  }
 craftEffect: turbinegenerate
 ambientSound: smelter
 outputItem: metaglass/2
-craftTime: 200
+craftTime: 100
 drawer: {
  type: DrawMulti
  drawers: [
