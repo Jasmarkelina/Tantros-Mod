@@ -1,5 +1,5 @@
 name: Water Centrifuge
-description: Centrifuges the tantrian water,producing deuterium and water as a byproduct.
+description: Rotates water,producing deuterium.
 category: production
 type: AttributeCrafter
 research: core-ruin
