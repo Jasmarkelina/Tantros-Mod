@@ -1,5 +1,5 @@
 name: Metaglass Crucible
-description: Uses Zinc,Cadmium and Deuterium to smelt great ammounts of silicon.
+description: Uses Water and power to produce metaglass..
 category: crafting
 type: GenericCrafter
 research: water-centrifuge
