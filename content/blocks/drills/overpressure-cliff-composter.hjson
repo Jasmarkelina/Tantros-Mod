@@ -8,13 +8,12 @@ destructible: true
 breakable: true
 tier: 5
 range: 4
-drillTime: 75
+drillTime: 100
 buildVisibility: shown
 itemCapacity: 50
 drawer: {
         type: DrawMulti,
         drawers: [
-      {
         type: DrawDefault
         },
      {
