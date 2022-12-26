@@ -11,6 +11,10 @@ range: 2
 drillTime: 200
 buildVisibility: shown
 itemCapacity: 20
+consumes: {
+power: 0.6
+}
+}
 drawer: {
         type: DrawMulti,
         drawers: [
