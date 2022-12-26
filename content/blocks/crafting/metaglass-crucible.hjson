@@ -15,7 +15,6 @@ itemCapacity: 25
 consumes: {
 power: 1.6
    ]
-  }
  liquid: {
   liquid: water
   amount: 0.5
