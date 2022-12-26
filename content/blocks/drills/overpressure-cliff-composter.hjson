@@ -1,19 +1,20 @@
-name: Overpressure Cliff Composter
+name: Cliff Composter
 type: BeamDrill
 planet: tantros
-health: 1400
+health: 610
 size: 4
 category: production
 destructible: true
 breakable: true
 tier: 5
-range: 4
-drillTime: 100
+range: 3
+drillTime: 90
 buildVisibility: shown
-itemCapacity: 50
+itemCapacity: 40
 drawer: {
         type: DrawMulti,
         drawers: [
+      {
         type: DrawDefault
         },
      {
@@ -24,11 +25,11 @@ drawer: {
   ]
 }
 research: {
-parent: cliff-harvester 
+parent: core-ruin
 }
 requirements: [
-  Nickel/300
-  cadmium/250
-  oxygen/125
-  oblite/250
+  Nickel/200
+  cadmium/160 
+  oxygen/100
+  oblite/50
 ]
