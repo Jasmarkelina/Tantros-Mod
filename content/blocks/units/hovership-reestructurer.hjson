@@ -18,15 +18,12 @@ items:{
   metaglass/50
   Nickel/100
   cadmium/50
-  ]
 }
 }
 category: units
 research: {
 parent: hovership-factory
   }
-  ]
-}
 requirements: [
   Nickel/175
   cadmium/100
