@@ -19,7 +19,6 @@ items:{
   Nickel/100
   cadmium/50
 }
-}
 category: units
 research: {
 parent: hovership-factory
