@@ -11,7 +11,7 @@ accel: 0.04
 drag: 0.12
 mineSpeed: 5.10
 mineTier: 4
-speed: 5.3
+speed: 6.1
 rotateSpeed: 2.5
 armor: 10
 size: 6
@@ -26,10 +26,10 @@ weapons: [
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
     reload: 48
-    inaccuracy: 10
+    inaccuracy: 100
     bullet: {
       type: MissileBulletType
-      damage: 15
+      damage: 31
       homingRange: 10
       splashDamage: 13
       trailWidth: 4
@@ -55,7 +55,7 @@ engines: [
   {
     x: 4.8
     y: 4.1
-    rotation: -180
+    rotation: 180
     radius: 2
    }
  ]
