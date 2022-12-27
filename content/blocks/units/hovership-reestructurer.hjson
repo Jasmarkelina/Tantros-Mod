@@ -26,3 +26,10 @@ requirements: [
   metaglass/25
 ]
 research: hovership-factory
+objectives: [
+  {
+    type: OnSector
+    preset: frost-caynon
+  }
+  ]
+}
