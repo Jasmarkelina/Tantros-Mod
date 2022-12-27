@@ -1,36 +1,39 @@
 type: Reconstructor
 name: "Hovership Reestructurer"
 size: 3
-health: 490
-description: "Upgrades inputted hovercrafts into T2. Does not accept eludes."
-constructTime: 2575
+health: 480
+description: "Upgrades stell to rubid"
+constructTime: 2625
 upgrades: [
   [cough, fever]
 ]
 consumes: {
-power: 2.47
+power: 2.941
 liquid:{
     liquid: deuterium
-    amount: 1.1
+    amount: 0.97
 }
 items:{
   items: [
   metaglass/50
   Nickel/100
   cadmium/50
+  ]
+}
+}
 category: units
+research: {
+parent: hovership-fabricator 
+objectives: [
+  {
+    type: OnSector
+    preset: frost-caynon
+  }
+  ]
+}
 requirements: [
   Nickel/175
   cadmium/100
   oxygen/75
   metaglass/25
 ]
-research: {
-parent: hovership-fabricator
-objectives: [
-  {
-    type: OnSector
-    preset: frost-caynon
-    }
-   }
-  ]
