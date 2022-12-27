@@ -25,7 +25,8 @@ requirements: [
   oxygen/75
   metaglass/25
 ]
-research: hovership-factory
+research: {
+parent: hovership-fabricator
 objectives: [
   {
     type: OnSector
