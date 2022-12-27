@@ -21,7 +21,6 @@ items:{
 category: units
 research: {
 parent: hovership-factory
-  }
 requirements: [
   Nickel/175
   cadmium/100
