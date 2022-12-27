@@ -2,7 +2,7 @@ type: Reconstructor
 name: "Hovership Reestructurer"
 size: 3
 health: 490
-description: "Assembles T2 Hovercrafts."
+description: "Upgrades inputted hovercrafts into T2. Does not accept eludes."
 constructTime: 2575
 upgrades: [
   [cough, fever]
