@@ -1,5 +1,7 @@
 type: Wall
 health: 420
+name: Oxygen Wall
+description: Blocks incoming enemy bullets. Can be destroyed.
 size: 1
 category: defense
 research: core-ruin
