@@ -2,7 +2,7 @@ type: Reconstructor
 name: "Hovership Reestructurer"
 size: 3
 health: 480
-description: "Upgrades stell to rubid"
+description: "Upgrades Hovercrafts into tier 2."
 constructTime: 2625
 upgrades: [
   [cough, fever]
@@ -11,7 +11,7 @@ consumes: {
 power: 2.941
 liquid:{
     liquid: deuterium
-    amount: 0.97
+    amount: 1.80
 }
 items:{
   items: [
