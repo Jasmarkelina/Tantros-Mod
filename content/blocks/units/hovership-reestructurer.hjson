@@ -1,0 +1,35 @@
+type: Reconstructor
+name: "Hovership Reestructurer"
+size: 3
+health: 490
+description: "Assembles T2 Hovercrafts."
+constructTime: 2575
+upgrades: [
+  [cough, fever]
+]
+consumes: {
+power: 2.47
+liquid:{
+    liquid: deuterium
+    amount: 1.1
+}
+items:{
+  items: [
+  metaglass/50
+  Nickel/100
+  cadmium/50
+  ]
+}
+}
+category: units
+research: {
+parent: hovership-factory
+  }
+  ]
+}
+requirements: [
+  Nickel/175
+  cadmium/100
+  oxygen/75
+  metaglass/25
+]
