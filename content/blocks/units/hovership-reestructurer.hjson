@@ -31,6 +31,6 @@ objectives: [
   {
     type: OnSector
     preset: frost-caynon
-  }
+    }
+   }
   ]
-}
