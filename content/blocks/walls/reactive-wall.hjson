@@ -1,12 +1,12 @@
 type: Wall
 name: Reactive Wall
 description: Blocks incoming enemy bullets. Can be destroyed. 
-health: 500
+health: 5000
 size: 2
 category: defense
 research: oxygen-wall-large
 requirements : [
         cadmium/24
-        nickel/15
+        Nickel/15
         oblite/20
 ]
