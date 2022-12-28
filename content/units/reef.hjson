@@ -4,7 +4,7 @@ flying: false
 speed: 1.35
 rotateSpeed: 9
 armor: 4
-hitSize: 12.35
+hitSize: 8
 itemCapacity: 45
 weapons: [
   {
