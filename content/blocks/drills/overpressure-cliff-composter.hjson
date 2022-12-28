@@ -1,4 +1,5 @@
 name: Cliff Composter
+description: Gathers resources from walls, uses deuterium as coolant, requieres power to operate.
 type: BeamDrill
 planet: tantros
 health: 610
@@ -11,6 +12,8 @@ range: 3
 drillTime: 90
 buildVisibility: shown
 itemCapacity: 40
+consumes: {
+ power: 4.11
 drawer: {
         type: DrawMulti,
         drawers: [
