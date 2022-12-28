@@ -1,4 +1,5 @@
 name: Cliff Bore
+description: Gathers Items from walls, accepts deuterium as coolant.
 type: BeamDrill
 planet: tantros
 health: 270
@@ -11,6 +12,10 @@ range: 1
 drillTime: 220
 buildVisibility: shown
 itemCapacity: 10
+consumes: {
+liquid: {
+  liquid: deuterium
+  amount: 0.12
 drawer: {
         type: DrawMulti,
         drawers: [
