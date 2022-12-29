@@ -7,6 +7,9 @@ size: 4
 category: production
 destructible: true
 breakable: true
+tier: 5
+range: 5
+drillTime: 90
 drawer: {
         type: DrawMulti,
         drawers: [
