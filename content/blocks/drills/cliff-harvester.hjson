@@ -1,5 +1,5 @@
 name: Cliff Harvester
-description: Gathers resources from walls, requieres deuterium to operate
+description: Gathers resources from walls, Gathers resources faster than the cliff bore.
 type: BeamDrill
 planet: tantros
 health: 480
@@ -7,18 +7,6 @@ size: 3
 category: production
 destructible: true
 breakable: true
-]
-}
-tier: 3
-drillTime: 161
-buildVisibility: shown
-alwaysUnlocked: false
-hasPower: true
-itemCapacity: 30
-consumes: {
- liquid: {
-  liquid: deuterium
-  amount: 1.2
 drawer: {
         type: DrawMulti,
         drawers: [
