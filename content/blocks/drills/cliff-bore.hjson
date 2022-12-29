@@ -33,11 +33,9 @@ drawer: {
     }
   ]
 }
-research: {
-parent: core-ruin
-}
 requirements: [
   Nickel/42
   cadmium/20
 ]
 }
+research: core-ruin
