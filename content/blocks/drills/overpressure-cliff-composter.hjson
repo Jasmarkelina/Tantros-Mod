@@ -1,5 +1,5 @@
 name: Cliff Composter
-description: Gathers resources from walls, uses deuterium as coolant, requieres power to operate.
+description: Gathers resources from walls, Mines faster than the cliff harvester.
 type: BeamDrill
 planet: tantros
 health: 610
@@ -15,12 +15,6 @@ buildVisibility: shown
 alwaysUnlocked: true
 hasPower: true
 itemCapacity: 50
-consumes: {
-  power: 5.5
-liquid: {
-  liquid: deuterium
-  amount: 3
-  booster: true
 drawer: {
         type: DrawMulti,
         drawers: [
