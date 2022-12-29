@@ -5,20 +5,20 @@ type: GenericCrafter
 research: water-centrifuge
 alwaysUnlocked: false
 health: 290
-size: 5
+size: 3
 requirements: [
- Nickel/238
- oxygen/160
- copper/195
- zincum/100
+ Nickel/100
+ oxygen/75
+ copper/100
+ zincum/50
  ]
 itemCapacity: 25
 consumes: {
  power: 3.07
  items: {
   items: [
-   zincum/7
-   cadmium/17
+   zincum/3
+   cadmium/5
    ]
   }
  liquid: {
