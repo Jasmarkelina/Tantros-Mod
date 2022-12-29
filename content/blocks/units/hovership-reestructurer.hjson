@@ -23,7 +23,7 @@ items:{
 }
 category: units
 research: {
-parent: hovership-fabricator 
+parent: Hovership-factory
 objectives: [
   {
     type: OnSector
