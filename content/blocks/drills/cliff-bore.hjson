@@ -11,11 +11,16 @@ tier: 2
 range: 1
 drillTime: 220
 buildVisibility: shown
+]
+}
+tier: 2
+drillTime: 200
+buildVisibility: shown
+alwaysUnlocked: true
+hasPower: true
 itemCapacity: 10
 consumes: {
-liquid: {
-  liquid: deuterium
-  amount: 0.12
+
 drawer: {
         type: DrawMulti,
         drawers: [
