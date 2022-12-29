@@ -7,13 +7,20 @@ size: 4
 category: production
 destructible: true
 breakable: true
+]
+}
 tier: 5
-range: 3
-drillTime: 90
+drillTime: 80
 buildVisibility: shown
-itemCapacity: 40
+alwaysUnlocked: true
+hasPower: true
+itemCapacity: 50
 consumes: {
- power: 4.11
+  power: 5.5
+liquid: {
+  liquid: deuterium
+  amount: 3
+  booster: true
 drawer: {
         type: DrawMulti,
         drawers: [
