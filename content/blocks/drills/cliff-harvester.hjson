@@ -7,11 +7,18 @@ size: 3
 category: production
 destructible: true
 breakable: true
+]
+}
 tier: 3
-range: 2
 drillTime: 161
 buildVisibility: shown
-itemCapacity: 25
+alwaysUnlocked: false
+hasLiquid: true
+liquidCapacity: 30
+consumes: {
+ liquid: {
+  liquid: deuterium
+  amount: 1.2
 drawer: {
         type: DrawMulti,
         drawers: [
