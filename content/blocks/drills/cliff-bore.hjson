@@ -8,7 +8,6 @@ category: production
 destructible: true
 breakable: true
 buildVisibility: shown
-}
 tier: 2
 range: 1
 drillTime: 200
