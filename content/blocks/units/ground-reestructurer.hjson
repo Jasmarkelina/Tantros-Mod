@@ -1,9 +1,9 @@
 type: Reconstructor
 name: "Ground Reestructurer"
 size: 3
-health: 480
+health: 500
 description: "Upgrades inputted reefs into tier 2."
-constructTime: 2625
+constructTime: 2775
 upgrades: [
   [reef, ornicus]
 ]
