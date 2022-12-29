@@ -1,5 +1,5 @@
 type: mech
-health: 450
+health: 750
 flying: false
 speed: 1.35
 rotateSpeed: 9
