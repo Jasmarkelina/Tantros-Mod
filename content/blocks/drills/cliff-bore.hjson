@@ -8,6 +8,7 @@ category: production
 destructible: true
 breakable: true
 buildVisibility: shown
+research: core-ruin
 tier: 2
 range: 1
 drillTime: 200
@@ -37,4 +38,3 @@ requirements: [
   Nickel/42
   cadmium/20
 ]
-research: core-ruin
