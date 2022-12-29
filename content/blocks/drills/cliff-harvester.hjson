@@ -12,10 +12,6 @@ range: 2
 drillTime: 161
 buildVisibility: shown
 itemCapacity: 25
-consumes: {
-liquid: {
-  liquid: deuterium
-  amount: 0.48
 drawer: {
         type: DrawMulti,
         drawers: [
