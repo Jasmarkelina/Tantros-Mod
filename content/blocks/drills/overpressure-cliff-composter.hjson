@@ -7,14 +7,6 @@ size: 4
 category: production
 destructible: true
 breakable: true
-]
-}
-tier: 5
-drillTime: 80
-buildVisibility: shown
-alwaysUnlocked: true
-hasPower: true
-itemCapacity: 50
 drawer: {
         type: DrawMulti,
         drawers: [
