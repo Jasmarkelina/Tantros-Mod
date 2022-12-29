@@ -2,11 +2,11 @@ planet: tantros
 sector: 63
 difficulty: 3
 research: {
-parent: Submerged
+parent: submerged
 objectives: [
     {
       type: SectorComplete
-      preset: Submerged
+      preset: submerged
     }
   ]
 }
