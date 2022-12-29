@@ -1,8 +1,8 @@
 type: mech
-health: 2050
+health: 1445
 flying: false
 controller: GroundAI
-speed: 0.86
+speed: 0.75
 rotateSpeed: 1.1
 armor: 3 
 hitSize: 9
