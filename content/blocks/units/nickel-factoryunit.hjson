@@ -10,7 +10,7 @@ plans: [
   {
     unit: reef
     requirements: [
-      Nickel/90
+      Nickel/45
     ]
     time: 1425
   }
