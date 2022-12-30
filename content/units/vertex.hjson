@@ -1,7 +1,7 @@
 name: Vertex
 type: flying
 flying: true
-health: 845
+health: 350
 hitSize: 15
 speed: 2.26
 accel: 0.16
