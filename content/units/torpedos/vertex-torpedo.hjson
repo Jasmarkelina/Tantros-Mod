@@ -4,7 +4,7 @@ flying: true
 speed: 3
 hitSize: 2
 maxRange: 15
-lifetime: 90
+lifetime: 35
 hidden: true
 outlineColor: 262c47
 engineSize: 1
@@ -12,7 +12,7 @@ rotateSpeed: 0.25
 missileAccelTime: 0.21
 lowAltitude: true
 fogRadius: 12
-health: 220
+health: 10
 allowedInPayloads: false
 useUnitCap: false
 playerControllable: false
