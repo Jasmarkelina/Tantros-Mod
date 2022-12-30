@@ -19,6 +19,12 @@ playerControllable: false
 physics: false
 createWreck: true
 createScorch: false
+abilities: [
+  {
+   type: MoveEffectAbility
+   teamColor: true
+  }
+]
 weapons: [
     {
         shootCone: 360
@@ -34,7 +40,7 @@ weapons: [
           bullet:{
         type: BombBulletType
         splashDamageRadius: 100
-        splashDamage: 1829
+        splashDamage: 2075
         instantDisappear: true
         killShooter: true
         hittable: false
