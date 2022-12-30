@@ -19,6 +19,12 @@ playerControllable: false
 physics: false
 createWreck: false
 createScorch: false
+abilities: [
+  {
+   type: MoveEffectAbility
+   teamColor: true
+  }
+]
 weapons: [
     {
         shootCone: 360
