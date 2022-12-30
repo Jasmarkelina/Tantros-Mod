@@ -14,11 +14,11 @@ plans: [
   {
     unit: vertex
     requirements: [
-      Nickel/20
-      cadmium/40
-      copper/40
+      Nickel/30
+      cadmium/45
+      copper/50
     ]
-    time: 1800
+    time: 1991
   }
 ]
 category: units
