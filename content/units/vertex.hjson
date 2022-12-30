@@ -18,7 +18,7 @@ weapons: [
         x: 0
         y: 3
         mirror: false
-        reload: 35
+        reload: 50
         xRand: 2
         bullet: {
             type: BasicBulletType
