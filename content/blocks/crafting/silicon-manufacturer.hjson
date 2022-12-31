@@ -1,5 +1,5 @@
 name: Silicon Manufacturer
-description: Uses Zinc,Cadmium and Deuterium to smelt great ammounts of silicon.
+description: Uses Zinc,Cadmium and Deuterium to smelt silicon.
 category: crafting
 type: GenericCrafter
 research: water-centrifuge
@@ -17,8 +17,8 @@ consumes: {
  power: 3.07
  items: {
   items: [
-   zincum/3
-   cadmium/5
+   zincum/2
+   cadmium/4
    ]
   }
  liquid: {
@@ -28,7 +28,7 @@ consumes: {
  }
 craftEffect: turbinegenerate
 ambientSound: smelter
-outputItem: silicon/5
+outputItem: silicon/3
 craftTime: 350
 drawer: {
  type: DrawMulti
