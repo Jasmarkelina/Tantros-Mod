@@ -22,10 +22,7 @@ alwaysUnlocked: true
 hasPower: true
 itemCapacity: 100
 consumes: {
-  power: 11.3
-liquid: {
-  liquid: deuterium
-  amount: 4.5
+  power: 12
 }
 requirements: [
    Nickel/250
