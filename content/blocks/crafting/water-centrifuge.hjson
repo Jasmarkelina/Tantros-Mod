@@ -7,8 +7,8 @@ alwaysUnlocked: false
 health: 350
 size: 3
 requirements: [
- Nickel/75
- cadmium/125
+ Nickel/50
+ cadmium/75
  ]
 hasItems: false
 hasLiquids: true
@@ -21,7 +21,7 @@ baseEfficiency: 2
 ambientSound: hum
 craftTime: 200
 craftEffect: turbinegenerate
-outputLiquid: deuterium/1.5
+outputLiquid: deuterium/1.13
 drawer: {
  type: DrawMulti
  drawers: [
@@ -30,7 +30,7 @@ drawer: {
    suffix: -top
    }
   {
-   rotateSpeed : 15
+   rotateSpeed : 9
         spinSprite : true
         suffix : -rotator
         type : DrawRegion
