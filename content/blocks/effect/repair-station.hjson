@@ -29,8 +29,17 @@ reload: 125
 drawer: {
  type: DrawMulti
  drawers: [
-   {
+  {
+   type: DrawLiquidTile
+   drawLiquid: nitrogen
+   padding: 4
+   }
+  {
    type: DrawDefault
    }
+  {
+   type: DrawGlowRegion
+   }
   ]
+}
 squareSprite: false
