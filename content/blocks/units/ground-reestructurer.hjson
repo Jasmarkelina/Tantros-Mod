@@ -24,7 +24,7 @@ items:{
 }
 category: units
 research: {
-parent: hovership-reestructurer
+parent: fever
 objectives: [
   {
     type: OnSector
