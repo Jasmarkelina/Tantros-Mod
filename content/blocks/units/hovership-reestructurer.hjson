@@ -23,7 +23,7 @@ items:{
 }
 category: units
 research: {
-parent: Hovership-factory
+parent: cough
 objectives: [
   {
     type: OnSector
