@@ -7,6 +7,7 @@
     range : 180
     shake : 1.2
     name : Blocken
+    description : Shoots energy projectiles, upon impact the enemy starts to melt.
     type : PowerTurret
     size : 2
 
@@ -30,14 +31,14 @@
         lifetime : 36
         hitColor : 9D3D3DFF
         damage : 15
-        radius : 15
+        radius : 50
         sprite : circle-bullet
         height : 6
         speed : 5
         width : 6
         type : EmpBulletType
         status: melting
-        statusDuration: 150
+        statusDuration: 350
         
         hitEffect : {
             
@@ -45,7 +46,7 @@
             type : MultiEffect
             
             effects : [{
-                particles : 1
+                particles : 5
                 colorFrom : 9D3D3DFF
                 lifetime : 5
                 sizeFrom : 15
