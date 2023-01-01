@@ -4,6 +4,7 @@ description: "Shoots standart torpedoes without homing."
 health: 1200
 size: 3
 range: 300
+squareSprite: false
 reload: 34
 ammoTypes: {
     Nickel: {
@@ -15,9 +16,9 @@ ammoTypes: {
     height: 11
    }
     appyphosil: {
-        lifetime: 50
+        lifetime: 125
     speed: 1.3
-    damage: 51
+    damage: 100
     width: 8
     height: 11
    }
