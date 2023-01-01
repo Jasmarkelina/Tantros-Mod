@@ -1,32 +1,31 @@
 name: Repair Station
-description: Automatically repairs nearby buildings, requires power and nitrogen to work.
+description: Mends buildings in range, requieres power and deuterium to work.
 category: effect
 type: MendProjector
-research: core-sprout
-alwaysUnlocked: true
-health: 1475
-size: 3
+research: harvone
+health: 300
+size: 2
 requirements: [
- lead/100
- 1iridium/250
- 5azulite/125
- 7paragonite/200
+ lead/25
+ Nickel/50
+ cadmium/25
+ oxygen/10
  ]
 
 hasItems: false
 hasLiquids: true
 hasPower: true
-liquidCapacity: 25
+liquidCapacity: 40
 consumes: {
- power: 1.5
+ power: 0.96
  liquid: {
-  liquid: nitrogen
-  amount: 0.15
+  liquid: deuterium 
+  amount: 0.55
   }
  }
-range: 170
-healPercent: 10
-reload: 150
+range: 125
+healPercent: 25
+reload: 
 drawer: {
  type: DrawMulti
  drawers: [
