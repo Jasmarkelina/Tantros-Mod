@@ -20,25 +20,22 @@ consumes: {
  power: 0.96
  liquid: {
   liquid: deuterium 
-  amount: 0.55
+  amount: 1.12
   }
  }
-range: 125
-healPercent: 25
+range: 50
+healPercent: 15
 reload: 125
 drawer: {
  type: DrawMulti
  drawers: [
   {
    type: DrawLiquidTile
-   drawLiquid: nitrogen
+   drawLiquid: deuterium 
    padding: 4
    }
   {
    type: DrawDefault
-   }
-  {
-   type: DrawGlowRegion
    }
   ]
 }
