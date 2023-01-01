@@ -25,7 +25,7 @@ consumes: {
  }
 range: 125
 healPercent: 25
-reload: 
+reload: 125
 drawer: {
  type: DrawMulti
  drawers: [
@@ -33,5 +33,4 @@ drawer: {
    type: DrawDefault
    }
   ]
-}
 squareSprite: false
