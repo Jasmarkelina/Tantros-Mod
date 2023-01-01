@@ -1,9 +1,9 @@
 name: appyphosil
-description: Used in explosive ammunition.
+description: Remnants of the ancient creatures that lived here even before the crux began to spread around serpulo.
 color: CED45F
 explosiveness: 1.5
 flammability: 0.65
-radioactivity: 0
+radioactivity: 0.1
 charge: 0
 hardness: 3
 research: oxygen
