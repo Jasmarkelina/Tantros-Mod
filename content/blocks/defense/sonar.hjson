@@ -1,10 +1,14 @@
 type: radar
 planet: tantros
-name: Rubidium radar
+name: Sonar
+description: Reveals fog of war. Weaker than it's erekir counterpart.
 outlineColor: 4a4b53
 fogRadius: 60
 size: 2
 consumes:{
+liquid: {
+  liquid: deuterium
+  amount: 0.8
   
 }
 requirements: [
