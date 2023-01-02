@@ -1,0 +1,39 @@
+type: Reconstructor
+name: "Harvone Reestructurer"
+size: 3
+health: 480
+description: "Upgrades inputted Harvones into the second tier."
+constructTime: 2625
+upgrades: [
+  [harvone, lysis]
+]
+consumes: {
+power: 3.1
+liquid:{
+    liquid: deuterium
+    amount: 3.5
+}
+items:{
+  items: [
+  zincum/60
+  Nickel/50
+  oxygen/60
+  ]
+}
+}
+category: units
+research: {
+parent: lysis
+objectives: [
+  {
+    type: OnSector
+    preset: outpost
+  }
+  ]
+}
+requirements: [
+  oxygen/120
+  cadmium/100
+  copper/200
+  silicon/50
+]
