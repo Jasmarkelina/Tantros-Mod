@@ -13,7 +13,7 @@ mineTier: 6
 speed: 1.97
 rotateSpeed: 4.74
 armor: 8
-size: 1.95
+size: 10
 itemCapacity: 120
 outlineColor: "2d2f39"
     }
@@ -21,14 +21,14 @@ outlineColor: "2d2f39"
 ]
 engines: [
   {
-    x: -4.8
-    y: -5.2
+    x: -6.5
+    y: -7.2
     rotation: -90
     radius: 2
   }
   {
-    x: 4.8
-    y: -5.2
+    x: 6.5
+    y: -7.2
     rotation: -90
     radius: 2
    }
