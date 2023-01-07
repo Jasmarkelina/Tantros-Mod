@@ -1,0 +1,8 @@
+type: Wall
+health: 670
+size: 1
+category: defense
+research: oxygen-wall
+requirements : [
+        zincum/6
+    ]
