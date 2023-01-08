@@ -1,0 +1,12 @@
+planet: tantros
+sector: 7
+difficulty: 7
+research: {
+parent: "outpost"
+objectives: [
+    {
+      type: SectorComplete
+      preset: "outpost"
+    }
+  ]
+}

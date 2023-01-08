@@ -1,0 +1,41 @@
+type: Reconstructor
+name: "Support Refabricator"
+size: 3
+health: 650
+description: "Upgrades inputted lysis units into the third and final tier."
+constructTime: 2625
+upgrades: [
+  [lysis, glissader]
+]
+consumes: {
+power: 8.1
+liquid:{
+    liquid: deuterium 
+    amount: 5.8
+}
+items:{
+  items: [
+  zincum/100
+  silicon/60
+  metaglass/75
+  oblite/75
+  ]
+}
+}
+category: units
+research: {
+parent: glissader
+objectives: [
+  {
+    type: OnSector
+    preset: frost-caynon
+  }
+  ]
+}
+requirements: [
+  oblite/200
+  zincum/100
+  oxygen/175
+  metaglass/125
+  silicon/150
+]

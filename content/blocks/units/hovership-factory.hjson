@@ -1,0 +1,29 @@
+name: "Hovership Factory"
+description: "Fabricates Hovercraft units with Nickel, Cadmium and Small ammounts of Deuterium."
+type: UnitFactory
+health: 450
+size: 3
+consumes: {
+power: 1.6
+liquid: {
+  liquid: deuterium
+  amount: 0.5
+}
+}
+plans: [
+  {
+    unit: cough
+    requirements: [
+      Nickel/10
+      cadmium/25
+    ]
+    time: 1045
+  }
+]
+category: units
+requirements: [
+  Nickel/350
+  oxygen/100
+  lead/80
+]
+research: vertex-factory

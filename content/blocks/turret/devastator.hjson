@@ -21,7 +21,7 @@
         ]
     }
     health : 4380
-    reload : 700
+    reload : 500
     range : 1400
     type : ItemTurret
     squareSprite: false
@@ -30,7 +30,7 @@
     ammoPerShot: 5
     
     requirements : [
-        Nickel/2000
+        Nickel/1500
         cadmium/1000
         oxygen/1300
         titanium/500

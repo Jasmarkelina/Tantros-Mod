@@ -1,0 +1,43 @@
+name: Water Centrifuge
+description: Rotates water,producing deuterium.
+category: production
+type: AttributeCrafter
+research: core-ruin
+alwaysUnlocked: false
+health: 350
+size: 3
+requirements: [
+ Nickel/50
+ cadmium/75
+ ]
+hasItems: false
+hasLiquids: true
+hasPower: false
+liquidCapacity: 1000
+attribute: steam
+displayEfficiency: false
+minEfficiency: 1
+baseEfficiency: 2
+ambientSound: hum
+craftTime: 200
+craftEffect: turbinegenerate
+outputLiquid: deuterium/1.13
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -top
+   }
+  {
+   rotateSpeed : 9
+        spinSprite : true
+        suffix : -rotator
+        type : DrawRegion
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}
+squareSprite: false

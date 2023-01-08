@@ -1,0 +1,40 @@
+type: Reconstructor
+name: "Ground Reestructurer"
+size: 3
+health: 500
+description: "Upgrades inputted reefs into tier 2."
+constructTime: 2775
+upgrades: [
+  [reef, ornicus]
+]
+consumes: {
+power: 1.890
+liquid:{
+    liquid: deuterium
+    amount: 3.16
+}
+items:{
+  items: [
+  oblite/75
+  Nickel/25
+  cadmium/50
+  oxygen/10
+  ]
+}
+}
+category: units
+research: {
+parent: fever
+objectives: [
+  {
+    type: OnSector
+    preset: frost-caynon
+  }
+  ]
+}
+requirements: [
+  Nickel/200
+  cadmium/175
+  lead/100
+  silicon/40
+]

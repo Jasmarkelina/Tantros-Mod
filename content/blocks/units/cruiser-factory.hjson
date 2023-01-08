@@ -1,10 +1,14 @@
 name: "Cruiser Factory"
-description: "Replicates and builds the unknown units seen on Dead city."
+description: "Builds Advanced units using Nickel, Argus, Thorium and Deuterium."
 type: UnitFactory
 health: 3100
-size: 4
+size: 6
 consumes: {
 power: 7.80
+liquid: {
+  liquid: deuterium
+  amount: 5.428
+}
 }
 plans: [
   {
@@ -14,13 +18,14 @@ plans: [
       oblite/350
       argus/450
     ]
-    time: 8000
+    time: 6000
   }
 ]
 category: units
 requirements: [
-  Nickel/1500
-  thorium/1000
+  Nickel/600
+  argus/400
+  thorium/800
   copper/400
 ]
-research: vertex-factory
+research: hovership-reestructurer

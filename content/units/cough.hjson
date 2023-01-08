@@ -1,0 +1,43 @@
+type: hover
+health: 260
+shadowElevation: 0.2
+drag: 0.07
+lowAltitude: false
+speed: 1.8
+rotateSpeed: 5
+hitSize: 6
+useEngineElevation: false
+abilities: [
+  {
+   type: MoveEffectAbility
+   teamColor: true
+  }
+]
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 10
+    inaccuracy: 40
+    bullet: {
+      type: MissileBulletType
+      damage: 4
+      splashDamage: 2
+      splashDamageRadius: 16
+      sideAngle: 45
+      sideWidth: 4
+      sideLength: 4
+      hitEffect: blastExplosion
+      trailLength: 15
+      homingRange: 70
+      despawnEffect: blastExplosion
+      lifeTime: 150
+      shootSound: missile
+    }
+  }
+]
+research: hovership-factory 

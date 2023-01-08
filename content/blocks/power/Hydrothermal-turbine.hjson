@@ -6,6 +6,7 @@ size: 3
 health: 320
 hasPower: true
 powerProduction: 1.50
+outputLiquid: water/0.8
 displayEfficiency: true
 attribute: steam
 effectChance: 0.25

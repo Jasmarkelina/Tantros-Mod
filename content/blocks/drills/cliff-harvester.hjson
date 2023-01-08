@@ -1,16 +1,15 @@
 name: Cliff Harvester
+description: Gathers resources from walls, Gathers resources faster than the cliff bore.
 type: BeamDrill
 planet: tantros
-health: 720
+health: 480
 size: 3
 category: production
 destructible: true
 breakable: true
-tier: 4
+tier: 3
 range: 2
-drillTime: 200
-buildVisibility: shown
-itemCapacity: 20
+drillTime: 161
 drawer: {
         type: DrawMulti,
         drawers: [
@@ -29,7 +28,6 @@ parent: cliff-bore
 }
 requirements: [
   Nickel/80
-  cadmium/40
-  titanium/20
-  oxygen/40
+  cadmium/100
+  oxygen/80
 ]

@@ -1,0 +1,13 @@
+planet: tantros
+captureWave: 31
+sector: 67
+difficulty: 6
+research: {
+parent: "ice-cave"
+objectives: [
+    {
+      type: SectorComplete
+      preset: "ice-cave"
+    }
+  ]
+}

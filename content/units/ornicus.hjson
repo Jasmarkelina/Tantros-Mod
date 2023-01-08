@@ -1,0 +1,36 @@
+type: mech
+health: 1445
+flying: false
+controller: GroundAI
+speed: 0.75
+rotateSpeed: 1.1
+armor: 3 
+hitSize: 9
+itemCapacity: 90
+weapons: [
+  {
+    name: none
+    x: 1.15
+    y: 1
+    mirror: true
+    continuous: true
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 0
+    bullet: {
+      type: ContinuousFlameBulletType
+      damage: 5
+      lifeTime: 1
+    }
+  }
+]
+abilities: [
+  {
+   type: UnitSpawnAbility
+      unit: mite
+      spawnTime: 300
+      spawnX: 0,
+      spawnY: 2
+}
+]
+research: ground-reestructurer

@@ -3,11 +3,11 @@ planet: tantros
 sector: 16
 difficulty: 4
 research: {
-parent: Submerged
+parent: cold-wasteland
 objectives: [
     {
       type: SectorComplete
-      preset: Submerged
+      preset: cold-wasteland
     }
   ]
 }

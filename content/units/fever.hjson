@@ -1,0 +1,36 @@
+type: hover
+shadowElevation: 0.11
+lowAltitude: false
+health: 670
+drag: 0.07
+speed: 1.8
+rotateSpeed: 5
+hitSize: 8
+useEngineElevation: false
+abilities: [
+  {
+   type: MoveEffectAbility
+   teamColor: true
+   }
+  {
+  type: ForceFieldAbility
+  }
+]
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    continuous: true
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 0
+    bullet: {
+      type: ContinuousFlameBulletType
+      damage: 5.5
+      lifeTime: 40
+    }
+  }
+]
+research: hovership-factory

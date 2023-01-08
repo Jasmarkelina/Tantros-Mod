@@ -1,20 +1,22 @@
 type: flying
-health: 610
+name: Scavenger Recuperate
+health: 370
 controller: FlyingAI
 isEnemy: false
 mineWalls: true
 mineFloor: true
 flying: true
+buildSpeed: 1.3
 accel: 0.09
-drag: 0.01
-speed: 3.5
-rotateSpeed: 5.2
-armor: 5
-size: 3.95
+drag: 0.03
+mineSpeed: 5.2
+mineTier: 3
+speed: 4.5
+rotateSpeed: 8.3
+armor: 3
+size: 1.95
 itemCapacity: 40
 outlineColor: "2d2f39"
-//Todo, add Recuperate weapons and sprites
-//todo, remove laser from recuperate, add missile. Also stats still bad
 weapons: [
   {
     name: none
@@ -23,34 +25,37 @@ weapons: [
     mirror: false
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
-    reload: 48
-    inaccuracy: 4
+    reload: 21
+    inaccuracy: 10
     bullet: {
       type: MissileBulletType
       damage: 9
-      splashDamage: 3
-      splashDamageRadius: 16
+      splashDamage: 10
+      splashDamageRadius: 20
       sideAngle: 45
       sideWidth: 4
       sideLength: 4
+      speed: 5
       hitEffect: blastExplosion
+      trailLength: 30
+      homingRange: 150
       despawnEffect: blastExplosion
-      lifeTime: 24
+      lifeTime: 300
       shootSound: missile
     }
   }
 ]
 engines: [
   {
-    x: -4.8
-    y: -5.2
-    rotation: 90
+    x: -4.9
+    y: -3.2
+    rotation: -90
     radius: 2
   }
   {
-    x: 4.8
-    y: -5.2
-    rotation: 90
+    x: 4.9
+    y: -3.2
+    rotation: -90
     radius: 2
    }
  ]

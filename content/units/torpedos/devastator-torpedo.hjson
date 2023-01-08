@@ -4,12 +4,12 @@ flying: true
 speed: 2
 hitSize: 2
 maxRange: 80
-lifetime: 1900
+lifetime: 650
 hidden: true
 outlineColor: 262c47
-engineSize: 0
+engineSize: 1
 rotateSpeed: 0.22
-missileAccelTime: 0.2
+missileAccelTime: 1
 lowAltitude: true
 fogRadius: 6
 health: 550
@@ -19,6 +19,12 @@ playerControllable: false
 physics: false
 createWreck: true
 createScorch: false
+abilities: [
+  {
+   type: MoveEffectAbility
+   teamColor: true
+  }
+]
 weapons: [
     {
         shootCone: 360
@@ -34,7 +40,7 @@ weapons: [
           bullet:{
         type: BombBulletType
         splashDamageRadius: 100
-        splashDamage: 3659
+        splashDamage: 2075
         instantDisappear: true
         killShooter: true
         hittable: false

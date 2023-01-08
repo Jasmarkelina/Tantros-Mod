@@ -1,5 +1,5 @@
 type: flying
-health: 470
+health: 120
 controller: BuilderAI
 isEnemy: false
 mineWalls: true
@@ -16,8 +16,6 @@ armor: 3
 size: 1.95
 itemCapacity: 40
 outlineColor: "2d2f39"
-//Todo, add Recuperate weapons and sprites
-//todo, remove laser from recuperate, add missile. Also stats still bad
 weapons: [
   {
     name: none
@@ -27,18 +25,21 @@ weapons: [
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
     reload: 48
-    inaccuracy: 4
+    inaccuracy: 9
     bullet: {
       type: MissileBulletType
-      damage: 9
+      damage: 13
       splashDamage: 3
       splashDamageRadius: 16
       sideAngle: 45
       sideWidth: 4
       sideLength: 4
+      speed: 5
       hitEffect: blastExplosion
+      trailLength: 30
+      homingRange: 150
       despawnEffect: blastExplosion
-      lifeTime: 24
+      lifeTime: 300
       shootSound: missile
     }
   }

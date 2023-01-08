@@ -1,0 +1,42 @@
+name: Repair Station
+description: Mends buildings in range, requieres power and deuterium to work.
+category: effect
+type: MendProjector
+research: harvone
+health: 300
+size: 2
+requirements: [
+ lead/25
+ Nickel/50
+ cadmium/25
+ oxygen/10
+ ]
+
+hasItems: false
+hasLiquids: true
+hasPower: true
+liquidCapacity: 40
+consumes: {
+ power: 0.96
+ liquid: {
+  liquid: deuterium 
+  amount: 1.12
+  }
+ }
+range: 50
+healPercent: 15
+reload: 125
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawLiquidTile
+   drawLiquid: deuterium 
+   padding: 4
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}
+squareSprite: false

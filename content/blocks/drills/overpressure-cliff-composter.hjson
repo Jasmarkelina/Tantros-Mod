@@ -1,16 +1,15 @@
-name: Overpressure Cliff Composter
+name: Cliff Composter
+description: Gathers resources from walls, Mines faster than the cliff harvester.
 type: BeamDrill
 planet: tantros
-health: 1400
+health: 610
 size: 4
 category: production
 destructible: true
 breakable: true
 tier: 5
-range: 4
-drillTime: 75
-buildVisibility: shown
-itemCapacity: 50
+range: 5
+drillTime: 90
 drawer: {
         type: DrawMulti,
         drawers: [
@@ -25,11 +24,11 @@ drawer: {
   ]
 }
 research: {
-parent: cliff-harvester 
+parent: core-ruin
 }
 requirements: [
-  Nickel/300
-  cadmium/250
-  oxygen/125
-  oblite/250
+  Nickel/200
+  cadmium/160 
+  oxygen/100
+  oblite/50
 ]

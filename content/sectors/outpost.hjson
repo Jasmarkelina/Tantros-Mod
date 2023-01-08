@@ -1,0 +1,13 @@
+planet: tantros
+captureWave: 40
+sector: 57
+difficulty: 4
+research: {
+parent: "underwater-swamp"
+objectives: [
+    {
+      type: SectorComplete
+      preset: "underwater-swamp"
+    }
+  ]
+}

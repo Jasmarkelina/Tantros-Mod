@@ -1,7 +1,7 @@
 name: Vertex
 type: flying
 flying: true
-health: 845
+health: 350
 hitSize: 15
 speed: 2.26
 accel: 0.16
@@ -18,7 +18,7 @@ weapons: [
         x: 0
         y: 3
         mirror: false
-        reload: 35
+        reload: 50
         xRand: 2
         bullet: {
             type: BasicBulletType

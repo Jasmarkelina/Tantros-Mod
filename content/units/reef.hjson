@@ -1,10 +1,10 @@
 type: mech
-health: 630
+health: 600
 flying: false
 speed: 1.35
 rotateSpeed: 9
-armor: 4
-hitSize: 12.35
+armor: 2
+hitSize: 8
 itemCapacity: 45
 weapons: [
   {
