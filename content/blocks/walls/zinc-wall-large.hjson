@@ -1,0 +1,8 @@
+type: Wall
+health: 2680
+size: 2
+category: defense
+research: zinc-wall
+requirements : [
+        zincum/24
+    ]
