@@ -1,0 +1,41 @@
+type: legs
+name: "Delphinus"
+description: "Spider unit,can resist a good amount of damage. Spawns air uncontrollable units."
+hitSize: 12
+visualElevation: 0.23
+health: 2865
+armor: 8
+speed: 0.6
+rotateSpeed: 0.95
+legCount: 4
+legLength: 8
+legBaseOffset: 9
+legExtension: 0
+legSpeed: 0.04
+maxStretch: 1
+allowLegStep: true
+weapons: [
+    {
+       name: urunir-small-weapon
+       x: 2
+       y: 2
+       recoil: 2
+       reload: 40
+       rotate: false
+       top: false
+       shootY: 2
+       shootSound: pew
+       bullet: {
+           type: BasicBulletType
+           damage: 24
+           smokeEffect: shootSmallSmoke
+           shootEffect: shootSmall
+           width: 4
+           height: 4
+           trailWidth: 1.2
+           trailLength: 4
+           lifetime: 70
+           speed: 3
+       }
+    }
+]
