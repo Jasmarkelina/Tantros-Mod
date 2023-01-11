@@ -16,63 +16,17 @@ maxStretch: 1
 allowLegStep: true
 weapons: [
     {
-       name: none
-       x: 2
-       y: 2
-       splashDamageRadius : 10
-        despawnEffect : none
-        splashDamage : 100
-        trailLength : 30
-        frontColor : ffffff
-        lightColor : 9D3D3DFF
-        trailWidth : 3
-        trailColor : 9D3D3DFF
-        backColor : 9D3D3DFF
-        lifetime : 36
-        hitColor : 9D3D3DFF
-        damage : 20
-        radius : 50
-        sprite : circle-bullet
-        height : 6
-        speed : 5
-        width : 6
-        type : EmpBulletType
-        status: melting
-        statusDuration: 425
-        
-        hitEffect : {
-            
-            lifetime : 40
-            type : MultiEffect
-            
-            effects : [{
-                particles : 5
-                colorFrom : 9D3D3DFF
-                lifetime : 5
-                sizeFrom : 15
-                colorTo : 9D3D3DFF
-                length : 0
-                sizeTo : 15
-                type : ParticleEffect
-            }
-            {
-                strokeFrom : 2
-                colorFrom : 9D3D3DFF
-                lifetime : 40
-                sizeFrom : 15
-                strokeTo : 0
-                colorTo : 9D3D3DFF
-                sizeTo : 15
-                type : WaveEffect
-            }
-            {
-                particles : 1
-                lifetime : 40
-                sizeFrom : 4
-                colorTo : 9D3D3DFF
-                length : 0
-                sizeTo : 0
-                type : ParticleEffect
+        x: 8
+        y: 8
+        mirror: false
+        reload: 44
+        xRand: 2
+        bullet: {
+            type: BasicBulletType
+            lifetime: 0
+            speed: 0
+            damage: 0
+            spawnUnit: pressure-torpedo
        }
     }
 ]
