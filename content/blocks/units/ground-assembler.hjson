@@ -1,0 +1,42 @@
+type: Reconstructor
+name: "Ground Assembler "
+size: 5
+health: 1240
+description: "Upgrades ground units into the third and final tier."
+constructTime: 3008
+upgrades: [
+  [ornicus ,delphinus]
+]
+consumes: {
+power: 5.785
+liquid:{
+    liquid: deuterium 
+    amount: 5.95
+}
+items:{
+  items: [
+  metaglass/100
+  Nickel/350
+  silicon/75
+  zincum/125
+  ]
+}
+}
+category: units
+research: {
+parent: cough
+objectives: [
+  {
+    type: OnSector
+    preset: frost-caynon
+  }
+  ]
+}
+requirements: [
+  Nickel/425
+  cadmium/235
+  titanium/150
+  silicon/120
+  metaglass/120
+  
+]
