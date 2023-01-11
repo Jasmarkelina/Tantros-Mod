@@ -1,25 +1,25 @@
 type: legs
 name: "Delphinus"
-description: "Spider unit,can resist a good amount of damage. Spawns air uncontrollable units."
+description: "Spider unit,can resist a good amount of damage. Spawns minions."
 hitSize: 12
-visualElevation: 0.23
-health: 2865
+visualElevation: 0.35
+health: 2885
 armor: 8
 speed: 0.6
 rotateSpeed: 0.95
-legCount: 4
+legCount: 3
 legLength: 8
-legBaseOffset: 9
+legBaseOffset: 6
 legExtension: 0
 legSpeed: 0.04
-maxStretch: 1
-allowLegStep: true
+maxStretch: 2
+allowLegStep: false
 weapons: [
     {
-        x: 8
-        y: 8
+        x: 7
+        y: 7
         mirror: false
-        reload: 44
+        reload: 28
         xRand: 2
         bullet: {
             type: BasicBulletType
@@ -34,7 +34,14 @@ abilities: [
   {
    type: UnitSpawnAbility
       unit: mite
-      spawnTime: 150
+      spawnTime: 300
+      spawnX: 0,
+      spawnY: 2
+     {
+     }
+   type: UnitSpawnAbility
+      unit: claw
+      spawnTime: 335
       spawnX: 0,
       spawnY: 2
 }
