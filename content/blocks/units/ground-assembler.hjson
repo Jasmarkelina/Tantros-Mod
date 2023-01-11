@@ -1,7 +1,7 @@
 type: Reconstructor
-name: "Ground Assembler "
+name: "Ground Assembler"
 size: 5
-health: 1240
+health: 750
 description: "Upgrades ground units into the third and final tier."
 constructTime: 3008
 upgrades: [
@@ -24,7 +24,7 @@ items:{
 }
 category: units
 research: {
-parent: cough
+parent: ornicus
 objectives: [
   {
     type: OnSector
