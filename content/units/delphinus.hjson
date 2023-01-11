@@ -9,10 +9,10 @@ speed: 0.6
 rotateSpeed: 0.95
 legCount: 3
 legLength: 8
-legBaseOffset: 3
-legExtension: 0
-legSpeed: 0.04
-maxStretch: 2
+legBaseOffset: 2
+legExtension: 5
+legSpeed: 0.01
+maxStretch: 4
 allowLegStep: false
 weapons: [
     {
