@@ -76,3 +76,13 @@ weapons: [
        }
     }
 ]
+abilities: [
+  {
+   type: UnitSpawnAbility
+      unit: mite
+      spawnTime: 150
+      spawnX: 0,
+      spawnY: 2
+}
+]
+research: ground-reestructurer
