@@ -7,9 +7,9 @@ health: 2885
 armor: 8
 speed: 0.6
 rotateSpeed: 0.95
-legCount: 3
-legLength: 8
-legBaseOffset: 2
+legCount: 4
+legLength: 9
+legBaseOffset: 1
 legExtension: 5
 legSpeed: 0.01
 maxStretch: 4
