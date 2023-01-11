@@ -9,7 +9,7 @@ speed: 0.6
 rotateSpeed: 0.95
 legCount: 3
 legLength: 8
-legBaseOffset: 6
+legBaseOffset: 3
 legExtension: 0
 legSpeed: 0.04
 maxStretch: 2
@@ -35,13 +35,6 @@ abilities: [
    type: UnitSpawnAbility
       unit: mite
       spawnTime: 300
-      spawnX: 0,
-      spawnY: 2
-     {
-     }
-   type: UnitSpawnAbility
-      unit: claw
-      spawnTime: 335
       spawnX: 0,
       spawnY: 2
 }
