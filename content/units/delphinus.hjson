@@ -16,26 +16,63 @@ maxStretch: 1
 allowLegStep: true
 weapons: [
     {
-       name: urunir-small-weapon
+       name: none
        x: 2
        y: 2
-       recoil: 2
-       reload: 40
-       rotate: false
-       top: false
-       shootY: 2
-       shootSound: pew
-       bullet: {
-           type: BasicBulletType
-           damage: 24
-           smokeEffect: shootSmallSmoke
-           shootEffect: shootSmall
-           width: 4
-           height: 4
-           trailWidth: 1.2
-           trailLength: 4
-           lifetime: 70
-           speed: 3
+       splashDamageRadius : 10
+        despawnEffect : none
+        splashDamage : 100
+        trailLength : 30
+        frontColor : ffffff
+        lightColor : 9D3D3DFF
+        trailWidth : 3
+        trailColor : 9D3D3DFF
+        backColor : 9D3D3DFF
+        lifetime : 36
+        hitColor : 9D3D3DFF
+        damage : 20
+        radius : 50
+        sprite : circle-bullet
+        height : 6
+        speed : 5
+        width : 6
+        type : EmpBulletType
+        status: melting
+        statusDuration: 425
+        
+        hitEffect : {
+            
+            lifetime : 40
+            type : MultiEffect
+            
+            effects : [{
+                particles : 5
+                colorFrom : 9D3D3DFF
+                lifetime : 5
+                sizeFrom : 15
+                colorTo : 9D3D3DFF
+                length : 0
+                sizeTo : 15
+                type : ParticleEffect
+            }
+            {
+                strokeFrom : 2
+                colorFrom : 9D3D3DFF
+                lifetime : 40
+                sizeFrom : 15
+                strokeTo : 0
+                colorTo : 9D3D3DFF
+                sizeTo : 15
+                type : WaveEffect
+            }
+            {
+                particles : 1
+                lifetime : 40
+                sizeFrom : 4
+                colorTo : 9D3D3DFF
+                length : 0
+                sizeTo : 0
+                type : ParticleEffect
        }
     }
 ]
