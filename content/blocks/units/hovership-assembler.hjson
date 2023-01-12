@@ -1,9 +1,9 @@
 type: Reconstructor
-name: "Ground Assembler"
+name: "Hovership Assembler"
 size: 5
 health: 750
 description: "Upgrades hover units into the third and final tier."
-constructTime: 3008
+constructTime: 2885
 upgrades: [
   [fever ,flu]
 ]
