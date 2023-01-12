@@ -1,6 +1,7 @@
 type: hover
-health: 1450
-shadowElevation: 0.35
+health: 1680
+armor: 10
+shadowElevation: 0.52
 lowAltitude: false
 drag: 0.07
 speed: 0.87
@@ -46,3 +47,4 @@ weapons: [
             }
          }
       ]
+research: hovership-assembler
