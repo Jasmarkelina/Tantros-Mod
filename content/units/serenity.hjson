@@ -13,25 +13,54 @@ outlineColor: "2d2f39'
 abilities: [
   {
 type: UnitSpawnAbility
-      unit: claw
+      unit: 
       spawnTime: 250,
       spawnX: 10,
       spawnY: 0        
       }
    weapons: [
     {
-        x: 0
-        y: 11
-        mirror: true
-        reload: 100
-        xRand: 2
-        bullet: {
-            type: BasicBulletType
-            lifetime: 0
-            speed: 0
-            damage: 0
-            spawnUnit: pressure-torpedo
+      x: 0
+  y: 0
+  shootY: 0
+  
+  mirror: false
+  rotate: false
+  shootCone: 10
+  inaccuracy: 10
+  reload: 40
+  minWarmup: 0.3
+  targetInterval: 1
+  targetSwitchInterval: 1
+  cooldownTime: 100
+  recoil: 3
+  shootSound: missile
+  
+  bullet: {
+   type: MissileBulletType
+   sprite: large-orb
+   backColor: 5AB9A8
+   frontColor: ffffff
+   width: 8
+   height: 8
+   
+   damage: 75
+   splashDamage: 27
+   splashDamage: 24
+   collidesTeam: false
+   
+   speed: 6
+   lifetime: 75
+   drag: 0.01
+   
+   homingDelay: 0
+   homingRange: 60
+   
+   trailWidth: 3
+   trailLength: 16
+   trailColor: 5AB9A8
+   trailEffect: hitBulletColor
 }
   }
 ]
-research: vertex-factory
+research: air-refabricator
