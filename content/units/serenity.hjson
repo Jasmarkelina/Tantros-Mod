@@ -1,6 +1,6 @@
 type: flying
 name: Serenity
-health: 1000
+health: 750
 controller: FlyingAI
 isEnemy: false
 flying: true
@@ -10,14 +10,6 @@ speed: 2.1
 rotateSpeed: 2.1
 itemCapacity: 80
 outlineColor: "2d2f39'
-abilities: [
-  {
-type: UnitSpawnAbility
-      unit: 
-      spawnTime: 250,
-      spawnX: 10,
-      spawnY: 0        
-      }
    weapons: [
     {
       x: 0
