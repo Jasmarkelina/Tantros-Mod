@@ -1,0 +1,40 @@
+type: Reconstructor
+name: "Air Reestructurer"
+size: 3
+health: 480
+description: "Upgrades Vertexes into tier 2."
+constructTime: 2775
+upgrades: [
+  [vertex, serenity]
+]
+consumes: {
+power: 2.941
+liquid:{
+    liquid: deuterium
+    amount: 2.46
+}
+items:{
+  items: [
+  oblite/75
+  Nickel/25
+  cadmium/50
+  oxygen/10
+  ]
+}
+}
+category: units
+research: {
+parent: vertex
+objectives: [
+  {
+    type: OnSector
+    preset: frost-caynon
+  }
+  ]
+}
+requirements: [
+  Nickel/175
+  cadmium/100
+  oxygen/75
+  metaglass/25
+]
