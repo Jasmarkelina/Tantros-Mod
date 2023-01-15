@@ -19,24 +19,36 @@ targetGround: true
 targetAir: true
 armor: 3
 weapons: [
+y: 0
+shootSound: missile
+x: 0
+recoil: 0
+reload: 160
+xRand: 3
+spacing: 3
+inaccuracy: 10
+shotDelay: 4
+mirror: false
+rotate: true
+rotateSpeed: 2.5
 bullet: {
    type: MissileBulletType
    sprite: large-orb
    backColor: 5AB9A8
    frontColor: ffffff
-   width: 8
-   height: 8
+   width: 3
+   height: 3
    
-   damage: 75
-   splashDamage: 27
-   splashDamage: 24
+   damage: 10
+   splashDamage: 15
+   splashDamage: 15
    collidesTeam: false
    
-   speed: 6
+   speed: 4
    lifetime: 75
    drag: 0.01
    
-   homingDelay: 0
+   homingDelay: 10
    homingRange: 60
    
    trailWidth: 3
@@ -46,3 +58,4 @@ bullet: {
 }
     }
 ]
+research: core-water
