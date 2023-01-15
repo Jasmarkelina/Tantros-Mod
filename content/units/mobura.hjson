@@ -1,0 +1,20 @@
+type: naval
+name: "Mobura"
+description: "Shoots weak energy orbs at nearby targets."
+flying: false
+speed: 1.1
+rotateSpeed: 3
+health: 650
+drag: 0.20
+accel: 0.50
+hitSize: 10
+faceTarget: false
+rotateShooting: false
+itemCapacity: 25
+trailX: 4
+trailY: -6
+trailScl: 2.2
+trailLength: 50
+targetGround: true
+targetAir: true
+armor: 3
