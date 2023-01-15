@@ -19,3 +19,30 @@ targetGround: true
 targetAir: true
 armor: 3
 weapons: [
+bullet: {
+   type: MissileBulletType
+   sprite: large-orb
+   backColor: 5AB9A8
+   frontColor: ffffff
+   width: 8
+   height: 8
+   
+   damage: 75
+   splashDamage: 27
+   splashDamage: 24
+   collidesTeam: false
+   
+   speed: 6
+   lifetime: 75
+   drag: 0.01
+   
+   homingDelay: 0
+   homingRange: 60
+   
+   trailWidth: 3
+   trailLength: 16
+   trailColor: 5AB9A8
+   trailEffect: hitBulletColor
+}
+    }
+]
