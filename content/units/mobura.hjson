@@ -18,3 +18,4 @@ trailLength: 50
 targetGround: true
 targetAir: true
 armor: 3
+weapons: [
