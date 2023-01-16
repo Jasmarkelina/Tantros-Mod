@@ -38,19 +38,15 @@ bullet: {
    frontColor: ffffff
    width: 3
    height: 3
-   
    damage: 10
    splashDamage: 15
    splashDamage: 15
    collidesTeam: false
-   
    speed: 4
    lifetime: 75
    drag: 0.01
-   
    homingDelay: 10
    homingRange: 60
-   
    trailWidth: 3
    trailLength: 16
    trailColor: 5AB9A8
