@@ -18,19 +18,18 @@ trailLength: 50
 targetGround: true
 targetAir: true
 armor: 3
-weapons: [
-y: 0
-shootSound: missile
+weapons:[
+{
+name: repeater
 x: 0
-recoil: 0
-reload: 160
-xRand: 3
-spacing: 3
-inaccuracy: 10
-shotDelay: 4
+y: 0
+recoil: 2
+reload: 45
 mirror: false
+shootY: 0
+shootSound: lasershoot
 rotate: true
-rotateSpeed: 2.5
+rotateSpeed: 7.5
 bullet: {
    type: MissileBulletType
    sprite: large-orb
