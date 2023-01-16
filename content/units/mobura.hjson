@@ -56,7 +56,6 @@ bullet: {
    trailColor: 5AB9A8
    trailEffect: hitBulletColor
 }
-]
 abilities: [
   {
    type: MoveEffectAbility
