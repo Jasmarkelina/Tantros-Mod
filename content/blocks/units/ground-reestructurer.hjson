@@ -1,8 +1,8 @@
 type: Reconstructor
-name: "Ground Reestructurer"
+name: "Ground Restructurer"
 size: 3
 health: 500
-description: "Upgrades inputted reefs into tier 2."
+description: "Upgrades inputted reefs into the second tier."
 constructTime: 2775
 upgrades: [
   [reef, ornicus]
