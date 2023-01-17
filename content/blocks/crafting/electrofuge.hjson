@@ -1,5 +1,5 @@
-name: Water Centrifuge
-description: Rotates water,producing deuterium.
+name: Electrofuge
+description: A Rapidly rotating container applying Centrifugal force to Water for separating Heavy and Light elements. Then, uses Electrolysis to separate gases.
 category: production
 type: AttributeCrafter
 research: core-ruin
