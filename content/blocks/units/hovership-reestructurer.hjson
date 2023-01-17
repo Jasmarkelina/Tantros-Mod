@@ -1,8 +1,8 @@
 type: Reconstructor
-name: "Hovership Reestructurer"
+name: "Hovership Restructurer"
 size: 3
 health: 480
-description: "Upgrades Hovercrafts into tier 2."
+description: "Upgrades Hovercrafts into the second tier."
 constructTime: 2625
 upgrades: [
   [cough, fever]
