@@ -1,0 +1,6 @@
+name: Tritium
+description: A Radioactive Gas. Typically used in Nuclear Fusion Reactors and Self-sufficient light sources.
+research: core-ruin
+color: 29CC70
+gas: true
+temperature: 0.5
