@@ -4,7 +4,7 @@ flying: true
 speed: 3.5
 hitSize: 2
 maxRange: 25
-lifetime: 50
+lifetime: 100
 hidden: true
 outlineColor: 262c47
 engineSize: 0
@@ -24,7 +24,7 @@ abilities: [
 type: MoveEffectAbility
 x: 0
 y: 0
-color: 5B7BFC
+color: FFD37F
 }
 {
 type: EnergyFieldAbility
@@ -37,7 +37,7 @@ effectRadius: 8
 sectors: 3
 rotateSpeed: 3.5
 maxTargets: 125
-color: 5B7BFC
+color: FFD37F
 }
 {
    type: UnitSpawnAbility
