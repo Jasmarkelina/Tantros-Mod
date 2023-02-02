@@ -1,6 +1,6 @@
 type: flying
 health: 5
-controller: MissileAI
+controller: FlyingAI
 isEnemy: false
 flying: true
 accel: 0.1
