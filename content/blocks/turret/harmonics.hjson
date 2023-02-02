@@ -1,0 +1,57 @@
+{
+    
+    targetGround : true
+    inaccuracy : 5
+    targetAir : true
+    category : turret
+    research : {
+        parent: pantagruel
+        objectives: [
+            {
+            type: OnSector
+            preset: ice-cave
+            }
+        ]
+        requirements : [
+        Nickel/150
+        cadmium/400
+        thorium/90
+        oblite/50
+        ]
+    }
+    health : 1680
+    reload : 500
+    range : 700
+    type : ItemTurret
+    squareSprite: false
+    outlineColor: 262c47
+    size : 4
+    ammoPerShot: 5
+    
+    requirements : [
+        Nickel/1500
+        cadmium/1000
+        oxygen/1300
+        titanium/500
+        oblite/400
+    ]
+    
+    ammoTypes : {
+        argus : {
+            lifetime : 0
+            damage : 0
+            height : 0
+            speed : 0
+            width : 0
+            spawnUnit: harmonics-shell
+        }
+    }
+    drawer: {
+type: DrawTurret
+}
+    consumes : {
+        coolant : {
+            amount : 0.9
+        }
+    }
+}
