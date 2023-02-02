@@ -1,5 +1,5 @@
 name: Malefictor
-description: Fires a Heavy energy orb that leaves smaller, smart orbs that can seek their own target.
+description: Fires a Devastating energy orb that leaves smaller, smart orbs that can seek their own target.
 type: flying
 flying: true
 health: 2550
@@ -42,13 +42,13 @@ abilities: [
 ]
 engines: [
   {
-    x: -21.25
+    x: -15
     y: -10.2
     rotation: 170
     radius: 4
   }
   {
-    x: 21.25
+    x: 15
     y: -10.2
     rotation: 170
     radius: 4
