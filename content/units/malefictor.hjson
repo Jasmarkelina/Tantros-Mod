@@ -2,7 +2,7 @@ name: Malefictor
 description: Fires a Devastating energy orb that leaves smaller, smart orbs that can seek their own target.
 type: flying
 flying: true
-health: 2550
+health: 1750
 armor: 4
 hitSize: 16
 speed: 0.645
