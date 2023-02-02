@@ -45,7 +45,8 @@ color: 5B7BFC
       spawnTime: 125,
       spawnX: 0,
       spawnY: 2
-      }
+}
+]
    weapons: [
     {
         shootCone: 360
