@@ -20,8 +20,6 @@ physics: false
 createWreck: false
 createScorch: false
 abilities: [
-  {
-   abilities: [
 {
 type: MoveEffectAbility
 x: 0
