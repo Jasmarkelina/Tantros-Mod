@@ -30,6 +30,5 @@ sectors: 9
 rotateSpeed: 10
 maxTargets: 2
 color: 8deebb
-        }
-    }
+}
 ]
