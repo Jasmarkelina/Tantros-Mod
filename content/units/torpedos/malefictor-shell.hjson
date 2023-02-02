@@ -4,14 +4,14 @@ flying: true
 speed: 3.5
 hitSize: 2
 maxRange: 25
-lifetime: 175
+lifetime: 50
 hidden: true
 outlineColor: 262c47
 engineSize: 0
 rotateSpeed: 3
 missileAccelTime: 30
 lowAltitude: true
-fogRadius: 120
+fogRadius: 30
 health: 900
 allowedInPayloads: false
 useUnitCap: false
@@ -42,7 +42,7 @@ color: 5B7BFC
 {
    type: UnitSpawnAbility
       unit: malefictor-drone
-      spawnTime: 125,
+      spawnTime: 25,
       spawnX: 0,
       spawnY: 2
 }
