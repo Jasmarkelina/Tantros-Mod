@@ -37,7 +37,7 @@ effectRadius: 8
 sectors: 3
 rotateSpeed: 3.5
 maxTargets: 125
-color: FFD37F
+color: FF7100
 }
 {
    type: UnitSpawnAbility
