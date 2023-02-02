@@ -19,6 +19,26 @@ playerControllable: false
 physics: false
 createWreck: false
 createScorch: false
+weapons: [
+    {
+        shootCone: 360
+          mirror: false
+          reload: 180
+          shootOnDeath: true
+          shootEffect: none
+          x: 0
+          y: 0
+          despawnHit: true
+          despawnEffect: none
+          
+          bullet:{
+        type: BombBulletType
+        splashDamageRadius: 30
+        splashDamage: 250
+        instantDisappear: true
+        killShooter: true
+        hittable: false
+        collidesAir: true
 abilities: [
 {
 type: MoveEffectAbility
@@ -47,27 +67,5 @@ abilities: [
       spawnTime: 125,
       spawnX: 0,
       spawnY: 2
-}
-]
-weapons: [
-    {
-        shootCone: 360
-          mirror: false
-          reload: 180
-          shootOnDeath: true
-          shootEffect: none
-          x: 0
-          y: 0
-          despawnHit: true
-          despawnEffect: none
-          
-          bullet:{
-        type: BombBulletType
-        splashDamageRadius: 30
-        splashDamage: 250
-        instantDisappear: true
-        killShooter: true
-        hittable: false
-        collidesAir: true
 }
 ]
