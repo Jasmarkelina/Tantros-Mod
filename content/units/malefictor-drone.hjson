@@ -1,6 +1,7 @@
 type: flying
 health: 5
 controller: FlyingAI
+circleTarget: true
 isEnemy: false
 flying: true
 accel: 0.1
