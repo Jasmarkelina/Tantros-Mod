@@ -1,7 +1,6 @@
 type: flying
 health: 5
-controller: FlyingAI
-circleTarget: true
+controller: MissileAI
 isEnemy: false
 flying: true
 accel: 0.1
@@ -25,7 +24,7 @@ y: 0
 damage: 1
 reload: 1
 status: none
-effectRadius: 1
+effectRadius: 4
 sectors: 9
 rotateSpeed: 10
 maxTargets: 2
