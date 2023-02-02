@@ -1,4 +1,4 @@
-type: missile
+Ptype: missile
 controller: MissileAI
 flying: true
 speed: 2.1
@@ -30,8 +30,8 @@ color: 8deebb
 type: EnergyFieldAbility
 x: 0
 y: 0
-damage: 50
-reload: 15
+damage: 90
+reload: 1
 status: none
 effectRadius: 10
 sectors: 3
