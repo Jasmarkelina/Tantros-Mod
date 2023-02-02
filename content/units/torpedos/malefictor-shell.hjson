@@ -1,4 +1,4 @@
-Ptype: missile
+type: missile
 controller: MissileAI
 flying: true
 speed: 3.5
@@ -24,27 +24,27 @@ abilities: [
 type: MoveEffectAbility
 x: 0
 y: 0
-color: 8deebb
+color: 5B7BFC
 }
 {
 type: EnergyFieldAbility
 x: 0
 y: 0
-damage: 90
+damage: 45
 reload: 1
 status: none
-effectRadius: 10
+effectRadius: 8
 sectors: 3
 rotateSpeed: 3.5
-maxTargets: 25
-color: 8deebb
+maxTargets: 125
+color: 5B7BFC
 }
 {
 abilities: [
   {
    type: UnitSpawnAbility
       unit: malefictor-drone
-      spawnTime: 130,
+      spawnTime: 125,
       spawnX: 0,
       spawnY: 2
 }
