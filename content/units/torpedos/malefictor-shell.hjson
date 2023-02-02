@@ -40,13 +40,12 @@ maxTargets: 125
 color: 5B7BFC
 }
 {
-abilities: [
-  {
    type: UnitSpawnAbility
       unit: malefictor-drone
       spawnTime: 125,
       spawnX: 0,
       spawnY: 2
+      }
    weapons: [
     {
         shootCone: 360
