@@ -2,7 +2,7 @@ Ptype: missile
 controller: MissileAI
 flying: true
 speed: 3.5
-hitSize: 2
+hitSize: 12
 maxRange: 25
 lifetime: 175
 hidden: true
@@ -30,12 +30,12 @@ color: 8deebb
 type: EnergyFieldAbility
 x: 0
 y: 0
-damage: 90
+damage: 55
 reload: 1
 status: none
-effectRadius: 10
-sectors: 3
-rotateSpeed: 3.5
+effectRadius: 8
+sectors: 9
+rotateSpeed: 10.5
 maxTargets: 25
 color: 8deebb
 }
@@ -55,7 +55,7 @@ weapons: [
           bullet:{
         type: BombBulletType
         splashDamageRadius: 30
-        splashDamage: 140
+        splashDamage: 225.2
         instantDisappear: true
         killShooter: true
         hittable: false
