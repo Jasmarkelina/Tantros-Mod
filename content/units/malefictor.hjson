@@ -2,6 +2,7 @@ name: Malefictor
 type: flying
 flying: true
 health: 2550
+armor: 4
 hitSize: 16
 speed: 0.645
 accel: 0.16
