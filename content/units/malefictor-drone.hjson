@@ -24,7 +24,7 @@ abilities: [
 type: MoveEffectAbility
 x: 0
 y: 0
-color: 8deebb
+color: FFD37F
 }
 {
 type: EnergyFieldAbility
@@ -37,7 +37,7 @@ effectRadius: 4
 sectors: 9
 rotateSpeed: 10
 maxTargets: 2
-color: 8deebb
+color: FFD37F
 }
 ]
 weapons: [
