@@ -33,7 +33,6 @@ y: 0
 damage: 50
 reload: 15
 status: none
-healPercent: 0
 effectRadius: 10
 sectors: 3
 rotateSpeed: 3.5
