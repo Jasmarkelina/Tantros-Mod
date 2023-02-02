@@ -30,7 +30,7 @@ color: 5B7BFC
 type: EnergyFieldAbility
 x: 0
 y: 0
-damage: 45
+damage: 15
 reload: 1
 status: none
 effectRadius: 8
