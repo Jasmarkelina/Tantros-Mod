@@ -24,7 +24,7 @@ abilities: [
 type: MoveEffectAbility
 x: 0
 y: 0
-color: FFD37F
+color: 5B7BFC
 }
 {
 type: EnergyFieldAbility
@@ -37,12 +37,12 @@ effectRadius: 8
 sectors: 3
 rotateSpeed: 3.5
 maxTargets: 125
-color: FF7100
+color: 5B7BFC
 }
 {
    type: UnitSpawnAbility
       unit: malefictor-drone
-      spawnTime: 25,
+      spawnTime: 15,
       spawnX: 0,
       spawnY: 2
 }
