@@ -43,8 +43,6 @@ engines: [
     y: -10
     rotation: -90
     radius: 3
-   }
- ]
     }
   ]
 weapons: [
