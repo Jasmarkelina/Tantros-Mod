@@ -31,10 +31,10 @@ type: EnergyFieldAbility
 x: 0
 y: 0
 damage: 1
-reload: 1
+reload: 2
 status: none
-effectRadius: 4
-sectors: 9
+effectRadius: 3
+sectors: 2
 rotateSpeed: 10
 maxTargets: 2
 color: 5B7BFC
@@ -55,7 +55,7 @@ weapons: [
           bullet:{
         type: BombBulletType
         splashDamageRadius: 15
-        splashDamage: 35
+        splashDamage: 15
         instantDisappear: true
         killShooter: true
         hittable: false
