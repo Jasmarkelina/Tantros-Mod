@@ -14,10 +14,6 @@ useEngineElevation: false
    teamColor: true
    }
   {
-   type: SuppressionFieldAbility
-   layer: 110
-   }
-   {
    type: EnergyFieldAbility
 x: 0
 y: 0
