@@ -8,7 +8,7 @@ lifetime: 40
 hidden: true
 outlineColor: 262c47
 engineSize: 0
-rotateSpeed: 30
+rotateSpeed: 95
 missileAccelTime: 2
 lowAltitude: true
 fogRadius: 6
@@ -24,7 +24,7 @@ abilities: [
 type: MoveEffectAbility
 x: 0
 y: 0
-color: FF7100
+color: 5B7BFC
 }
 {
 type: EnergyFieldAbility
@@ -37,7 +37,7 @@ effectRadius: 4
 sectors: 9
 rotateSpeed: 10
 maxTargets: 2
-color: FF7100
+color: 5B7BFC
 }
 ]
 weapons: [
