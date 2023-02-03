@@ -33,10 +33,10 @@ y: 0
 damage: 15
 reload: 1
 status: none
-effectRadius: 8
-sectors: 3
+effectRadius: 6
+sectors: 5
 rotateSpeed: 3.5
-maxTargets: 125
+maxTargets: 10
 color: 5B7BFC
 }
 {
