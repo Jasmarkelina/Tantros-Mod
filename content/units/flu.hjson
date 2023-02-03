@@ -16,6 +16,19 @@ useEngineElevation: false
   {
    type: SuppressionFieldAbility
    layer: 110
+   }
+   {
+   type: EnergyFieldAbility
+x: 0
+y: 0
+damage: 125
+reload: 175
+status: sapped
+effectRadius: 5
+sectors: 1
+rotateSpeed: 25
+maxTargets: 1
+color: BF92F9
 }
 ]
 engines: [
