@@ -1,6 +1,6 @@
 planet: tantros
 captureWave: 29
-sector: 57
+sector: 62
 difficulty: 6
 research: {
 parent: "outpost"
