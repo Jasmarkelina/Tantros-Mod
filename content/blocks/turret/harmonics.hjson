@@ -13,10 +13,11 @@
             }
         ]
         requirements : [
-        Nickel/150
-        cadmium/400
-        thorium/90
-        oblite/50
+        Nickel/1500
+        cadmium/1000
+        oxygen/1300
+        titanium/500
+        oblite/400
         ]
     }
     health : 1680
@@ -29,11 +30,11 @@
     ammoPerShot: 5
     
     requirements : [
-        Nickel/1500
-        cadmium/1000
-        oxygen/1300
-        titanium/500
-        oblite/400
+        Nickel/150
+        cadmium/400
+        oxygen/90
+        thorium/90
+        oblite/50
     ]
     
     ammoTypes : {
