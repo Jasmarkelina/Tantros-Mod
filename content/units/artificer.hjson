@@ -21,19 +21,19 @@ itemCapacity: 60
 outlineColor: "2d2f39"
 weapons: [
     {
-      x: 0
+      x: 6
   y: 0
-  shootY: 0
+  shootY: 6
   
-  mirror: false
+  mirror: true
   rotate: false
-  shootCone: 10
-  inaccuracy: 10
-  reload: 40
+  shootCone: 15
+  inaccuracy: 15
+  reload: 20
   minWarmup: 0.3
   targetInterval: 1
   targetSwitchInterval: 1
-  cooldownTime: 100
+  cooldownTime: 50
   recoil: 10
   shootSound: missile
   
@@ -54,7 +54,7 @@ weapons: [
    lifetime: 45
    drag: 0.01
    
-   homingDelay: 20
+   homingDelay: 5
    homingRange: 120
    
    trailWidth: 1
