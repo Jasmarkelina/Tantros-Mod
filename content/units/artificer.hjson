@@ -1,3 +1,5 @@
+name: Centurion
+description: Protects the Verge core, Builds structures. Quickly shoots energy orbs.
 type: flying
 health: 350
 controller: BuilderAI
@@ -9,53 +11,70 @@ flying: true
 buildSpeed: 0.86
 accel: 0.04
 drag: 0.12
-mineSpeed: 5.10
-mineTier: 4
+mineSpeed: 6.25
+mineTier: 3
 speed: 6.1
 rotateSpeed: 2.5
 armor: 10
-size: 6
+size: 7
 itemCapacity: 60
 outlineColor: "2d2f39"
 weapons: [
-  {
-    name: none
-    x: 0
-    y: 0
-    mirror: false
-    shootEffect: sparkShoot
-    smokeEffect: shootSmallSmoke
-    reload: 48
-    inaccuracy: 100
-    bullet: {
-      type: MissileBulletType
-      damage: 31
-      homingRange: 10
-      splashDamage: 13
-      trailWidth: 4
-      trailLength: 16
-      splashDamageRadius: 20
-      sideAngle: 45
-      sideWidth: 4
-      sideLength: 4
-      hitEffect: blastExplosion
-      despawnEffect: blastExplosion
-      lifeTime: 300
-      shootSound: missile
-          }
-       }
-     ]
+    {
+      x: 0
+  y: 0
+  shootY: 0
+  
+  mirror: false
+  rotate: false
+  shootCone: 10
+  inaccuracy: 10
+  reload: 40
+  minWarmup: 0.3
+  targetInterval: 1
+  targetSwitchInterval: 1
+  cooldownTime: 100
+  recoil: 10
+  shootSound: missile
+  
+  bullet: {
+   type: MissileBulletType
+   sprite: large-orb
+   backColor: 33506B
+   frontColor: ffffff
+   width: 8
+   height: 8
+   
+   damage: 8
+   splashDamage: 3
+   splashDamage: 5
+   collidesTeam: false
+   
+   speed: 5
+   lifetime: 45
+   drag: 0.01
+   
+   homingDelay: 20
+   homingRange: 120
+   
+   trailWidth: 1
+   trailLength: 10
+   trailColor: 33506B
+   trailEffect: hitBulletColor
+}
+    }
+]
 engines: [
   {
     x: -4.8
-    y: 4.1
-    rotation: 180
+    y: -6
+    rotation: 90
     radius: 2
   }
   {
     x: 4.8
-    y: 4.1
-    rotation: 180
+    y: -6
+    rotation: -90
     radius: 2
    }
  ]
