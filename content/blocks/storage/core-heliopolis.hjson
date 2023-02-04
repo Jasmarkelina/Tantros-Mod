@@ -1,6 +1,6 @@
-name: "Core: Heliopolis"
+name: "Core: Monument"
 planet: tantros
-description: "A Super heavy Core, that can sustain a large amount of damage, It's large Control core allows it to command a huge army."
+description: "A Very durable core, once destroyed, the sector is lost."
 type: CoreBlock
 health: 30080
 size: 5
