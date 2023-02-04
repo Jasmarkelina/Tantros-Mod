@@ -16,3 +16,26 @@ armor: 5
 size: 4
 itemCapacity: 75
 research: repair-station
+weapons: [
+ {
+  type: RepairBeamWeapon
+  x: 0
+  y: 0
+  shootY: 0
+  mirror: false
+  targetBuildings: true
+  targetUnits: false
+  reload: 30
+  shootCone: 5
+  repairSpeed: 3
+  beamWidth: 0.1
+  pulseRadius: 3
+  pulseStroke: 1
+  healEffect: healBlock
+  
+  bullet: {
+   type: BulletType
+   maxRange: 60
+    }
+  }
+]
