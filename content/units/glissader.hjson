@@ -18,4 +18,47 @@ itemCapacity: 250
 research: repair-station
 weapons: [
  {
+  x: 0
+  y: 0
+  shootY: 0
   
+  mirror: false
+  rotate: false
+  shootCone: 10
+  inaccuracy: 5
+  reload: 90
+  minWarmup: 0.3
+  targetInterval: 1
+  targetSwitchInterval: 1
+  cooldownTime: 106
+  recoil: 0
+  shootSound: missile
+  
+  bullet: {
+   type: MissileBulletType
+   sprite: large-orb
+   backColor: 84f491
+   frontColor: ffffff
+   width: 8
+   height: 8
+   
+   damage: 31
+   splashDamage: 25
+   splashDamage: 27
+   collidesTeam: true
+   healPercent: 10
+   
+   speed: 4
+   lifetime: 60
+   drag: 0.01
+   
+   homingDelay: 20
+   homingRange: 60
+   
+   trailWidth: 6
+   trailLength: 16
+   trailColor: 84f491
+   trailEffect: hitBulletColor
+    }
+   }
+  ]
