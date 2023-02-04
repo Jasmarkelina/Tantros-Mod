@@ -8,7 +8,7 @@ mineFloor: true
 flying: true
 accel: 0.09
 drag: 0.08
-mineSpeed: 5
+mineSpeed: 12
 mineTier: 6
 speed: 4
 rotateSpeed: 2.9
@@ -16,3 +16,6 @@ armor: 8
 size: 10
 itemCapacity: 250
 research: repair-station
+weapons: [
+ {
+  
