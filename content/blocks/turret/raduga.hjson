@@ -1,65 +1,72 @@
-rotateSpeed : 3.8
-shootSound : laser
-category : turret
-targetGround : false
-targetAir : true
-health: 2000
-reload : 85
-range : 180
-shake : 1.2
-name : Raduga
-description : Shoots energy volleys at enemy aircraft, can destroy incoming projectiles.
-type : PowerTurret
-size : 3
-consumes : {
-power : 7.85
+{
+    rotateSpeed : 3.8
+    shootSound : laser
+    category : turret
+    scaledHealth: 180
+    reload : 85
+    range : 180
+    shake : 1.2
+    name : Raduga
+    description : Shoots energy projectiles at enemy aircraft.
+    type : PowerTurret
+    size : 2
+
+    requirements : [
+        Nickel/160
+        oxygen/130
+        argus/80
+        thorium/25
+    ]
+    
+    shootType : {
+        
+        mirror: false
+  rotate: false
+  shootCone: 10
+  inaccuracy: 10
+  reload: 40
+  minWarmup: 0.3
+  targetInterval: 1
+  targetSwitchInterval: 1
+  cooldownTime: 100
+  recoil: 3
+  shootSound: missile
+  bullet: {
+   type: MissileBulletType
+   sprite: large-orb
+   backColor: 5AB9A8
+   frontColor: ffffff
+   width: 8
+   height: 8
+   damage: 75
+   splashDamage: 27
+   splashDamage: 24
+   collidesTeam: false
+   speed: 6
+   lifetime: 75
+   drag: 0.01
+   homingDelay: 5
+   homingRange: 60
+   trailWidth: 3
+   trailLength: 16
+   trailColor: 5AB9A8
+   trailEffect: hitBulletColor
+            }]
+        }
+    }
+    
+    consumes : {
+        
+        power : 2.8
+        
+        coolant : {
+            amount : 0.2
+        }
+    }
+    
+    research : pressure
+        drawer: {
+    type: DrawTurret
+    basePrefix: "tantros-"
+    }
 }
-shootType: {
-sprite: large-orb
-width: 30
-height: 30
-damage: 65
-speed: 7
-lifetime: 36.42
-pierce: true
-pierceBuilding: true
-absorbable: false
-hittable: false
-reflectable: false
-status: none
-statusDuration: 85
-lightning: 6
-lightningLength: 15
-lightningDamage: 20
-lightningColor: 
-backColor: 
-frontColor: ffffff
-hitEffect: hitLancer
-despawnHit: true
-trailChance: 1
-trailColor: D1EFFF
-trailEffect: {
-type: ParticleEffect
-particles: 10
-line: true
-length: -40
-sizeFrom: 4
-sizeTo: 0
-strokeFrom: 3
-strokeTo: 0
-colorFrom: D1EFFF
-colorTo: 8CA9E8
-}
-}
-drawer: {
-type: DrawTurret
-basePrefix: "tantros-"
-}
-category: turret
-research: blocken
-requirements: [
-    Nickel/150
-    thorium/110
-    cadmium/80
-    argus/90
-]
