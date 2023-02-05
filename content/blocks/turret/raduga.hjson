@@ -1,1 +1,8 @@
-
+type: itemTurret
+name: Raduga
+description: "Shoots Energy orbs at enemy aircraft, can shoot down enemy torpedoes."
+health: 700
+squareSprite: true
+size: 3
+range: 250
+reload: 125
