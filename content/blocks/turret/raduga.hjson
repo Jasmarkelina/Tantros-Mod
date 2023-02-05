@@ -1,17 +1,19 @@
-type: itemTurret
-name: Raduga
-description: "Shoots energy volleys, can destroy enemy projectiles."
-health: 1200
-size: 3
-range: 300
-squareSprite: true
-reload: 35
-consumes: {
-power: 5
+rotateSpeed : 3.8
+shootSound : laser
+category : turret
+targetGround : false
+targetAir : true
+health: 2000
+reload : 85
+range : 180
+shake : 1.2
+name : Raduga
+description : Shoots energy volleys at enemy aircraft, can destroy incoming projectiles.
+type : PowerTurret
+size : 3
+consumes : {
+power : 7.85
 }
-shake: 3
-smokeEffect: none
-shootSound: laser
 shootType: {
 sprite: large-orb
 width: 30
