@@ -9,7 +9,7 @@ reload: 5
 ammoTypes: {
     cadmium: {
         lifetime: 80
-    speed: 4
+    speed: 9
     drag: 0.02
     damage: 30
     width: 8
