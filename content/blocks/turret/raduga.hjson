@@ -8,18 +8,22 @@ shootCone: 12
 shootEffect: lancerLaserShoot
 size: 3
 health: 2000
+targetGround : false
+targetAir : true
 name: Raduga
+description: Shoots energy volleys at enemy aircraft.
 range: 255
 consumes: {
 power: 4.75
 }
 shake: 3
 smokeEffect: none
+reload: 100
 shootSound: laser
 shootType: {
 sprite: large-orb
-width: 40
-height: 40
+width: 25
+height: 25
 damage: 210
 speed: 7
 lifetime: 36.42
