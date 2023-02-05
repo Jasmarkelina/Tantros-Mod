@@ -1,8 +1,70 @@
-type: itemTurret
-name: Raduga
-description: "Shoots Energy orbs at enemy aircraft, can shoot down enemy torpedoes."
-health: 700
-squareSprite: true
+spread: 11.5
+}
+inaccuracy: 5
+coolantMultiplier: 0.7
+recoil: 4
+recoilTime: 0.5
+shootCone: 12
+shootEffect: lancerLaserShoot
 size: 3
-range: 250
-reload: 125
+health: 2000
+name: Raduga
+range: 255
+consumes: {
+power: 4.75
+}
+shake: 3
+smokeEffect: none
+shootSound: laser
+shootType: {
+sprite: large-orb
+width: 40
+height: 40
+damage: 210
+speed: 7
+lifetime: 36.42
+pierce: true
+pierceBuilding: true
+absorbable: false
+hittable: false
+reflectable: false
+status: sapped
+statusDuration: 85
+lightning: 6
+lightningLength: 15
+lightningDamage: 20
+lightningColor: D1EFFF
+backColor: D1EFFF
+frontColor: ffffff
+hitEffect: hitLancer
+despawnHit: true
+trailChance: 1
+trailColor: D1EFFF
+trailEffect: {
+type: ParticleEffect
+particles: 10
+line: true
+length: -40
+sizeFrom: 4
+sizeTo: 0
+strokeFrom: 3
+strokeTo: 0
+colorFrom: D1EFFF
+colorTo: 8CA9E8
+}
+}
+category: turret
+   }
+}
+drawer: {
+type: DrawTurret
+basePrefix: "tantros-"
+}
+category: turret
+research: blocken
+requirements: [
+    Nickel/150
+    thorium/110
+    cadmium/80
+    argus/90
+]
