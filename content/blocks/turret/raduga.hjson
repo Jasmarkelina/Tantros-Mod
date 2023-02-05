@@ -1,9 +1,4 @@
-name: Raduga
-description: Shoots energy orbs at enemy aircraft.
-reload: 35
-shoot: {
-type: ShootAlternate
-spread: 11.5
+
 }
 inaccuracy: 5
 coolantMultiplier: 0.7
