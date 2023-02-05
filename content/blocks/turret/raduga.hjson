@@ -1,3 +1,8 @@
+name: Raduga
+description: Shoots energy orbs at enemy aircraft.
+reload: 35
+shoot: {
+type: ShootAlternate
 spread: 11.5
 }
 inaccuracy: 5
@@ -8,23 +13,18 @@ shootCone: 12
 shootEffect: lancerLaserShoot
 size: 3
 health: 2000
-targetGround : false
-targetAir : true
-name: Raduga
-description: Shoots energy volleys at enemy aircraft.
 range: 255
 consumes: {
-power: 4.75
+power: 5.78
 }
 shake: 3
 smokeEffect: none
-reload: 100
 shootSound: laser
 shootType: {
 sprite: large-orb
-width: 25
-height: 25
-damage: 210
+width: 30
+height: 30
+damage: 65
 speed: 7
 lifetime: 36.42
 pierce: true
@@ -32,13 +32,13 @@ pierceBuilding: true
 absorbable: false
 hittable: false
 reflectable: false
-status: sapped
+status: none
 statusDuration: 85
 lightning: 6
 lightningLength: 15
 lightningDamage: 20
-lightningColor: D1EFFF
-backColor: D1EFFF
+lightningColor: 
+backColor: 
 frontColor: ffffff
 hitEffect: hitLancer
 despawnHit: true
@@ -56,9 +56,6 @@ strokeTo: 0
 colorFrom: D1EFFF
 colorTo: 8CA9E8
 }
-}
-category: turret
-   }
 }
 drawer: {
 type: DrawTurret
