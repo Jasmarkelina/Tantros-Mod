@@ -1,16 +1,13 @@
-
-}
-inaccuracy: 5
-coolantMultiplier: 0.7
-recoil: 4
-recoilTime: 0.5
-shootCone: 12
-shootEffect: lancerLaserShoot
+type: itemTurret
+name: Raduga
+description: "Shoots energy volleys, can destroy enemy projectiles."
+health: 1200
 size: 3
-health: 2000
-range: 255
+range: 300
+squareSprite: true
+reload: 35
 consumes: {
-power: 5.78
+power: 5
 }
 shake: 3
 smokeEffect: none
