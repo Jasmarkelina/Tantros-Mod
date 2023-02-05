@@ -8,6 +8,7 @@
     hasPower : true
     hasItems : true
     category : crafting
+    squareSprite : false
     health : 890
     name : Zinc extractor
     type : GenericCrafter
