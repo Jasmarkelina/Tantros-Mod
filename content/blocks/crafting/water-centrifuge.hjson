@@ -4,6 +4,7 @@ category: production
 type: AttributeCrafter
 research: core-ruin
 alwaysUnlocked: false
+squareSprite: false
 health: 350
 size: 3
 requirements: [
