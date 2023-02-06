@@ -7,8 +7,7 @@
     category : turret
     research : pressure
     health : 1200
-    reload : 130
-    range : 200
+    reload : 105
     type : ItemTurret
     squareSprite: false
     outlineColor: 262c47
