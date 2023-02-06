@@ -5,7 +5,7 @@
     targetAir : true
     category : turret
     research : {
-        parent: pantagruel
+        parent: raduga
         objectives: [
             {
             type: OnSector
