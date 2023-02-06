@@ -44,7 +44,7 @@ color: 8CA9E8
     {
         shootCone: 360
           mirror: false
-          reload: 180
+          reload: 210
           shootOnDeath: true
           shootEffect: none
           x: 0
