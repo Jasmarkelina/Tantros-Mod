@@ -3,7 +3,7 @@
     targetGround : true
     inaccuracy : 5
     targetAir : true
-    category : turret
+    category : false
     research : {
         parent: raduga
         objectives: [
