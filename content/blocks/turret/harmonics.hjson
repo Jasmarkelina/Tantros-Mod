@@ -2,8 +2,8 @@
     
     targetGround : true
     inaccuracy : 5
-    targetAir : true
-    category : false
+    targetAir : false
+    category : defense
     research : {
         parent: raduga
         objectives: [
