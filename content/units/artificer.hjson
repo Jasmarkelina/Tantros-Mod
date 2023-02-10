@@ -14,7 +14,7 @@ drag: 0.12
 mineSpeed: 6.25
 mineTier: 3
 speed: 6.1
-rotateSpeed: 2.5
+rotateSpeed: 3.1
 armor: 10
 size: 8
 itemCapacity: 60
