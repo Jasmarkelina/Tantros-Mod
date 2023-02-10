@@ -1,0 +1,12 @@
+planet: tantros
+sector: 18
+difficulty: 5
+research: {
+parent: "alect"
+objectives: [
+    {
+      type: SectorComplete
+      preset: "alect"
+    }
+  ]
+}
