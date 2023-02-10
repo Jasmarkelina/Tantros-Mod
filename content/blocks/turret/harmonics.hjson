@@ -3,13 +3,13 @@
     targetGround : true
     inaccuracy : 5
     targetAir : false
-    category : defense
+    category : turret
     research : {
         parent: raduga
         objectives: [
             {
             type: OnSector
-            preset: ice-cave
+            preset: ombaasin 
             }
         ]
         requirements : [
