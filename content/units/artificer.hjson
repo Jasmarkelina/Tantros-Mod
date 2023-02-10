@@ -1,4 +1,4 @@
-name: Centurion
+name: Armadillo
 description: Protects the Verge core, Builds structures. Quickly shoots energy orbs.
 type: flying
 health: 350
@@ -16,7 +16,7 @@ mineTier: 3
 speed: 6.1
 rotateSpeed: 2.5
 armor: 10
-size: 7
+size: 8
 itemCapacity: 60
 outlineColor: "2d2f39"
 weapons: [
@@ -54,7 +54,7 @@ weapons: [
    lifetime: 45
    drag: 0.01
    
-   homingDelay: 5
+   homingDelay: 9
    homingRange: 120
    
    trailWidth: 1
@@ -67,14 +67,14 @@ weapons: [
 engines: [
   {
     x: -4.8
-    y: -6
-    rotation: 90
+    y: -1
+    rotation: -90
     radius: 2
   }
   {
     x: 4.8
-    y: -6
-    rotation: -90
+    y: -1
+    rotation: 90
     radius: 2
    }
  ]
