@@ -24,14 +24,17 @@ abilities: [
    type: EnergyFieldAbility
 x: 0
 y: 0
-damage: 15
+damage: 50
 reload: 75
 status: none
 effectRadius: 1
 sectors: 1
 rotateSpeed: 10
-maxTargets: 2
+maxTargets: 5
 color: E8BDD6
+   }
+   {
+    type: ShieldRegenFieldAbility
    }
  ]
  research: cruiser-factory
