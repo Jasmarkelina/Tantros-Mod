@@ -1,8 +1,9 @@
 name: Anchor
-description: Fires Strong energy orbs at ground targets over vast distances. Slow. AI Only.
+description: Fires Strong energy orbs at ground targets over vast distances. Slow. AI Only. Usually Seen along with escorts 
 type: flying
 flying: true
-health: 2635
+health: 1300
+armor: 11
 hitSize: 16
 speed: 1.25
 accel: 0.16
