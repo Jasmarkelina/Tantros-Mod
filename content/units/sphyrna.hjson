@@ -24,13 +24,13 @@ abilities: [
    type: EnergyFieldAbility
 x: 0
 y: 0
-damage: 50
-reload: 75
+damage: 10
+reload: 25
 status: none
 effectRadius: 1
 sectors: 1
 rotateSpeed: 10
-maxTargets: 5
+maxTargets: 3
 color: E8BDD6
    }
    {
