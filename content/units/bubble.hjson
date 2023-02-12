@@ -14,19 +14,11 @@ armor: 10
 hitSize: 16
 itemCapacity: 3000
 outlineColor: "2d2f39"
-engines: [
-  {
-    x: 0
-    y: 0
-    rotation: 0
-    radius: 3
-   }
- ]
 abilities: [
   {
    type: ForceFieldAbility
    health: 10000
-   size: 57
+   size: 150
    }
    {
    type: EnergyFieldAbility
