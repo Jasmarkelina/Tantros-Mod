@@ -1,6 +1,6 @@
 type: flying
 name: Bubble
-description: The peak support unit, Has A Force field, a shield, a regen beam and
+description: The peak support unit, Has A Force field, a shield, a regen beam and a strong Hull.
 health: 3000
 controller: DefenderAI
 isEnemy: false
@@ -11,7 +11,7 @@ drag: 0.08
 speed: 1.2
 rotateSpeed: 1.2
 armor: 10
-size: 16
+hitSize: 16
 itemCapacity: 3000
 outlineColor: "2d2f39"
 engines: [
