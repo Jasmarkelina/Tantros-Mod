@@ -35,6 +35,12 @@ color: E8BDD6
    }
    {
     type: ShieldRegenFieldAbility
+    }
+    {
+   type: MoveEffectAbility
+    x: 0
+    y: 0
+    color: E8BDD6
    }
  ]
  research: cruiser-factory
