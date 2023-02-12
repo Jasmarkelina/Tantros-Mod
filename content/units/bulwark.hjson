@@ -33,13 +33,14 @@ abilities: [
     y: -2
     color: 8DEEBB
       }
-      {
+    }
+]
 weapons: [
     {
         x: 0
         y: 3
         mirror: false
-        reload: 475
+        reload: 157
         xRand: 2
         bullet: {
             type: BasicBulletType
