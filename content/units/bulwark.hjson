@@ -1,25 +1,38 @@
 name: Bulwark
-description: Fires moderate power energy orbs at all targets, Has a shield. AI Only. 
+description: Fires moderate power energy orbs. Has a shield. AI Only.
 type: flying
 flying: true
 health: 2000
-armor: 5
-hitSize: 17
-speed: 1.75
+hitSize: 18
+speed: 1.9
 accel: 0.16
 drag: 0.07
-rotateSpeed: 3.1
+rotateSpeed: 3
 circleTarget: false
-targetGround: true
-targetAir: false
-engineSize: 2
+engineSize: 5
 outlineColor: 262c47
 lightRadius: 25
 lightColor: e65555
-itemCapacity: 1350
+itemCapacity: 425
+weapons: [
+    {
+        x: 0
+        y: 3
+        mirror: false
+        reload: 100
+        xRand: 2
+        bullet: {
+            type: BasicBulletType
+            lifetime: 0
+            speed: 0
+            damage: 0
+            spawnUnit: raduga-torpedo
+        }
+    }
+]
 abilities: [
   {
-    type: ShieldRegenFieldAbility
+   type: ShieldRegenFieldAbility
     }
     {
    type: MoveEffectAbility
@@ -32,23 +45,6 @@ abilities: [
     x: 0
     y: -2
     color: 8DEEBB
-      }
-    }
-]
-weapons: [
-    {
-        x: 0
-        y: 3
-        mirror: false
-        reload: 157
-        xRand: 2
-        bullet: {
-            type: BasicBulletType
-            lifetime: 0
-            speed: 0
-            damage: 0
-            spawnUnit: raduga-torpedo
-        }
-    }
-]
-research: serenity
+   }
+ ]
+ research: cruiser-factory
