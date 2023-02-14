@@ -8,7 +8,7 @@ plans:[
  unit: sphyrna
  time: 2500
  requirements:[
- nickel/35
+ Nickel/35
  silicon/35
 ]
  }
@@ -17,14 +17,14 @@ plans:[
  time: 4200
  requirements:[
  silicon/45
- nickel/175
+ Nickel/175
 ]
  }
   {
 unit: bubble
  time: 3000
  requirements:[
- nickel/35
+ Nickel/35
  silicon/35
 ]
  }
@@ -33,7 +33,7 @@ unit: bubble
  time: 4200
  requirements:[
  silicon/150
- nickel/300
+ Nickel/300
 ]
  }
 ]
@@ -43,7 +43,7 @@ power: 3.1
 category: units
 research: cruiser-factory
 requirements: [
-  nickel/300
+  Nickel/300
   metaglass/160
   silicon/180
   zincum/120
