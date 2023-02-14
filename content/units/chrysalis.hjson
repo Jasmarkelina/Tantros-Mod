@@ -1,5 +1,5 @@
 name: Chrysalis
-description: Shoots standart torpedos, Upon death, 6 Vertexes take it's place.
+description: Shoots moderate power energy orbs, Upon death, 6 Vertexes take it's place.
 type: flying
 flying: true
 health: 1200
