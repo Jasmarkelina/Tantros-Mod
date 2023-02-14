@@ -34,6 +34,9 @@ unit: bubble
  requirements:[
  silicon/150
  nickel/300
+]
+ }
+  {
 consumes: {
 power: 3.1
 }
