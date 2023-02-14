@@ -20,7 +20,7 @@ plans:[
  nickel/175
 ]
  }
-]
+  {
 unit: bubble
  time: 3000
  requirements:[
@@ -36,7 +36,7 @@ unit: bubble
  nickel/300
 ]
  }
-  {
+]
 consumes: {
 power: 3.1
 }
