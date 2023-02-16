@@ -1,8 +1,9 @@
 name: Chrysalis
-description: Shoots moderate power bombs that spawn units upon impact, Upon death, 6 Vertexes take it's place.
+description: Shoots moderate power bombs that can disable menders, Upon death, 6 Vertexes take it's place.
 type: flying
 flying: true
 health: 1200
+armor: 3
 hitSize: 17
 speed: 1.57
 accel: 0.16
