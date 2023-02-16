@@ -29,6 +29,11 @@ color: BF92F9
 {
 type: SuppressionFieldAbility
 }
+{
+type: SpawnDeathAbility
+   unit: mite
+   amount: 1
+}
 ]
    weapons: [
     {
