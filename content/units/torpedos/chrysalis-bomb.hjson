@@ -4,7 +4,7 @@ flying: true
 speed: 3.5
 hitSize: 2
 maxRange: 26
-lifetime: 95
+lifetime: 102
 hidden: true
 outlineColor: 262c47
 engineSize: 0
@@ -28,11 +28,6 @@ color: BF92F9
 }
 {
 type: SuppressionFieldAbility
-}
-{
-type: SpawnDeathAbility
-   unit: mite
-   amount: 1
 }
 ]
    weapons: [
