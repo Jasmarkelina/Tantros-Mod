@@ -40,7 +40,7 @@ weapons: [
           bullet:{
         type: BombBulletType
         splashDamageRadius: 100
-        splashDamage: 2075
+        splashDamage: 1750
         instantDisappear: true
         killShooter: true
         hittable: false
