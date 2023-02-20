@@ -1,0 +1,50 @@
+type: missile
+controller: MissileAI
+flying: true
+speed: 1
+hitSize: 16
+maxRange: 8000
+lifetime: 6500
+hidden: true
+outlineColor: 262c47
+engineSize: 1
+rotateSpeed: 0.22
+missileAccelTime: 1
+lowAltitude: true
+fogRadius: 6
+health: 140
+allowedInPayloads: false
+useUnitCap: false
+playerControllable: false
+physics: false
+createWreck: true
+createScorch: false
+abilities: [
+  {
+   type: MoveEffectAbility
+   teamColor: true
+  }
+]
+weapons: [
+    {
+        shootCone: 360
+          mirror: false
+          reload: 450
+          shootOnDeath: true
+          shootEffect: none
+          x: 0
+          y: 0
+          despawnHit: true
+          despawnEffect: impactReactorExplosion
+          
+          bullet:{
+        type: BombBulletType
+        splashDamageRadius: 100
+        splashDamage: 3100
+        instantDisappear: true
+        killShooter: true
+        hittable: false
+        collidesAir: true
+        }
+    }
+]
