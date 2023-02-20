@@ -15,8 +15,8 @@ weapons: [
   
   mirror: true
   rotate: false
-  shootCone: 15
-  inaccuracy: 15
+  shootCone: 30
+  inaccuracy: 50
   reload: 20
   minWarmup: 0.3
   targetInterval: 1
@@ -33,9 +33,9 @@ weapons: [
    width: 8
    height: 8
    
-   damage: 8
-   splashDamage: 3
-   splashDamage: 5
+   damage: 15
+   splashDamage: 9
+   splashDamage: 11
    collidesTeam: false
    
    speed: 5
