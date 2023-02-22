@@ -55,7 +55,7 @@ y: -11
 damage: 25
 reload: 50
 status: none
-effectRadius: 392
+effectRadius: 3
 sectors: 1
 rotateSpeed: 11
 maxTargets: 3
