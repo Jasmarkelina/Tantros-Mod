@@ -30,4 +30,36 @@ weapons: [
         }
     }
 ]
-research: vertex-factory
+abilities: [
+  {
+   type: SpawnDeathAbility
+   unit: vertex
+   amount: 1
+    }
+    {
+   type: MoveEffectAbility
+    x: 0
+    y: 0
+    color: E8BDD6
+     }
+     {
+   type: MoveEffectAbility
+    x: 0
+    y: -2
+    color: E8BDD6
+     }
+     {
+   type: EnergyFieldAbility
+x: 0
+y: -11
+damage: 25
+reload: 50
+status: none
+effectRadius: 392
+sectors: 1
+rotateSpeed: 11
+maxTargets: 3
+color: E8BDD6
+   }
+ ]
+ research: cruiser-factory
