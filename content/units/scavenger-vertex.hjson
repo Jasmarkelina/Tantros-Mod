@@ -1,9 +1,9 @@
-name: Scavenger Vertex
+name: (S)Vertex
 type: flying
 flying: true
 health: 965
-hitSize: 15
-speed: 2.26
+hitSize: 10.75
+speed: 1.68
 accel: 0.16
 drag: 0.07
 rotateSpeed: 2.6
@@ -18,14 +18,14 @@ weapons: [
         x: 0
         y: 3
         mirror: false
-        reload: 400
+        reload: 40
         xRand: 2
         bullet: {
             type: BasicBulletType
             lifetime: 0
             speed: 0
             damage: 0
-            spawnUnit: quell-missile
+            spawnUnit: vertex-torpedo
         }
     }
 ]
