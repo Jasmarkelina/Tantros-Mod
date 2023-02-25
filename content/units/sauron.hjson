@@ -29,14 +29,14 @@ mirror: false
 shootY: 0
 shootSound: shootsmite
 rotate: true
-rotateSpeed: 5.5
+rotateSpeed: 15.06
 bullet: {
    type: MissileBulletType
    sprite: large-orb
    backColor: B99AE8
    frontColor: ffffff
-   width: 18
-   height: 18
+   width: 8
+   height: 8
    damage: 75
    splashDamage: 15
    splashDamage: 15
