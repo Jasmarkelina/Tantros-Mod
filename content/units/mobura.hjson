@@ -29,6 +29,7 @@ mirror: false
 shootY: 0
 shootSound: lasershoot
 rotate: true
+rotationLimit: 60
 rotateSpeed: 7.5
 bullet: {
    type: MissileBulletType
