@@ -27,7 +27,7 @@ recoil: 2
 reload: 125
 mirror: false
 shootY: 0
-shootSound: lasershoot
+shootSound: shootsmite
 rotate: true
 rotateSpeed: 5.5
 bullet: {
