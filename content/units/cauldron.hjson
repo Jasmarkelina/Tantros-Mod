@@ -21,7 +21,7 @@ weapons: [
 x: 15
 y: 0
 recoil: 5
-reload: 125
+reload: 180
 mirror: true
 shootY: 0
 shootSound: shootSmite
