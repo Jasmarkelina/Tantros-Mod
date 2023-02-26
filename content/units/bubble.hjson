@@ -1,6 +1,7 @@
 type: flying
 name: Bubble
 description: The peak support unit, Has A Force field, a shield, a regen beam and a strong Hull.
+details: Mutat Dalde Razgriz..
 health: 3000
 controller: DefenderAI
 isEnemy: false
