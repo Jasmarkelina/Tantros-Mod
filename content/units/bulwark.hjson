@@ -1,5 +1,6 @@
 name: Bulwark
 description: Fires moderate power energy orbs. Has a shield. AI Only.
+detals: ....Primum Daemon Scelestus Est...
 type: flying
 flying: true
 health: 2000
