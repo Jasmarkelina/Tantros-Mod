@@ -88,6 +88,20 @@ speed: 6
         }
     }
 ]
+x: 0
+        y: 3
+        mirror: false
+        reload: 475
+        xRand: 2
+        bullet: {
+            type: BasicBulletType
+            lifetime: 0
+            speed: 0
+            damage: 0
+            spawnUnit: harmonics-shell
+          }
+      }
+   ]
 abilities: [
   {
    type: UnitSpawnAbility
