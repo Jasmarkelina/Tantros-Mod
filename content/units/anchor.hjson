@@ -1,5 +1,6 @@
 name: Anchor
 description: Fires Strong energy orbs at ground targets over vast distances. Slow. AI Only. Usually Seen along with escorts 
+details: ...Revelat Ipsum...
 type: flying
 flying: true
 health: 1300
