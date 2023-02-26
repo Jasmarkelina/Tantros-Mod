@@ -18,13 +18,73 @@ itemCapacity: 425
 weapons: [
     {
         name: large-repeater
-    reload: 11
-    recoil: 2.5
-    shootSound: shootSmite
-    top: true
-    rotate: true
-    rotateSpeed: 18
-    mirror: true
+x: 15
+y: 0
+recoil: 5
+reload: 125
+mirror: true
+shootY: 0
+shootSound: shootSmite
+rotate: true
+rotationLimit: 75
+rotateSpeed: 5.5
+bullet: {
+type: ArtilleryBulletType
+damage: 125
+splashDamage: 100
+splashDamageRadius: 100
+shrinkY: 0.3
+shootEffect: shootBig
+backColor: FFFFFF
+frontColor: E8BDD6
+width: 18
+smokeEffect: shootBigSmoke
+collidesAir: true
+collidesGround: true
+height: 18
+knockback: 8
+recoil: 4
+hitEffect: {
+type: ExplosionEffect
+lifetime: 80
+waveStroke: 4
+waveRadBase: 3
+waveLife: 20
+waveRad: 100
+waveColor: E8BDD6
+smokeColor: E8BDD6
+sparkColor: E8BDD6
+sparks: 30
+smokes: 45
+sparkRad: 100
+smokeSize: 4
+smokeSizeBase: 4
+smokeRad: 100
+sparkStroke: 4
+sparkLen: 4
+}
+despawnEffect: {
+type: ExplosionEffect
+lifetime: 80
+waveStroke: 4
+waveRadBase: 3
+waveLife: 20
+waveRad: 100
+waveColor: E8BDD6
+smokeColor: E8BDD6
+sparkColor: E8BDD6
+sparks: 30
+smokes: 45
+sparkRad: 100
+smokeSize: 4
+smokeSizeBase: 4
+smokeRad: 100
+sparkStroke: 4
+sparkLen: 4
+}
+trailEffect: none
+lifetime: 60
+speed: 6
         }
     }
 ]
@@ -32,9 +92,9 @@ abilities: [
   {
    type: UnitSpawnAbility
       unit: scavenger-recuperate
-      spawnTime: 550,
+      spawnTime: 350,
       spawnX: 0,
-      spawnY: 0
+      spawnY: -18
     }
    {
    type: ForceFieldAbility
