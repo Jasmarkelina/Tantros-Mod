@@ -124,6 +124,6 @@ speed: 6
 }
 }
 ]
-research:{
+research: {
 parent: anchor
 }
