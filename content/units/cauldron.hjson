@@ -15,9 +15,45 @@ outlineColor: 262c47
 lightRadius: 25
 lightColor: e65555
 itemCapacity: 425
+abilities: [
+  {
+   type: UnitSpawnAbility
+      unit: scavenger-recuperate
+      spawnTime: 350,
+      spawnX: 0,
+      spawnY: -18
+}
+]
+engines: [
+  {
+    x: -21.25
+    y: -10.2
+    rotation: 170
+    radius: 4
+  }
+  {
+    x: 21.25
+    y: -10.2
+    rotation: 170
+    radius: 4
+    }
 weapons: [
-    {
-        name: large-repeater
+    
+        x: 0
+        y: 3
+        mirror: false
+        reload: 475
+        xRand: 2
+        bullet: {
+            type: BasicBulletType
+            lifetime: 0
+            speed: 0
+            damage: 0
+            spawnUnit: harmonics-shell
+}
+}
+]
+name: large-repeater
 x: 15
 y: 0
 recoil: 5
@@ -88,46 +124,4 @@ speed: 6
         }
     }
 ]
-x: 0
-        y: 3
-        mirror: false
-        reload: 475
-        xRand: 2
-        bullet: {
-            type: BasicBulletType
-            lifetime: 0
-            speed: 0
-            damage: 0
-            spawnUnit: harmonics-shell
-          }
-      }
-   ]
-abilities: [
-  {
-   type: UnitSpawnAbility
-      unit: scavenger-recuperate
-      spawnTime: 350,
-      spawnX: 0,
-      spawnY: -18
-    }
-   {
-   type: ForceFieldAbility
-   health: 1000
-   size: 30
-  }
-]
-engines: [
-  {
-    x: -21.25
-    y: -10.2
-    rotation: 170
-    radius: 4
-  }
-  {
-    x: 21.25
-    y: -10.2
-    rotation: 170
-    radius: 4
-   }
- ]
- research: cruiser-factory
+research: cruiser-factory
