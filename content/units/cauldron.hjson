@@ -39,7 +39,7 @@ engines: [
     }
     ]
 weapons: [
-}
+    {
         x: 0
         y: 3
 mirror: false
