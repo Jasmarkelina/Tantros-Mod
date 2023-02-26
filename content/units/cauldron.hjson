@@ -38,7 +38,8 @@ engines: [
     radius: 4
     }
     ]
-weapons: {
+weapons: [
+}
         x: 0
         y: 3
 mirror: false
