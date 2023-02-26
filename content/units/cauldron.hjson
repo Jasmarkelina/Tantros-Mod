@@ -120,7 +120,9 @@ sparkLen: 4
 trailEffect: none
 lifetime: 60
 speed: 6
-        }
-    }
+}
+}
 ]
-research: cruiser-factory
+research:{
+parent: anchor
+}
