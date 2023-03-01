@@ -1,11 +1,13 @@
 type: mech
+name: Ornicus
+description: Fires innacurate energy orbs at enemy targets, however, it has homing. Spawns Self-Destructing units.
 health: 1445
 flying: false
 controller: GroundAI
-speed: 0.70
+speed: 0.65
 rotateSpeed: 1.1
 armor: 8
-hitSize: 9
+hitSize: 12
 itemCapacity: 90
 weapons: [
     {
@@ -16,7 +18,7 @@ weapons: [
   mirror: true
   rotate: false
   shootCone: 30
-  inaccuracy: 50
+  inaccuracy: 25
   reload: 20
   minWarmup: 0.3
   targetInterval: 1
