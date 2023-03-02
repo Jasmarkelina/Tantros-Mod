@@ -5,7 +5,7 @@ flying: true
 health: 8000
 armor: 25
 hitSize: 38.95
-speed: 0.527
+speed: 0.485
 accel: 0.16
 drag: 0.07
 rotateSpeed: 3
@@ -64,6 +64,43 @@ shootY: 0
 shootSound: shootSmite
 rotate: true
 rotateSpeed: 3.8
+bullet: {
+   type: MissileBulletType
+   sprite: large-orb
+   backColor: 5AB9A8
+   frontColor: ffffff
+   width: 8
+   height: 8
+   
+   damage: 31
+   splashDamage: 27
+   splashDamage: 24
+   collidesTeam: false
+   
+   speed: 7
+   lifetime: 75
+   drag: 0.01
+   
+   homingDelay: 10
+   homingRange: 60
+   
+   trailWidth: 3
+   trailLength: 16
+   trailColor: 5AB9A8
+   trailEffect: hitBulletColor
+}
+}
+{
+name: repeater
+x: 15
+y: -9
+recoil: 0
+reload: 180
+mirror: true
+shootY: 0
+shootSound: shootSmite
+rotate: true
+rotateSpeed: 2.1
 bullet: {
    type: MissileBulletType
    sprite: large-orb
