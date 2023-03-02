@@ -21,7 +21,7 @@ baseEfficiency: 1
 ambientSound: hum
 craftTime: 200
 craftEffect: turbinegenerate
-outputItem: infected-pur 
+outputItem: infected-pur/2
 drawer: {
  type: DrawMulti
  drawers: [
