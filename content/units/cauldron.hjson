@@ -4,7 +4,7 @@ type: flying
 flying: true
 health: 8000
 armor: 25
-hitSize: 28.5
+hitSize: 38.95
 speed: 0.527
 accel: 0.16
 drag: 0.07
@@ -57,13 +57,12 @@ spawnUnit: harmonics-shell
 name: large-repeater
 x: 15
 y: 0
-recoil: 5
+recoil: 0
 reload: 180
 mirror: true
 shootY: 0
 shootSound: shootSmite
 rotate: true
-rotationLimit: 75
 rotateSpeed: 5.5
 bullet: {
 type: ArtilleryBulletType
