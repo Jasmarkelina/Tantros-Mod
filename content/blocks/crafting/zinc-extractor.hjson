@@ -81,5 +81,5 @@ drawer : {
         type : DrawRegion
     }]
 }
-research: core-ruin
+research: metaglass-crucible
 }
