@@ -1,0 +1,9 @@
+name: Infected Pur
+description: Semi-Dead biological life, radioactive.
+color: A0B380
+explosiveness: 0.5
+flammability: 1.3
+radioactivity: 1.8
+charge: 0.1
+hardness: 3
+research: oxygen
