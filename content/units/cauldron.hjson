@@ -54,7 +54,7 @@ spawnUnit: harmonics-shell
 }
 }
 {
-name: large-repeater
+name: repeater
 x: 15
 y: 0
 recoil: 0
@@ -63,64 +63,31 @@ mirror: true
 shootY: 0
 shootSound: shootSmite
 rotate: true
-rotateSpeed: 5.5
+rotateSpeed: 3.8
 bullet: {
-type: ArtilleryBulletType
-damage: 125
-splashDamage: 100
-splashDamageRadius: 100
-shrinkY: 0.3
-shootEffect: shootBig
-backColor: FFFFFF
-frontColor: E8BDD6
-width: 18
-smokeEffect: shootBigSmoke
-collidesAir: true
-collidesGround: true
-height: 18
-knockback: 8
-recoil: 4
-hitEffect: {
-type: ExplosionEffect
-lifetime: 80
-waveStroke: 4
-waveRadBase: 3
-waveLife: 20
-waveRad: 100
-waveColor: E8BDD6
-smokeColor: E8BDD6
-sparkColor: E8BDD6
-sparks: 30
-smokes: 45
-sparkRad: 100
-smokeSize: 4
-smokeSizeBase: 4
-smokeRad: 100
-sparkStroke: 4
-sparkLen: 4
-}
-despawnEffect: {
-type: ExplosionEffect
-lifetime: 80
-waveStroke: 4
-waveRadBase: 3
-waveLife: 20
-waveRad: 100
-waveColor: E8BDD6
-smokeColor: E8BDD6
-sparkColor: E8BDD6
-sparks: 30
-smokes: 45
-sparkRad: 100
-smokeSize: 4
-smokeSizeBase: 4
-smokeRad: 100
-sparkStroke: 4
-sparkLen: 4
-}
-trailEffect: none
-lifetime: 60
-speed: 6
+   type: MissileBulletType
+   sprite: large-orb
+   backColor: 5AB9A8
+   frontColor: ffffff
+   width: 8
+   height: 8
+   
+   damage: 31
+   splashDamage: 27
+   splashDamage: 24
+   collidesTeam: false
+   
+   speed: 7
+   lifetime: 75
+   drag: 0.01
+   
+   homingDelay: 10
+   homingRange: 60
+   
+   trailWidth: 3
+   trailLength: 16
+   trailColor: 5AB9A8
+   trailEffect: hitBulletColor
 }
 }
 ]
