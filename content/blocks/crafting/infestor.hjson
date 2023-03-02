@@ -1,7 +1,7 @@
 name: Infestor
 description: Infects the Terrain below it, has no operation cost. Inefficient.
 category: production
-type: AttributeCrafter
+type: GenericCrafter 
 research: silicon-manufacturer 
 alwaysUnlocked: false
 health: 150
