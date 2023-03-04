@@ -1,7 +1,7 @@
 type: legs
 name: "Delphinus"
 description: "Fires Strong Artillery shells, spawns Minions."
-hitSize: 18.75
+hitSize: 14.75
 visualElevation: 0.35
 health: 2885
 armor: 8
@@ -30,8 +30,8 @@ rotateSpeed: 1.2
 bullet: {
 type: ArtilleryBulletType
 damage: 125
-splashDamage: 100
-splashDamageRadius: 100
+splashDamage: 175
+splashDamageRadius: 245
 shrinkY: 0.3
 shootEffect: shootBig
 backColor: FFFFFF
@@ -42,7 +42,7 @@ collidesAir: true
 collidesGround: true
 height: 18
 knockback: 8
-recoil: 4
+recoil: 0
 hitEffect: {
 type: ExplosionEffect
 lifetime: 80
@@ -86,14 +86,5 @@ lifetime: 60
 speed: 4
        }
     }
-]
-abilities: [
-  {
-   type: UnitSpawnAbility
-      unit: reef
-      spawnTime: 975
-      spawnX: 0,
-      spawnY: 2
-}
 ]
 research: ground-assembler
