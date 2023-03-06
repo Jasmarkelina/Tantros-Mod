@@ -1,0 +1,64 @@
+name: Felon 
+type: flying
+flying: true
+health: 715
+hitSize: 13
+speed: 2.75
+accel: 0.16
+drag: 0.07
+rotateSpeed: 3
+circleTarget: false
+engineSize: 0
+outlineColor: 262c47
+lightRadius: 25
+lightColor: e65555
+itemCapacity: 40
+trailLength: 16
+trailWidth: 8
+trailColor: B198C2
+weapons: [
+    {
+      x: 0
+  y: 9
+  shootY: 0
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  inaccuracy: 10
+  reload: 15
+  minWarmup: 0.3
+  targetInterval: 1
+  targetSwitchInterval: 1
+  cooldownTime: 100
+  recoil: 0
+  shootSound: missile
+  
+  bullet: {
+   type: MissileBulletType
+   sprite: large-orb
+   backColor: 5AB9A8
+   frontColor: ffffff
+   width: 5
+   height: 5
+   
+   damage: 25
+   splashDamage: 30
+   splashDamage: 5
+   collidesTeam: false
+   
+   speed: 6
+   lifetime: 75
+   drag: 0.01
+   
+   homingDelay: 0
+   homingRange: 10
+   
+   trailWidth: 3
+   trailLength: 16
+   trailColor: 5AB9A8
+   trailEffect: hitBulletColor
+}
+    }
+]
+research: air-refabricator
