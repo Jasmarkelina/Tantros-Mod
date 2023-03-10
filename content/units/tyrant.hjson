@@ -1,0 +1,18 @@
+name: Tyrant 
+type: flying
+flying: true
+health: 5350
+hitSize: 22.25
+speed: 0.7626
+accel: 0.16
+drag: 0.07
+rotateSpeed: 3
+circleTarget: false
+engineSize: 5
+outlineColor: 262c47
+lightRadius: 25
+lightColor: e65555
+itemCapacity: 425
+   }
+ ]
+ research: cruiser-factory
