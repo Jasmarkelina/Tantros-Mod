@@ -1,17 +1,17 @@
 type: Reconstructor
-name: "Hovership Restructurer"
+name: "Air Reestructurer"
 size: 3
 health: 480
-description: "Upgrades Hovercrafts into the second tier."
-constructTime: 2625
+description: "Upgrades Vertexes into tier 2."
+constructTime: 2775
 upgrades: [
-  [cough, fever]
+  [vertex, serenity]
 ]
 consumes: {
 power: 2.941
 liquid:{
     liquid: deuterium
-    amount: 1.80
+    amount: 2.46
 }
 items:{
   items: [
@@ -24,7 +24,7 @@ items:{
 }
 category: units
 research: {
-parent: cough
+parent: vertex
 objectives: [
   {
     type: OnSector
