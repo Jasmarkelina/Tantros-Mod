@@ -1,0 +1,26 @@
+name: Quantum Patcher
+description: Repairs buildings by rearranging its structure using the available physical material around.
+category: effect
+type: RegenProjector
+size: 3
+range: 19
+health: 940
+squareSprite: false
+buildVisibility: shown
+destructible: true
+breakable: true
+requirements: [
+ Nickel/40
+ cadmium/30
+ lead/ 30
+]
+ hasPower: true
+ consumes: {
+  power: 1.5
+ }
+ healPercent: 20
+ reload: 15
+draw: {
+  type: "draw-block"
+  outlineColor: "FFA500"
+}

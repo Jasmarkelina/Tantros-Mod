@@ -15,6 +15,7 @@ requirements: [
 hasItems: false
 hasLiquids: true
 hasPower: true
+squareSprite: false
 liquidCapacity: 40
 consumes: {
  power: 0.96
