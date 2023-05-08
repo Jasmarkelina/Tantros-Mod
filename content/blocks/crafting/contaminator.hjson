@@ -1,35 +1,34 @@
-name: Metaglass Crucible
-description: Smelts Metaglass with Deuterium,Lead and Nickel, Requieres power.
+name: Contaminator
+description: Contaminated Inputted Deuterium using Infected Pur to output Tritium.
 category: crafting
 type: GenericCrafter
-research: water-centrifuge
+research: silicon-manufacturer
 alwaysUnlocked: false
 squareSprite: false
-health: 410
-size: 3
+health: 325
+size: 2
 requirements: [
  Nickel/100
- copper/50
- cadmium/40
+ copper/25
+ thorium/10
  ]
 itemCapacity: 30
 consumes: {
- power: 1.01
+ power: 2.75
  items: {
   items: [
-   lead/3
-   Nickel/5
+   infected-pur/4
    ]
   }
  liquid: {
   liquid: deuterium
-  amount: 1.5
+  amount: 0.95
   }
  }
 craftEffect: turbinegenerate
 ambientSound: smelter
-outputItem: metaglass/2
-craftTime: 100
+outputLiquid: tritium/0.72
+craftTime: 250
 drawer: {
  type: DrawMulti
  drawers: [
@@ -38,6 +37,12 @@ drawer: {
    suffix: -top
    }
   {
+   rotateSpeed : 6
+        spinSprite : true
+        suffix : -rotator
+        type : DrawRegion
+    }
+   {
    type: DrawDefault
    }
   ]

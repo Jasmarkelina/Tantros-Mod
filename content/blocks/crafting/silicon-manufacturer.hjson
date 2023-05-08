@@ -3,6 +3,7 @@ description: Uses Zinc,Cadmium and Deuterium to smelt silicon.
 category: crafting
 type: GenericCrafter
 research: water-centrifuge
+squareSprite: false
 alwaysUnlocked: false
 health: 290
 size: 3
