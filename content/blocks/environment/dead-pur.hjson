@@ -1,0 +1,7 @@
+name: "Dead Pur"
+type: Floor
+isLiquid: false
+variants: 3
+solid: false
+placeableOn: true
+itemDrop: sand
