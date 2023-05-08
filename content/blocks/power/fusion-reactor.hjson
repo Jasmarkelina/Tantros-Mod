@@ -1,0 +1,53 @@
+name: Fusion Reactor
+type: consumeGenerator
+health: 700
+category: power
+ambientSound: hum
+size: 3
+ambientSoundVolume: 0.25
+generateEffeect: turbinegenerate
+powerProduction: 2
+consumes: {
+  liquids: [
+    {
+      liquid: deuterium,
+      amount: 1.25
+    },
+    {
+      liquid: tritium,
+      amount: 0.5
+    }
+  ],
+}
+
+powerProduction: 5.5
+drawer: {
+	type: DrawMulti,
+    drawers: [
+     {
+      type: DrawGlowRegion,
+      suffix: "-glow",
+      color: "66B1ffff"
+     },
+     {
+      type: DrawRegion,
+      suffix: "-bottom"
+     },
+     {
+      type: DrawRegion,
+      suffix: "-top" 
+     }
+  ]
+}
+research: {
+parent: bouy-node
+requirements: [
+Nickel/21
+copper/10
+ ]
+   },
+  requirements: [
+  Nickel/200
+  copper/180
+  lead/150
+] 
