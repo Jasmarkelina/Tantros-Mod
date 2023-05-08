@@ -1,10 +1,9 @@
 name: "Drilling Station"
-planet: tantros
 health: 720
 size: 3
 type: BurstDrill
 category: production
-destrucrible: true
+destructible: true
 breakable: true
 research: {
 parent: cliff-bore,
