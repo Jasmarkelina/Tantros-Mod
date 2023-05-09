@@ -1,0 +1,41 @@
+type: flying
+name: Sphyrna
+description: Has a Energy shield and a force field.
+details: Cum historia...
+health: 300
+controller: DefenderAI
+isEnemy: false
+flying: true
+buildSpeed: 1.3
+accel: 0.09
+drag: 0.08
+speed: 2.5
+rotateSpeed: 8.3
+armor: 1
+size: 7
+itemCapacity: 40
+outlineColor: "2d2f39"
+abilities: [
+  {
+   type: ForceFieldAbility
+   health: 460
+   size: 15
+   }
+   {
+   type: EnergyFieldAbility
+x: 0
+y: 0
+damage: 10
+reload: 25
+status: none
+effectRadius: 1
+sectors: 1
+rotateSpeed: 10
+maxTargets: 3
+color: E8BDD6
+   }
+   {
+    type: ShieldRegenFieldAbility
+   }
+ ]
+ research: cruiser-factory

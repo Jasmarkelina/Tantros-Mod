@@ -1,0 +1,47 @@
+type: flying
+name: Bubble
+description: The peak support unit, Has A Force field, a shield, a regen beam and a strong Hull.
+details: Mutat Valde Razgriz..
+health: 3000
+controller: DefenderAI
+isEnemy: false
+flying: true
+buildSpeed: 1.3
+accel: 0.09
+drag: 0.08
+speed: 1.2
+rotateSpeed: 1.2
+armor: 10
+hitSize: 16
+itemCapacity: 3000
+outlineColor: "2d2f39"
+abilities: [
+  {
+   type: ForceFieldAbility
+   health: 10000
+   size: 150
+   }
+   {
+   type: EnergyFieldAbility
+x: 0
+y: 0
+damage: 100
+reload: 75
+status: none
+effectRadius: 2
+sectors: 2
+rotateSpeed: 11
+maxTargets: 15
+color: E8BDD6
+   }
+   {
+    type: ShieldRegenFieldAbility
+    }
+    {
+   type: MoveEffectAbility
+    x: 0
+    y: 0
+    color: E8BDD6
+   }
+ ]
+ research: cruiser-factory

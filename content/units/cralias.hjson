@@ -1,0 +1,59 @@
+type: naval
+name: "Cralias"
+description: "Shoots medium orbs at targets, Slow, Bulky."
+flying: false
+speed: 0.8
+rotateSpeed: 2
+health: 1000
+drag: 0.20
+accel: 0.50
+hitSize: 11
+faceTarget: false
+rotateShooting: false
+itemCapacity: 25
+trailX: 4
+trailY: -8
+trailScl: 2.2
+trailLength: 75
+targetGround: true
+targetAir: true
+armor: 5
+weapons:[
+{
+name: large-repeater
+x: 0
+y: 0
+recoil: 2
+reload: 125
+mirror: false
+shootY: 0
+shootSound: shootsmite
+rotate: true
+rotationLimit: 75
+rotateSpeed: 5.5
+bullet: {
+   type: MissileBulletType
+   sprite: large-orb
+   backColor: 0F9595
+   frontColor: ffffff
+   width: 9
+   height: 9
+   damage: 80
+   splashDamage: 15
+   splashDamage: 15
+   collidesTeam: false
+   speed: 6
+   lifetime: 65
+   drag: 0.02
+   homingDelay: 5
+   homingRange: 45
+   trailWidth: 3
+   trailLength: 20
+   trailColor: 0F9595
+   trailEffect: hitBulletColor
+}
+}
+]
+research: {
+parent: mobura
+}

@@ -1,12 +1,12 @@
 planet: tantros
-sector: 7
-difficulty: 7
+sector: 41
+difficulty: 6
 research: {
-parent: "skopelos"
+parent: "frost-caynon"
 objectives: [
     {
       type: SectorComplete
-      preset: "skopelos"
+      preset: "frost-caynon"
     }
   ]
 }

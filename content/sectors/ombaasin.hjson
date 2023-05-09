@@ -1,12 +1,12 @@
 planet: tantros
-sector: 7
-difficulty: 7
+sector: 18
+difficulty: 5
 research: {
-parent: "skopelos"
+parent: "alect"
 objectives: [
     {
       type: SectorComplete
-      preset: "skopelos"
+      preset: "alect"
     }
   ]
 }

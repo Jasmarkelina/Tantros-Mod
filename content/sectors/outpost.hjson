@@ -1,7 +1,6 @@
 planet: tantros
-captureWave: 40
-sector: 57
-difficulty: 4
+sector: 84
+difficulty: 5
 research: {
 parent: "underwater-swamp"
 objectives: [

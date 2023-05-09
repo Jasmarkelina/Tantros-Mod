@@ -1,9 +1,11 @@
-name: Freighter
+name: Bulwark
+description: Fires moderate power energy orbs. Has a shield. AI Only.
+detals: ....Primum Daemon Scelestus Est...
 type: flying
 flying: true
-health: 5350
-hitSize: 22.25
-speed: 0.7626
+health: 2000
+hitSize: 18
+speed: 1.9
 accel: 0.16
 drag: 0.07
 rotateSpeed: 3
@@ -25,36 +27,25 @@ weapons: [
             lifetime: 0
             speed: 0
             damage: 0
-            spawnUnit: freighter-torpedo
+            spawnUnit: raduga-torpedo
         }
     }
 ]
 abilities: [
   {
-   type: UnitSpawnAbility
-      unit: vertex
-      spawnTime: 550,
-      spawnX: 0,
-      spawnY: 0
+   type: ShieldRegenFieldAbility
     }
-   {
-   type: ForceFieldAbility
-   health: 2000
-   size: 13
-  }
-]
-engines: [
-  {
-    x: -21.25
-    y: -10.2
-    rotation: 170
-    radius: 4
-  }
-  {
-    x: 21.25
-    y: -10.2
-    rotation: 170
-    radius: 4
+    {
+   type: MoveEffectAbility
+    x: 0
+    y: 0
+    color: D1EFFF
+     }
+     {
+   type: MoveEffectAbility
+    x: 0
+    y: -2
+    color: 8DEEBB
    }
  ]
  research: cruiser-factory

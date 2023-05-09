@@ -1,12 +1,13 @@
 planet: tantros
-sector: 7
-difficulty: 7
+captureWave: 29
+sector: 62
+difficulty: 6
 research: {
-parent: "skopelos"
+parent: "outpost"
 objectives: [
     {
       type: SectorComplete
-      preset: "skopelos"
+      preset: "outpost"
     }
   ]
 }

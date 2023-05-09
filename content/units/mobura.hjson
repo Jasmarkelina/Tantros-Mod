@@ -1,0 +1,59 @@
+type: naval
+name: "Mobura"
+description: "Shoots weak energy orbs at nearby targets."
+flying: false
+speed: 1.1
+rotateSpeed: 3
+health: 350
+drag: 0.20
+accel: 0.50
+hitSize: 10
+faceTarget: false
+rotateShooting: false
+itemCapacity: 25
+trailX: 4
+trailY: -6
+trailScl: 2.2
+trailLength: 50
+targetGround: true
+targetAir: true
+armor: 3
+weapons:[
+{
+name: repeater
+x: 0
+y: 0
+recoil: 2
+reload: 45
+mirror: false
+shootY: 0
+shootSound: lasershoot
+rotate: true
+rotationLimit: 60
+rotateSpeed: 7.5
+bullet: {
+   type: MissileBulletType
+   sprite: large-orb
+   backColor: 5AB9A8
+   frontColor: ffffff
+   width: 3
+   height: 3
+   damage: 10
+   splashDamage: 15
+   splashDamage: 15
+   collidesTeam: false
+   speed: 4
+   lifetime: 75
+   drag: 0.05
+   homingDelay: 5
+   homingRange: 45
+   trailWidth: 3
+   trailLength: 16
+   trailColor: 5AB9A8
+   trailEffect: hitBulletColor
+}
+}
+]
+research: {
+parent: core-ruin
+}
