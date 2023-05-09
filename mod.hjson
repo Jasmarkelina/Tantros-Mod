@@ -9,4 +9,6 @@ currently being worked on by
 - Jasmarkelina"
 version: "0.8"
 minGameVersion: 143.1
+hidden: false
+hideBrowser: false
 repo: Jasmarkelina/Tantros-Mod
