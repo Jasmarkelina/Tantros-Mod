@@ -1,1 +1,3 @@
-Planets.tantros.generator = new ErekirPlanetGenerator
+Events.on(ContentInitEvent, e => {
+    Planets.tantros.generator = new ErekirPlanetGenerator();
+});
