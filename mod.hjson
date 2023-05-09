@@ -11,4 +11,5 @@ version: "0.8"
 minGameVersion: 143.1
 hidden: false
 hideBrowser: false
+dependencies: []
 repo: Jasmarkelina/Tantros-Mod
