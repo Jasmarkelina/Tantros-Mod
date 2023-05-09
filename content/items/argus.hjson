@@ -1,9 +1,9 @@
-name: argus
-description: Used in high value buildings.
+name: Argus
+description: Radioactive, explosive material, can be used as ammo and for construction if enough care is taken.
 color: 49D170
 explosiveness: 0.7
 flammability: 0
-radioactivity: 0
+radioactivity: 1.1
 charge: 0.69
 hardness: 2
 research: appyphosil
