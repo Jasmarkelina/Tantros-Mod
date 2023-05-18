@@ -1,0 +1,12 @@
+planet: tantros
+sector: 41
+difficulty: 6
+research: {
+parent: "frost-caynon"
+objectives: [
+    {
+      type: SectorComplete
+      preset: "frost-caynon"
+    }
+  ]
+}

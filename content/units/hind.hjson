@@ -1,0 +1,65 @@
+name: Hind
+description: A Reinforced Vertex, has a force field, upon death, a standart vertex takes it's place.
+type: flying
+flying: true
+health: 800
+hitSize: 12
+speed: 2.26
+accel: 0.16
+drag: 0.07
+rotateSpeed: 3
+circleTarget: false
+engineSize: 2
+outlineColor: 262c47
+lightRadius: 25
+lightColor: e65555
+itemCapacity: 80
+weapons: [
+    {
+        x: 0
+        y: 3
+        mirror: false
+        reload: 25
+        xRand: 2
+        bullet: {
+            type: BasicBulletType
+            lifetime: 0
+            speed: 0
+            damage: 0
+            spawnUnit: pressure-torpedo 
+        }
+    }
+]
+abilities: [
+  {
+   type: SpawnDeathAbility
+   unit: vertex
+   amount: 1
+    }
+    {
+   type: MoveEffectAbility
+    x: 0
+    y: 0
+    color: E8BDD6
+     }
+     {
+   type: MoveEffectAbility
+    x: 0
+    y: -2
+    color: E8BDD6
+     }
+     {
+   type: EnergyFieldAbility
+x: 0
+y: -11
+damage: 25
+reload: 50
+status: none
+effectRadius: 3
+sectors: 1
+rotateSpeed: 11
+maxTargets: 3
+color: E8BDD6
+   }
+ ]
+ research: cruiser-factory

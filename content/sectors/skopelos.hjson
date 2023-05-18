@@ -1,0 +1,13 @@
+planet: tantros
+captureWave: 29
+sector: 62
+difficulty: 6
+research: {
+parent: "outpost"
+objectives: [
+    {
+      type: SectorComplete
+      preset: "outpost"
+    }
+  ]
+}

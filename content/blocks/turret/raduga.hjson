@@ -1,0 +1,44 @@
+{
+    name: Raduga
+    description: Shoots energy orbs at enemies.  
+    targetGround : true
+    inaccuracy : 0
+    targetAir : true
+    category : turret
+    research : pressure
+    health : 1200
+    reload : 105
+    range : 300
+    type : ItemTurret
+    squareSprite: false
+    outlineColor: 262c47
+    size : 3
+    ammoPerShot: 5
+    
+    requirements : [
+        Nickel/90
+        cadmium/50
+        thorium/10
+        graphite/45
+    ]
+    
+    ammoTypes : {
+        argus : {
+            lifetime : 0
+            damage : 0
+            height : 0
+            speed : 0
+            width : 0
+            spawnUnit: raduga-torpedo
+        }
+    }
+    drawer: {
+type: DrawTurret
+basePrefix: "tantros-"
+}
+    consumes : {
+        coolant : {
+            amount : 0.2
+        }
+    }
+}

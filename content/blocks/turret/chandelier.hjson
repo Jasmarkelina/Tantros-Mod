@@ -1,0 +1,58 @@
+{
+    
+    targetGround : true
+    inaccuracy : 2
+    targetAir : true
+    category : turret
+    research : {
+        parent: pressure
+        objectives: [
+            {
+            type: OnSector
+            preset: ombaasin 
+            }
+        ]
+        requirements : [
+        cadmium/10080
+        silicon/2000
+        oblite/2600
+        thorium/1600
+        argus/800
+        ]
+    }
+    health : 10000
+    reload : 800
+    range : 9000
+    type : ItemTurret
+    squareSprite: false
+    outlineColor: 262c47
+    size : 6
+    ammoPerShot: 25
+    
+    requirements : [
+        cadmium/3500
+        silicon/2000
+        oblite/2600
+        thorium/1600
+        argus/800
+    ]
+    
+    ammoTypes : {
+        oblite : {
+            lifetime : 0
+            damage : 0
+            height : 0
+            speed : 0
+            width : 0
+            spawnUnit: cruise-missile
+        }
+    }
+    drawer: {
+type: DrawTurret
+}
+    consumes : {
+        coolant : {
+            amount : 1.1
+        }
+    }
+}

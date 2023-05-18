@@ -1,0 +1,53 @@
+name: Chrysalis
+description: Shoots moderate power bombs that can disable menders, Upon death, 6 Vertexes take it's place.
+type: flying
+flying: true
+health: 1200
+armor: 3
+hitSize: 17
+speed: 1.57
+accel: 0.16
+drag: 0.07
+rotateSpeed: 2
+circleTarget: false
+engineSize: 0
+outlineColor: 262c47
+lightRadius: 25
+lightColor: e65555
+itemCapacity: 80
+weapons: [
+    {
+        x: 0
+        y: 3
+        mirror: false
+        reload: 100
+        xRand: 2
+        bullet: {
+            type: BasicBulletType
+            lifetime: 0
+            speed: 0
+            damage: 0
+            spawnUnit: chrysalis-bomb
+        }
+    }
+]
+abilities: [
+  {
+   type: SpawnDeathAbility
+   unit: vertex
+   amount: 6
+    }
+    {
+   type: MoveEffectAbility
+    x: 0
+    y: 0
+    color: D1EFFF
+     }
+     {
+   type: MoveEffectAbility
+    x: 0
+    y: -2
+    color: 8DEEBB
+   }
+ ]
+ research: cruiser-factory

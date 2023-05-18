@@ -1,0 +1,133 @@
+name: Cauldron
+description: A Runic Cruiser.
+type: flying
+flying: true
+health: 8000
+armor: 25
+hitSize: 38.95
+speed: 0.485
+accel: 0.16
+drag: 0.07
+rotateSpeed: 3
+circleTarget: false
+engineSize: 5
+outlineColor: 262c47
+lightRadius: 25
+lightColor: e65555
+itemCapacity: 425
+abilities: [
+  {
+   type: UnitSpawnAbility
+      unit: scavenger-recuperate
+      spawnTime: 350,
+      spawnX: 0,
+      spawnY: -18
+}
+]
+engines: [
+  {
+    x: -21.25
+    y: -10.2
+    rotation: 170
+    radius: 4
+  }
+  {
+    x: 21.25
+    y: -10.2
+    rotation: 170
+    radius: 4
+    }
+    ]
+weapons: [
+    {
+        x: 0
+        y: 3
+mirror: false
+reload: 475
+xRand: 2
+bullet: {
+type: BasicBulletType
+lifetime: 0
+speed: 0
+damage: 0
+spawnUnit: harmonics-shell
+}
+}
+{
+name: repeater
+x: 15
+y: 0
+recoil: 0
+reload: 180
+mirror: true
+shootY: 0
+shootSound: shootSmite
+rotate: true
+rotateSpeed: 3.8
+bullet: {
+   type: MissileBulletType
+   sprite: large-orb
+   backColor: 5AB9A8
+   frontColor: ffffff
+   width: 8
+   height: 8
+   
+   damage: 31
+   splashDamage: 27
+   splashDamage: 24
+   collidesTeam: false
+   
+   speed: 7
+   lifetime: 75
+   drag: 0.01
+   
+   homingDelay: 10
+   homingRange: 60
+   
+   trailWidth: 3
+   trailLength: 16
+   trailColor: 5AB9A8
+   trailEffect: hitBulletColor
+}
+}
+{
+name: repeater
+x: 15
+y: -9
+recoil: 0
+reload: 180
+mirror: true
+shootY: 0
+shootSound: shootSmite
+rotate: true
+rotateSpeed: 2.1
+bullet: {
+   type: MissileBulletType
+   sprite: large-orb
+   backColor: 5AB9A8
+   frontColor: ffffff
+   width: 8
+   height: 8
+   
+   damage: 31
+   splashDamage: 27
+   splashDamage: 24
+   collidesTeam: false
+   
+   speed: 7
+   lifetime: 75
+   drag: 0.01
+   
+   homingDelay: 10
+   homingRange: 60
+   
+   trailWidth: 3
+   trailLength: 16
+   trailColor: 5AB9A8
+   trailEffect: hitBulletColor
+}
+}
+]
+research: {
+parent: anchor
+}

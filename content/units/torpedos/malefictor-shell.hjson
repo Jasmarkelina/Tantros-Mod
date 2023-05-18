@@ -1,0 +1,72 @@
+type: missile
+controller: MissileAI
+flying: true
+speed: 3.5
+hitSize: 2
+maxRange: 25
+lifetime: 100
+hidden: true
+outlineColor: 262c47
+engineSize: 0
+rotateSpeed: 3
+missileAccelTime: 30
+lowAltitude: true
+fogRadius: 30
+health: 900
+allowedInPayloads: false
+useUnitCap: false
+playerControllable: false
+physics: false
+createWreck: false
+createScorch: false
+abilities: [
+{
+type: MoveEffectAbility
+x: 0
+y: 0
+color: 5B7BFC
+}
+{
+type: EnergyFieldAbility
+x: 0
+y: 0
+damage: 15
+reload: 1
+status: none
+effectRadius: 6
+sectors: 5
+rotateSpeed: 3.5
+maxTargets: 10
+color: 5B7BFC
+}
+{
+   type: UnitSpawnAbility
+      unit: malefictor-drone
+      spawnTime: 15,
+      spawnX: 0,
+      spawnY: 2
+}
+]
+   weapons: [
+    {
+        shootCone: 360
+          mirror: false
+          reload: 180
+          shootOnDeath: true
+          shootEffect: none
+          x: 0
+          y: 0
+          despawnHit: true
+          despawnEffect: none
+          
+          bullet:{
+        type: BombBulletType
+        splashDamageRadius: 30
+        splashDamage: 250
+        instantDisappear: true
+        killShooter: true
+        hittable: false
+        collidesAir: true
+}
+    }
+]

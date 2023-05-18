@@ -8,6 +8,7 @@
     hasPower : true
     hasItems : true
     category : crafting
+    squareSprite : false
     health : 890
     name : Zinc extractor
     type : GenericCrafter
@@ -80,5 +81,5 @@ drawer : {
         type : DrawRegion
     }]
 }
-research: core-ruin
+research: metaglass-crucible
 }

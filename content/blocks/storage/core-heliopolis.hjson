@@ -1,11 +1,12 @@
-name: "Core: Heliopolis"
+name: "Core: Monument"
 planet: tantros
-description: "A Super heavy Core, that can sustain a large amount of damage, It's large Control core allows it to command a huge army."
+description: "A Very durable core, once destroyed, the sector is lost."
 type: CoreBlock
-health: 30080
+health: 10080
 size: 5
-armor: 40
-itemCapacity: 30000
+armor: 25
+itemCapacity: 15000
+squareSprite: false
 category: effect
 unitCapModifier: 100
 unitType: gjallahorn

@@ -1,0 +1,57 @@
+name: Malefictor
+description: Fires a Devastating energy orb that leaves smaller, smart orbs that can seek their own target.
+type: flying
+flying: true
+health: 1750
+armor: 4
+hitSize: 16
+speed: 0.645
+accel: 0.16
+drag: 0.07
+rotateSpeed: 8
+circleTarget: false
+engineSize: 1
+outlineColor: 262c47
+lightRadius: 25
+lightColor: e65555
+itemCapacity: 300
+weapons: [
+    {
+        x: 0
+        y: 3
+        mirror: false
+        reload: 100
+        xRand: 2
+        bullet: {
+            type: BasicBulletType
+            lifetime: 0
+            speed: 0
+            damage: 0
+            spawnUnit: malefictor-shell
+        }
+    }
+]
+abilities: [
+  {
+   type: UnitSpawnAbility
+      unit: vertex
+      spawnTime: 1000,
+      spawnX: 0,
+      spawnY: 2
+}
+]
+engines: [
+  {
+    x: -15
+    y: -10.2
+    rotation: 170
+    radius: 4
+  }
+  {
+    x: 15
+    y: -10.2
+    rotation: 170
+    radius: 4
+   }
+ ]
+ research: cruiser-factory

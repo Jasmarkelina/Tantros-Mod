@@ -1,0 +1,50 @@
+type: UnitFactory
+name: "AI Only Constructor"
+description: "Builds AI only units. May not be obtained in campaign by the player."
+health: 1200
+size: 5
+plans:[
+ {
+ unit: sphyrna
+ time: 2500
+ requirements:[
+ Nickel/35
+ silicon/35
+]
+ }
+  {
+ unit: anchor
+ time: 4200
+ requirements:[
+ silicon/45
+ Nickel/175
+]
+ }
+  {
+unit: bubble
+ time: 3000
+ requirements:[
+ Nickel/35
+ silicon/35
+]
+ }
+  {
+ unit: bulwark
+ time: 4200
+ requirements:[
+ silicon/150
+ Nickel/300
+]
+ }
+]
+consumes: {
+power: 3.1
+}
+category: units
+research: cruiser-factory
+requirements: [
+  Nickel/300
+  metaglass/160
+  silicon/180
+  zincum/120
+]

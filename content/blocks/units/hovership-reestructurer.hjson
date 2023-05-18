@@ -15,9 +15,10 @@ liquid:{
 }
 items:{
   items: [
-  metaglass/50
-  Nickel/100
+  oblite/75
+  Nickel/25
   cadmium/50
+  oxygen/10
   ]
 }
 }

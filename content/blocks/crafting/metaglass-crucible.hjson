@@ -4,6 +4,7 @@ category: crafting
 type: GenericCrafter
 research: water-centrifuge
 alwaysUnlocked: false
+squareSprite: false
 health: 410
 size: 3
 requirements: [

@@ -6,10 +6,15 @@ squareSprite: false
 size: 3
 range: 250
 reload: 5
+shoot: {
+    type: shootPattern,
+    shots: 3,
+    shotDelay: 3
+}
 ammoTypes: {
     cadmium: {
         lifetime: 80
-    speed: 4
+    speed: 9
     drag: 0.02
     damage: 30
     width: 8

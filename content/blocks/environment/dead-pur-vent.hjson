@@ -1,0 +1,8 @@
+type: SteamVent
+parent: dead-pur
+blendGroup: dead-pur
+effectColor: b3bce4
+variants: 1
+attributes:{
+    steam: 0.55
+}
