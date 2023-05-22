@@ -1,0 +1,47 @@
+generator: AsteroidGenerator
+iconColor: 8deebb
+parent: tantros
+orbitRadius: 3
+camRadius: -1.08
+minZoom: 0.5
+bloom: true
+alwaysUnlocked: true
+updateLighting: true
+hasAtmosphere: true
+atmosphereRadIn: 0.02
+radius: 0.19
+atmosphereRadOut: 0.1
+atmosphereColor: 6699AC
+drawOrbit: false
+orbitTime: 15
+defaultEnv: 233
+defaultCore: tantros-mod-core-satellite
+clearSectorOnLose: true
+mesh: {
+  type: NoiseMesh
+  divisions: 3
+  radius: 0.2
+  planet: krthea
+  color1: 393A43
+  color2: 78DEFF
+  octaves: 1
+  persistence: 2
+  scale: 0.25
+  mag: 1
+  coct: 3
+  cper: 1.4
+  cscl: 0.4
+  cthresh: 0.01
+}
+hiddenItems: [
+    "spore-pod",
+    "blast-compound",
+    "pyratite",
+    "scrap",
+    "graphite",
+    "coal",
+    "beryllium",
+    "tungsten",
+    "oxide",
+    "carbide"
+]
