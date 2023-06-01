@@ -1,6 +1,6 @@
 name: Argus
 description: Radioactive, explosive material, can be used as ammo and for construction if enough care is taken.
-color: 49D170
+color: 71d96b
 explosiveness: 0.7
 flammability: 0
 radioactivity: 1.1

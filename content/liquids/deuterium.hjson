@@ -1,6 +1,6 @@
 name: Deuterium
 description: A cold gas, can be used in unit assembly and as a coolant.
-research: core-ruin
-color: A6A3D4
+research: oxygen-gas
+color: bab7e8
 gas: true
 temperature: -0.074

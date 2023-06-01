@@ -1,0 +1,10 @@
+name: Oxidated Copper
+description: Copper that has been oxidated due to the Tatrian waters. Needs to be refined.
+details: look, look. I know it does not make sense for oxidated copper to look like a bar, just go with it. 
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+research: Nickel
+hardness: 1
+color: 609d7a

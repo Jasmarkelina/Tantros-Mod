@@ -1,6 +1,6 @@
 name: "Nickel"
-description: "Hard, malleable and ductile, a good conductor of electricity. Used for making Power Generation"
-color: "#765682"
+description: "Hard, malleable and ductile, a good conductor of electricity. Used for making Power Generation and Building."
+color: "#ba99c7"
 radioactivity: 0.0
 explosiveness: 0.65
 flammability: 1.5
