@@ -17,7 +17,7 @@ allowedInPayloads: false
 useUnitCap: false
 playerControllable: false
 physics: false
-createWreck: true
+createWreck: false
 createScorch: false
 abilities: [
   {
@@ -26,7 +26,7 @@ abilities: [
   }
 ]
 weapons: [
-    {
+  {
         shootCone: 360
           mirror: false
           reload: 450
@@ -35,16 +35,16 @@ weapons: [
           x: 0
           y: 0
           despawnHit: true
-          despawnEffect: impactReactorExplosion
+          despawnEffect: ImpactReactorExplosion
           
-          bullet:{
-        type: BombBulletType
-        splashDamageRadius: 100
-        splashDamage: 1750
-        instantDisappear: true
-        killShooter: true
-        hittable: false
-        collidesAir: true
+       bullet:{
+          type: BombBulletType
+          splashDamageRadius: 100
+          splashDamage: 1750
+          instantDisappear: true
+          killShooter: true
+          hittable: false
+          collidesAir: true
         }
-    }
+  }
 ]

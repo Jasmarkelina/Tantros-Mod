@@ -5,6 +5,7 @@ speed: 3.5
 hitSize: 12
 maxRange: 25
 lifetime: 100
+isEnemy: false
 hidden: true
 outlineColor: 262c47
 engineSize: 0

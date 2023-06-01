@@ -1,0 +1,51 @@
+type: missile
+controller: MissileAI
+flying: true
+speed: 4
+hitSize: 2
+maxRange: 15
+lifetime: 110
+hidden: true
+outlineColor: 262c47
+name: Wreck Torpedo
+engineSize: 0
+rotateSpeed: 2
+missileAccelTime: 40
+lowAltitude: true
+fogRadius: 12
+health: 20
+allowedInPayloads: false
+useUnitCap: false
+playerControllable: false
+physics: false
+createWreck: false
+createScorch: false
+trailLength: 300
+trailColor: ba99c7
+weapons: [
+    {
+        name: bluh
+        shootCone: 360
+        mirror: false
+        reload: 180
+        shootOnDeath: true
+        shootEffect: none
+        x: 0
+        y: 0
+        despawnHit: true
+        despawnEffect: none
+          
+       bullet:{
+        type: BombBulletType
+        splashDamageRadius: 30
+        splashDamage: 15
+        trailLength: 5
+        trailColor: ba99c7
+        instantDisappear: true
+        killShooter: true
+        hittable: false
+        collidesAir: true
+        collidesGround: true
+       }
+    }
+]

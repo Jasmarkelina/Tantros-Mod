@@ -1,0 +1,49 @@
+type: missile
+controller: MissileAI
+flying: true
+speed: 4
+hitSize: 2
+maxRange: 15
+lifetime: 135
+hidden: true
+outlineColor: 262c47
+name: Wreck Torpedo Mark II
+engineSize: 0
+rotateSpeed: 2
+missileAccelTime: 40
+lowAltitude: true
+fogRadius: 12
+health: 30
+allowedInPayloads: false
+useUnitCap: false
+playerControllable: false
+physics: false
+createWreck: false
+createScorch: false
+trailLength: 150
+trailColor: ced45f
+weapons: [
+    {
+        name: buh
+        shootCone: 360
+        mirror: false
+        reload: 180
+        shootOnDeath: true
+        shootEffect: none
+        x: 0
+        y: 0
+        despawnHit: true
+        despawnEffect: none
+          
+       bullet:{
+        type: BombBulletType
+        splashDamageRadius: 35
+        splashDamage: 40
+        instantDisappear: true
+        killShooter: true
+        hittable: false
+        collidesAir: true
+        collidesGround: true
+       }
+    }
+]
