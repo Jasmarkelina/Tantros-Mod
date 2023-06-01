@@ -4,15 +4,17 @@ category: production
 type: GenericCrafter 
 research: silicon-manufacturer 
 alwaysUnlocked: false
-health: 150
+health: 250
 size: 2
 requirements: [
  cadmium/75
  Nickel/75
  ]
+consumes: {
+  power: 2
+}
 hasItems: false
-hasLiquids: true
-hasPower: false
+hasPower: true
 itemCapacity: 10
 attribute: steam
 displayEfficiency: false
@@ -27,11 +29,11 @@ drawer: {
  drawers: [
   {
    type: DrawRegion
-   suffix: -top
-   }
+   suffix: -bottom
+  }
   {
    type: DrawDefault
-   }
+  }
   ]
 }
 squareSprite: true

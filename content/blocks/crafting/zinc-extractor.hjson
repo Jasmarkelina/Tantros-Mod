@@ -7,7 +7,7 @@
     craftTime : 300
     hasPower : true
     hasItems : true
-    category : crafting
+    category : production
     squareSprite : false
     health : 890
     name : Zinc extractor

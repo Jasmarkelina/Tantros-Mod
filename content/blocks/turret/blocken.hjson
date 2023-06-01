@@ -7,7 +7,7 @@
     range : 180
     shake : 1.2
     name : Blocken
-    description : Shoots energy projectiles, upon impact the enemy starts to melt.
+    description : "Shoots energy projectiles, upon impact the enemy starts to melt. When firing during close enemy unit proximity, turret gains firing speed"
     type : PowerTurret
     size : 2
 
@@ -45,21 +45,23 @@
             lifetime : 40
             type : MultiEffect
             
-            effects : [{
+            effects : [
+            {
                 particles : 5
                 colorFrom : 9D3D3DFF
-                lifetime : 5
+                lifetime : 20
                 sizeFrom : 15
                 colorTo : 9D3D3DFF
                 length : 0
-                sizeTo : 15
+                interp: pow2In
+                sizeTo : 0
                 type : ParticleEffect
             }
             {
                 strokeFrom : 2
                 colorFrom : 9D3D3DFF
                 lifetime : 40
-                sizeFrom : 15
+                sizeFrom : 1
                 strokeTo : 0
                 colorTo : 9D3D3DFF
                 sizeTo : 15

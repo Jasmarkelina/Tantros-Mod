@@ -1,30 +1,67 @@
 type: itemTurret
 name: Basilisk
 description: "Heavy Machinegun that packs a lot of firepower on a reduced 3x3 space."
-health: 700
+details: "Breach with steroids"
+health: 1743
 squareSprite: false
 size: 3
-range: 250
-reload: 5
+range: 366
+reload: 35
+inaccuracy: 6
+recoil: 2
+shake: 1
+ammoUseEffect: [shootBigColor, colorSparkBig]
+shootSound: shootAlt
+breakEffect: [
+   {
+    type: WaveEffect
+    rotation: 49
+    lifetime: 15
+    sides: 4
+    sizeFrom: 12
+    sizeTo: 24
+    strokeFrom: 2
+    strokeTo: 0
+    colorFrom: 5456FF
+    colorTo: 69C7FF
+   }
+]
 shoot: {
     type: shootPattern,
-    shots: 3,
-    shotDelay: 3
+    shots: 4,
+    shotDelay: 1
 }
 ammoTypes: {
     cadmium: {
-        lifetime: 80
+    lifetime: 40
+    trailLength: 7
+    trailWidth: 2.1
+    trailColor: 99C0C9
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    frontColor: ffffff
+    hitColor: 99C0C9
+    backColor: 99C0C9
     speed: 9
-    drag: 0.02
-    damage: 30
+    damage: 20
     width: 8
     height: 11
    }
     oxygen: {
-        lifetime: 100
-    speed: 2.8
-    drag: 0.01
-    damage: 50
+    lifetime: 40
+    trailLength: 7
+    rangeChange: 20
+    trailWidth: 2.2
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    trailColor: 74b5b5
+    smokeEffect: shootBigSmoke
+    frontColor: ffffff
+    hitColor: 74b5b5
+    backColor: 74b5b5
+    speed: 10
+    damage: 35
     width: 8
     height: 11
    }

@@ -1,10 +1,10 @@
 type: Wall
 health: 420
 name: Oxygen Wall
-description: Blocks incoming enemy bullets. Can be destroyed.
+description: "Protects structures from enemy projectiles."
 size: 1
 category: defense
-research: core-ruin
+research: nickel-wall
 requirements : [
         oxygen/6
     ]

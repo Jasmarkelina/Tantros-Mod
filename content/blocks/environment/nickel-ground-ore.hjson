@@ -1,4 +1,3 @@
 type: OreBlock
-groundOre: true
 itemDrop: Nickel
-variants: 3
+variants: 2

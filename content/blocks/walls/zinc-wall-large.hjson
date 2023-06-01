@@ -1,7 +1,12 @@
+name: Large Zinc Wall
 type: Wall
 health: 2680
 size: 2
+name: Large Zinc Wall
+description: "Protects structures from enemy projectiles. Conducts power"
+conductivePower: true
 category: defense
+hasPower: true
 research: zinc-wall
 requirements : [
         zincum/24

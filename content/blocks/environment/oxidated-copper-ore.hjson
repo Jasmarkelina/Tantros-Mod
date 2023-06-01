@@ -1,0 +1,4 @@
+type: oreBlock
+wallOre: true
+itemDrop: oxidated-copper
+variants: 2

@@ -1,4 +1,4 @@
 type: OreBlock
-groundOre: true
+wallOre: false
 itemDrop: cadmium
 variants: 2

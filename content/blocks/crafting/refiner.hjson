@@ -1,0 +1,53 @@
+name: Refiner
+description: Refines copper from its oxidated form. Releases oxygen as a byproduct
+details: It is very necessary to dispose of or use the oxygen in order for it to function.
+type: GenericCrafter
+size: 2
+health: 200
+category: crafting
+rotate: true
+invertFlip: true
+liquidOutputDirections: [1]
+research: {
+	parent: core-ruin
+	requirements: [
+       Nickel/20
+       lead/10
+	]
+}
+requirements: [
+   Nickel/40
+   lead/35
+]
+craftTime: 80
+consumes: {
+	power: 0.03
+	items:{
+	  items: [
+        oxidated-copper/2
+	  ]
+	}
+}
+ambientSound: smelter
+outputItem: copper/2
+outputLiquid: oxygen-gas/0.08
+drawer: {
+   type: DrawMulti
+   drawers: [
+   {
+	type: DrawGlowRegion
+	suffix: -glow
+	glowColor: ffffff
+   },
+   {
+   type: DrawGlowRegion
+   suffix: -glow2
+   },
+   {
+    type: DrawLiquidOutputs
+   },
+   {
+    type: DrawDefault
+   }
+  ]
+}

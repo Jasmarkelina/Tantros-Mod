@@ -1,5 +1,5 @@
 name: Silicon Manufacturer
-description: Uses Zinc,Cadmium and Deuterium to smelt silicon.
+description: Uses Zinc, Cadmium and Deuterium to smelt silicon.
 category: crafting
 type: GenericCrafter
 research: water-centrifuge

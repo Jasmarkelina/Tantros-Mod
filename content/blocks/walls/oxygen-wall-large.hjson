@@ -1,6 +1,6 @@
 type: Wall
 name: Large Oxygen Wall
-description: Blocks incoming enemy bullets. Can be destroyed. 
+description: "Protects structures from enemy projectiles."
 health: 2100
 size: 2
 category: defense

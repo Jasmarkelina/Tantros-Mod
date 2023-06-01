@@ -3,6 +3,8 @@ parent: redmat
 blendGroup: redmat
 effectColor: cdd1e2
 variants: 2
+effectColor: 6b4e4e
+effectSpacing: 15
 attributes:{
     steam: 0.12
 }

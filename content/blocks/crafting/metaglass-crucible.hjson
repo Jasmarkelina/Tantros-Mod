@@ -2,8 +2,9 @@ name: Metaglass Crucible
 description: Smelts Metaglass with Deuterium,Lead and Nickel, Requieres power.
 category: crafting
 type: GenericCrafter
-research: water-centrifuge
+research: electrofuge
 alwaysUnlocked: false
+lightRadius: 60
 squareSprite: false
 health: 410
 size: 3
@@ -34,9 +35,19 @@ drawer: {
  type: DrawMulti
  drawers: [
   {
+   type: DrawGlowRegion
+   suffix: -glow
+   color: 87bbff
+  },
+  {
    type: DrawRegion
-   suffix: -top
-   }
+   suffix: "-top"
+  },
+
+  {
+   type: DrawRegion
+   suffix: -bottom
+  },
   {
    type: DrawDefault
    }

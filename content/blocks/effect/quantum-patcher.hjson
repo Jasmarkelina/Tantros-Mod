@@ -9,6 +9,7 @@ squareSprite: false
 buildVisibility: shown
 destructible: true
 breakable: true
+research: bouy-node
 requirements: [
  Nickel/40
  cadmium/30

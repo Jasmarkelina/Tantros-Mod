@@ -1,0 +1,24 @@
+name: Directional Force Wall
+description: "Protects structures from enemy projectiles. Deploys a triangular force field that absorbs most projectiles when powered. Conducts power"
+type: DirectionalForceProjector
+health: 4350
+size: 2
+consumes: {
+    power: 0.1
+}
+hasPower: true
+drawArrow: false
+shieldBreakEffect: [
+   {
+	type: waveEffect
+	sides: 8
+   }
+]
+drawTeamOverlay: true
+shieldHealth: 800
+category: defense
+research: reactive-wall
+requirements: [
+     phase-fabric/48
+     Nickel/ 24
+]

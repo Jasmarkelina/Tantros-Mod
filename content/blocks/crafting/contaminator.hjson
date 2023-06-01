@@ -1,10 +1,11 @@
 name: Contaminator
-description: Contaminated Inputted Deuterium using Infected Pur to output Tritium.
+description: Contaminates Deuterium by using Infected Pur to output Tritium.
 category: crafting
 type: GenericCrafter
 research: silicon-manufacturer
 alwaysUnlocked: false
 squareSprite: false
+lightRadius: 32
 health: 325
 size: 2
 requirements: [
@@ -27,23 +28,28 @@ consumes: {
  }
 craftEffect: turbinegenerate
 ambientSound: smelter
-outputLiquid: tritium/0.72
-craftTime: 250
+outputLiquid: tritium/0.07
+craftTime: 80
 drawer: {
  type: DrawMulti
  drawers: [
   {
    type: DrawRegion
-   suffix: -top
-   }
+   suffix: -bottom
+  },
   {
-   rotateSpeed : 6
-        spinSprite : true
-        suffix : -rotator
-        type : DrawRegion
-    }
-   {
    type: DrawDefault
-   }
-  ]
+  },
+  {
+   type : DrawRegion
+   rotateSpeed : 6
+   spinSprite : true
+   suffix : -rotator
+  },
+
+  {
+   type: DrawRegion
+   suffix: -top
+  }
+ ]
 }

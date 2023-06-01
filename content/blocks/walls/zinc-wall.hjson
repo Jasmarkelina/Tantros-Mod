@@ -1,7 +1,11 @@
 type: Wall
 health: 670
 size: 1
+name: Zinc Wall
+description: "Protects structures from enemy projectiles. Conducts power"
 category: defense
+conductivePower: true
+hasPower: true
 research: oxygen-wall
 requirements : [
         zincum/6

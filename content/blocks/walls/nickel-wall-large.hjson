@@ -1,0 +1,12 @@
+name: Large Nickel Wall
+size: 2
+type: Wall
+description: "Protects structures from enemy projectiles. Conducts power"
+conductivePower: true
+hasPower: true
+health: 2000
+category: defense
+research: nickel-wall
+requirements: [
+   Nickel/24
+]

@@ -6,6 +6,7 @@ research: zinc-extractor
 alwaysUnlocked: false
 squareSprite: true
 health: 410
+lightRadius: 60
 size: 3
 requirements: [
  cadmium/90
@@ -35,13 +36,18 @@ drawer: {
  type: DrawMulti
  drawers: [
   {
-    rotateSpeed : 5
-        spinSprite : true
-        suffix : -rotator
-        type : DrawRegion
-   }
+   type: DrawGlowRegion
+   suffix: -heat
+   color: 87bbff
+  },
+  {
+   type: DrawRegion
+   rotateSpeed : 5
+   spinSprite : true
+   suffix : -rotator
+  },
   {
    type: DrawDefault
-   }
+  }
   ]
 }

@@ -1,31 +1,65 @@
 type: itemTurret
 name: Wreck
-description: "Shoots standart torpedoes without homing."
+description: "Fires standard torpedoes at enemy units."
 health: 1200
 size: 3
 range: 300
+ammoUseEffect: colorSparkBig
+outlineColor: 2d2F39
 squareSprite: false
-reload: 34
+shootSound: missileSmall
+minWarmup: 0.9
+shake: 3
+shootWarmupSpeed: 0.1
+shootY: 0
+reload: 60
 ammoTypes: {
     Nickel: {
-        lifetime: 50
-    speed: 4
-    homingRange: 250
-    damage: 21
-    width: 8
-    height: 11
+    lifetime: 0
+    speed: 0
+    homingRange: 0
+    damage: 0
+    width: 0
+    height: 0
+    spawnUnit: wreck-torpedo
    }
     appyphosil: {
-        lifetime: 125
-    speed: 1.3
-    damage: 100
-    width: 8
-    height: 11
+    lifetime: 0
+    speed: 0
+    rangeChange: 100
+    damage: 0
+    width: 0
+    height: 0
+    spawnUnit: wreck-torpedo-upgraded
    }
 }
 drawer: {
-type: DrawTurret
-basePrefix: "tantros-"
+    type: DrawTurret
+    basePrefix: tantros-
+    parts: [
+    {
+     type: RegionPart
+     suffix: -hatch1
+     moveX: 1.9
+     moveRot: -10
+    },
+    {
+     type: RegionPart
+     suffix: -glow1
+     mirror: true
+     outline: false
+     color: ffffff
+     colorTo: ba99c7
+     moveX: 1.9
+     moveRot: -10
+    },
+    {
+     type: RegionPart
+     suffix: -hatch2
+     moveX: -1.9
+     moveRot: 10
+    }
+   ]
 }
 category: turret
 research: core-ruin
