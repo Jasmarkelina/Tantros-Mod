@@ -6,10 +6,11 @@ visualElevation: 0.35
 health: 2885
 armor: 8
 speed: 0.6
-rotateSpeed: 0.95
+rotateSpeed: 2.1
 legCount: 6
 legLength: 11
 legBaseOffset: 1
+outlineColor: 2d2f39
 legExtension: 9
 legSpeed: 0.02
 maxStretch: 5
@@ -34,6 +35,8 @@ splashDamage: 175
 splashDamageRadius: 245
 shrinkY: 0.3
 shootEffect: shootBig
+trailLength: 10
+trailColor: E8BDD6
 backColor: FFFFFF
 frontColor: E8BDD6
 width: 18
@@ -45,7 +48,7 @@ knockback: 8
 recoil: 0
 hitEffect: {
 type: ExplosionEffect
-lifetime: 80
+lifetime: 120
 waveStroke: 4
 waveRadBase: 3
 waveLife: 20
@@ -56,15 +59,15 @@ sparkColor: E8BDD6
 sparks: 30
 smokes: 45
 sparkRad: 100
-smokeSize: 4
-smokeSizeBase: 4
+smokeSize: 1
+smokeSizeBase: 1
 smokeRad: 100
 sparkStroke: 4
 sparkLen: 4
 }
 despawnEffect: {
 type: ExplosionEffect
-lifetime: 80
+lifetime: 120
 waveStroke: 4
 waveRadBase: 3
 waveLife: 20
@@ -75,10 +78,11 @@ sparkColor: E8BDD6
 sparks: 30
 smokes: 45
 sparkRad: 100
-smokeSize: 4
-smokeSizeBase: 4
+smokeSize: 1
+smokeSizeBase: 1
 smokeRad: 100
 sparkStroke: 4
+sparkStrokeTo: 0
 sparkLen: 4
 }
 trailEffect: none

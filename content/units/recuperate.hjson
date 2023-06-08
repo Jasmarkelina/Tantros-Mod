@@ -1,5 +1,5 @@
 type: flying
-health: 120
+health: 400
 controller: BuilderAI
 isEnemy: false
 mineWalls: true
@@ -8,12 +8,15 @@ flying: true
 buildSpeed: 1.3
 accel: 0.09
 drag: 0.08
-mineSpeed: 5.2
+buildRange: 220
+mineSpeed: 6.25
 mineTier: 3
 speed: 5.3
-rotateSpeed: 8.3
+engineSize: 0
+coreUnitDock: true
+rotateSpeed: 7
 armor: 3
-size: 1.95
+hitSize: 9
 itemCapacity: 40
 outlineColor: "2d2f39"
 weapons: [
@@ -24,6 +27,7 @@ weapons: [
     mirror: false
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
+    shootSound: missile
     reload: 48
     inaccuracy: 9
     bullet: {
@@ -36,25 +40,36 @@ weapons: [
       sideLength: 4
       speed: 5
       hitEffect: blastExplosion
-      trailLength: 30
+      trailLength: 5
       homingRange: 150
       despawnEffect: blastExplosion
       lifeTime: 300
-      shootSound: missile
     }
+  }
+]
+parts: [
+  {
+   type: HoverPart
+   x: 0
+   y: -0.5
+   color: fdb380
+   radius: 8
+   layer: 80
+   phase: 90
+   stroke: 5
   }
 ]
 engines: [
   {
-    x: -4.8
-    y: -5.2
-    rotation: -90
+    x: -5.5
+    y: -4.5
+    rotation: -110
     radius: 2
   }
   {
-    x: 4.8
-    y: -5.2
-    rotation: -90
+    x: 5.5
+    y: -4.5
+    rotation: -50
     radius: 2
    }
  ]

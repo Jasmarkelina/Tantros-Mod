@@ -1,26 +1,57 @@
 type: mech
-health: 600
+health: 900
+name: Reef
+description: Fires a piercing laser at enemy units. Armored to withstand great water pressure
 flying: false
-speed: 1.35
-rotateSpeed: 9
-armor: 2
+speed: 0.80
+rotateSpeed: 3
+outlineColor: 2d2f39
+armor: 5
+legCount: 4
+legExtesion: 4
+faceTarget: true
+legContinuousMove: true
 hitSize: 8
+alwaysUnlocked: true
 itemCapacity: 45
 weapons: [
   {
     name: none
     x: 0
     y: 0
+    shootSound: laser
     mirror: false
-    continuous: true
-    shootEffect: sparkShoot
+    shake: 2
+    minWarmup: 0.9
+    shootEffect: [
+      {
+       type: ShootSpark
+      },
+      {
+       type: WaveEffect
+       lifetime: 15
+       sides: 4
+       sizeFrom: 0
+       hollow: true
+       sizeTo: 3
+       strokeFrom: 0
+       strokeTo: 3
+       colorFrom: AECCF3
+       colorTo: AECCF3
+      }
+    ]
     smokeEffect: shootSmallSmoke
+    shootSound: shotgun
+    shootStatus: unmoving
+    shootStatusDuration: 10
     reload: 60
     bullet: {
-      type: ContinuousFlameBulletType
-      damage: 7.3
-      lifeTime: 87
+      type: LaserBulletType
+      length: 60
+      collidesAir: true
+      damage: 35
+      recoil: 0.69
     }
   }
 ]
-research: nickel-factoryunit
+research: mech-structurer

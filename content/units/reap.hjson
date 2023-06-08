@@ -1,0 +1,12 @@
+name: Reap
+description: Tantrian lifeform
+details: "aw dang them reaps destroying my titanium mines again"
+health: 500
+hittable: false
+alwaysUnlocked: true
+outlineColor: 2d2f39
+targettable: false
+engineSize: 0
+type: flying
+isEnemy: false
+teamColor: false

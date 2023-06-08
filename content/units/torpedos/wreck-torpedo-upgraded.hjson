@@ -12,7 +12,8 @@ engineSize: 0
 rotateSpeed: 2
 missileAccelTime: 40
 lowAltitude: true
-fogRadius: 12
+fogRadius: 5
+isEnemy: false
 health: 30
 allowedInPayloads: false
 useUnitCap: false
@@ -38,7 +39,8 @@ weapons: [
        bullet:{
         type: BombBulletType
         splashDamageRadius: 35
-        splashDamage: 40
+        splashDamage: 70
+        buildingDamageMultiplier: 0.32123
         instantDisappear: true
         killShooter: true
         hittable: false
