@@ -24,7 +24,7 @@ drawer: {
   ]
 }
 research: {
-parent: cliff-bore
+parent: drill-station
 }
 requirements: [
   Nickel/80

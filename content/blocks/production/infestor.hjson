@@ -1,0 +1,39 @@
+name: Infestor
+description: Infects the Terrain below it, has no operation cost. Inefficient.
+category: production
+type: GenericCrafter 
+research: silicon-manufacturer 
+alwaysUnlocked: false
+health: 250
+size: 2
+requirements: [
+ cadmium/75
+ Nickel/75
+ ]
+consumes: {
+  power: 2
+}
+hasItems: false
+hasPower: true
+itemCapacity: 10
+attribute: steam
+displayEfficiency: false
+minEfficiency: 1
+baseEfficiency: 1
+ambientSound: hum
+craftTime: 200
+craftEffect: turbinegenerate
+outputItem: infected-pur/2
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+  },
+  {
+   type: DrawDefault
+  }
+  ]
+}
+squareSprite: true

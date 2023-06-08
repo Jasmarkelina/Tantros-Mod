@@ -1,0 +1,55 @@
+name: Contaminator
+description: Contaminates Deuterium by using Infected Pur to output Tritium.
+category: crafting
+type: GenericCrafter
+research: silicon-manufacturer
+alwaysUnlocked: false
+squareSprite: false
+lightRadius: 32
+health: 325
+size: 2
+requirements: [
+ Nickel/100
+ copper/25
+ thorium/10
+ ]
+itemCapacity: 30
+consumes: {
+ power: 2.75
+ items: {
+  items: [
+   infected-pur/4
+   ]
+  }
+ liquid: {
+  liquid: deuterium
+  amount: 0.95
+  }
+ }
+craftEffect: turbinegenerate
+ambientSound: smelter
+outputLiquid: tritium/0.07
+craftTime: 80
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+  },
+  {
+   type: DrawDefault
+  },
+  {
+   type : DrawRegion
+   rotateSpeed : 6
+   spinSprite : true
+   suffix : -rotator
+  },
+
+  {
+   type: DrawRegion
+   suffix: -top
+  }
+ ]
+}

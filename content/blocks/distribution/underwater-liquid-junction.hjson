@@ -1,22 +1,20 @@
-name: Underwater Duct
-type: Duct
-description: Moves items forward. Carries a single item. Armored to withstand great water pressure. Accepts non-duct inputs from the sides
-health: 100
-size: 1
+name: Underwater Liquid Junction
+type: LiquidJunction
+health: 250
 armor: 2
-armored: false
-category: distribution
-speed: 4
+size: 1
+category: liquid
 underBullets: true
-requirements: [
-   Nickel/1
-]
+solid: false
 research: {
-	parent: core-ruin
-	requirements: [
-       Nickel/5
-	]
+	parent: underwater-conduit
+    requirements: [
+       Nickel/ 12
+    ]
 }
+requirements: [
+   Nickel/ 6
+]
 destroyEffect: [
  {
   particles: 1

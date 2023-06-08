@@ -6,7 +6,12 @@ conductivePower: true
 hasPower: true
 health: 2000
 category: defense
-research: nickel-wall
+research: {
+   parent: nickel-wall
+   requirements: [
+      Nickel/ 700
+   ]
+}
 requirements: [
    Nickel/24
 ]

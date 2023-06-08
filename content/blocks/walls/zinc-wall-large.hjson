@@ -7,7 +7,12 @@ description: "Protects structures from enemy projectiles. Conducts power"
 conductivePower: true
 category: defense
 hasPower: true
-research: zinc-wall
+research: {
+   parent: zinc-wall
+   requirements: [
+      zincum/ 700
+   ]
+}
 requirements : [
         zincum/24
     ]

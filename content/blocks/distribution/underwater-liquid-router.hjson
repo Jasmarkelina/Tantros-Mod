@@ -1,22 +1,25 @@
-name: Underwater Duct
-type: Duct
-description: Moves items forward. Carries a single item. Armored to withstand great water pressure. Accepts non-duct inputs from the sides
-health: 100
-size: 1
-armor: 2
-armored: false
-category: distribution
-speed: 4
+name: Underwater Liquid Router
+type: LiquidRouter
+description: Distributes fluids across three directions.
+liquidCapacity: 30
+liquidPadding: 0.75
 underBullets: true
-requirements: [
-   Nickel/1
-]
+size: 1
+health: 250
+armor: 2
+category: liquid
+solid: false
 research: {
-	parent: core-ruin
-	requirements: [
-       Nickel/5
-	]
+	parent: underwater-conduit
+    requirements: [
+       Nickel/ 6
+       cadmium/ 6
+    ]
 }
+requirements: [
+   Nickel/ 3
+   cadmium/ 3
+]
 destroyEffect: [
  {
   particles: 1

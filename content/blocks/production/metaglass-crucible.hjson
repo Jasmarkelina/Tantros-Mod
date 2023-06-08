@@ -1,0 +1,56 @@
+name: Metaglass Crucible
+description: Smelts Metaglass with Deuterium,Lead and Nickel, Requieres power.
+category: crafting
+type: GenericCrafter
+research: electrofuge
+alwaysUnlocked: false
+lightRadius: 60
+squareSprite: false
+health: 410
+size: 3
+requirements: [
+ Nickel/100
+ copper/50
+ cadmium/40
+ ]
+itemCapacity: 30
+consumes: {
+ power: 1.01
+ items: {
+  items: [
+   lead/3
+   Nickel/5
+   ]
+  }
+ liquid: {
+  liquid: deuterium
+  amount: 0.09
+  }
+ }
+craftEffect: turbinegenerate
+ambientSound: smelter
+outputItem: metaglass/2
+craftTime: 100
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawGlowRegion
+   suffix: -glow
+   alpha: 0.8
+   color: 87bbff
+  },
+  {
+   type: DrawRegion
+   suffix: "-top"
+  },
+
+  {
+   type: DrawRegion
+   suffix: -bottom
+  },
+  {
+   type: DrawDefault
+   }
+  ]
+}

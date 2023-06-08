@@ -1,17 +1,31 @@
 name: Cliff Bore
 description: Gathers Items from walls.
 type: BeamDrill
-planet: tantros
 health: 270
+fogRadius: 3
 size: 2
 category: production
 destructible: true
 breakable: true
 buildVisibility: shown
-research: core-ruin
+research: {
+  parent: core-ruin
+  requirements: [
+    Nickel/10
+  ]
+}
 tier: 2
 range: 1
-drillTime: 200
+drillTime: 160
+consumes: {
+   liquids: {
+    liquids: [
+      oxygen-gas/ 0.04
+    ],
+     booster: true
+     optional: true
+   }
+}   
 drawer: {
         type: DrawMulti,
         drawers: [
@@ -27,5 +41,4 @@ drawer: {
 }
 requirements: [
   Nickel/42
-  cadmium/20
 ]

@@ -6,7 +6,12 @@ description: "Protects structures from enemy projectiles. Conducts power"
 category: defense
 conductivePower: true
 hasPower: true
-research: oxygen-wall
+research: {
+   parent: oxygen-wall
+   requirements: [
+      zincum/ 50
+   ]
+}
 requirements : [
         zincum/6
     ]

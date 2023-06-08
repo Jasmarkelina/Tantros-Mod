@@ -6,7 +6,12 @@ conductivePower: true
 health: 500
 hasPower: true
 category: defense
-research: core-ruin
+research: {
+   parent: core-ruin
+   requirements: [
+      Nickel/ 50
+   ]
+}
 requirements: [
    Nickel/6
 ]

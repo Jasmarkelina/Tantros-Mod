@@ -1,0 +1,21 @@
+name: Pressurized Container
+type: LiquidRouter
+description: Stores a sizeable amount fluids. Distributes them across three directions.
+health: 350
+armor: 2
+liquidCapacity: 1000
+size: 2
+liquidPadding: 0.75
+category: liquid
+solid: true
+research: {
+	parent: underwater-liquid-router
+    requirements: [
+       Nickel/ 30
+       cadmium/ 20
+    ]
+}
+requirements: [
+   Nickel/ 15
+   cadmium/ 11
+]

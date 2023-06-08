@@ -1,9 +1,60 @@
 name: "Drilling Station"
-health: 720
+description: Drills items in batches. 
+health: 1300
 size: 3
 type: BurstDrill
 category: production
 destructible: true
+shake: 4
+heatColor: 87bbff
+squareSprite: false
+arrowColor: c5ecf2
+arrowSpacing: 3
+consumes: {
+   liquids: {
+    liquids: [
+      oxygen-gas/ 0.08
+    ],
+     booster: true
+     optional: true
+   }
+}   
+drillEffect: [
+   {
+    type: ParticleEffect
+    length: 0
+    particles: 1
+    lifeTime: 15
+    sizeFrom: 12
+    sizeTo: 0
+    strokeFrom: 3
+    strokeTo: 0
+    colorFrom: 87ffbf
+    colorTo: 8ca9e8
+    region: tantros-mod-square
+   },
+   {
+    type: WaveEffect
+    rotation: 0
+    lifetime: 25
+    sides: 16
+    sizeFrom: 5
+    sizeTo: 29
+    strokeFrom: 12
+    strokeTo: 0
+    colorFrom: 87ffbf
+    colorTo: 8ca9e8
+   },
+   {
+    type: DrillSteam
+   },
+   {
+    type: MineImpact
+   },
+   {
+    type: MineImpactWave
+   }
+]
 breakable: true
 research: {
 parent: cliff-bore,
@@ -15,7 +66,6 @@ requirements: [
 tier: 3
 drillTime: 250
 buildVisibility: shown
-alwaysUnlocked: true
 hasPower: true
 itemCapacity: 10
 consumes: {

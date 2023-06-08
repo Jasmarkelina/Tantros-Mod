@@ -1,22 +1,25 @@
-name: Underwater Duct
-type: Duct
-description: Moves items forward. Carries a single item. Armored to withstand great water pressure. Accepts non-duct inputs from the sides
-health: 100
-size: 1
+name : Underwater Conduit
+type: ArmoredConduit
+description: Moves fluids forward. Armored to withstand great water pressure. Doesn't accept non-conduit inputs from the sides. High pressure, fluids may leak fast.
+health: 250
+botColor: 38393f
 armor: 2
-armored: false
-category: distribution
-speed: 4
+size: 1
+category: liquid
+solid: false
+leaks: false
 underBullets: true
-requirements: [
-   Nickel/1
-]
+liquidPressure: 2
+liquidCapacity: 30
 research: {
-	parent: core-ruin
-	requirements: [
-       Nickel/5
-	]
+	parent: hydrothermal-turbine
+    requirements: [
+       Nickel/ 6
+    ]
 }
+requirements: [
+   Nickel/ 3
+]
 destroyEffect: [
  {
   particles: 1

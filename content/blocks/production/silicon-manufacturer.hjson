@@ -1,0 +1,45 @@
+name: Silicon Manufacturer
+description: Uses Zinc, Cadmium and Deuterium to smelt silicon.
+category: crafting
+type: GenericCrafter
+research: electrofuge
+squareSprite: false
+alwaysUnlocked: false
+health: 290
+size: 3
+requirements: [
+ Nickel/100
+ oxygen/75
+ copper/100
+ zincum/50
+ ]
+itemCapacity: 25
+consumes: {
+ power: 3.07
+ items: {
+  items: [
+   zincum/2
+   cadmium/4
+   ]
+  }
+ liquid: {
+  liquid: deuterium
+  amount: 1.748
+  }
+ }
+craftEffect: turbinegenerate
+ambientSound: smelter
+outputItem: silicon/3
+craftTime: 350
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -top
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}

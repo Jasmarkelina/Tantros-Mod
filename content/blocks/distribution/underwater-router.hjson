@@ -1,22 +1,22 @@
-name: Underwater Duct
-type: Duct
-description: Moves items forward. Carries a single item. Armored to withstand great water pressure. Accepts non-duct inputs from the sides
+name: Underwater Router
+description: Distrubutes items across three directions. Can act as a sorter.
+type: DuctRouter
 health: 100
-size: 1
 armor: 2
-armored: false
+size: 1
 category: distribution
+regionRotated1: 1
+solid: false
 speed: 4
-underBullets: true
-requirements: [
-   Nickel/1
-]
 research: {
-	parent: core-ruin
+	parent: underwater-duct
 	requirements: [
-       Nickel/5
+      Nickel/ 20
 	]
 }
+requirements: [
+    Nickel/ 4
+]
 destroyEffect: [
  {
   particles: 1

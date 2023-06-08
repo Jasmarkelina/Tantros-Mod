@@ -1,0 +1,47 @@
+name: Electrofuge
+description: A Rapidly rotating container applying Centrifugal force to Water for separating Heavy and Light elements. Then, uses Electrolysis to separate gases.
+category: production
+type: AttributeCrafter
+research: core-ruin
+alwaysUnlocked: false
+health: 350
+size: 3
+requirements: [
+ Nickel/50
+ cadmium/75
+ ]
+hasItems: false
+hasLiquids: true
+hasPower: false
+liquidCapacity: 69
+attribute: steam
+displayEfficiency: false
+minEfficiency: 1
+baseEfficiency: 2
+ambientSound: hum
+craftTime: 200
+craftEffect: turbinegenerate
+outputLiquid: deuterium/0.2
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -top
+   }
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+   rotateSpeed : 9
+        spinSprite : true
+        suffix : -rotator
+        type : DrawRegion
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}
+squareSprite: false

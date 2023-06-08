@@ -1,6 +1,7 @@
 name: Cliff Composter
 description: Gathers resources from walls, Mines faster than the cliff harvester.
 type: BeamDrill
+hidden: true
 planet: tantros
 health: 610
 size: 4
@@ -24,7 +25,7 @@ drawer: {
   ]
 }
 research: {
-parent: core-ruin
+parent: cliff-harvester
 }
 requirements: [
   Nickel/200

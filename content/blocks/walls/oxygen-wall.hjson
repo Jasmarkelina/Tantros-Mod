@@ -4,7 +4,12 @@ name: Oxygen Wall
 description: "Protects structures from enemy projectiles."
 size: 1
 category: defense
-research: nickel-wall
+research: {
+   parent: nickel-wall
+   requirements: [
+      oxygen/ 50
+   ]
+}
 requirements : [
         oxygen/6
     ]

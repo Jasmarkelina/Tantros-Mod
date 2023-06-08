@@ -1,24 +1,40 @@
 name: Directional Force Wall
-description: "Protects structures from enemy projectiles. Deploys a triangular force field that absorbs most projectiles when powered. Conducts power"
+description: "Protects structures from enemy projectiles. Deploys a triangular force field that absorbs most projectiles when powered, however, once the force field is broken, it will not regenerate. Conducts power"
 type: DirectionalForceProjector
+details: Projecting the force field in a triangular shape results in the field having more health. The shield cannot regenerate due to our limited knowledge of Quantum Barriers. I made that up. I don't actually know how to regenerate the shield.
 health: 4350
 size: 2
+width: 8
+length: 12
+conductivePower: true
+cooldownNormal: 3
+cooldownBrokenBase: 0.40
 consumes: {
-    power: 0.1
+    power: 0.2
+}
+drawer: {
+    type: DrawRegion
+    suffix: "-top"
 }
 hasPower: true
 drawArrow: false
 shieldBreakEffect: [
    {
 	type: waveEffect
-	sides: 8
+	sides: 4
+    lifetime: 15
+    sizeFrom: 0
+    sizeTo: 12
+    strokeFrom: 2
+    strokeTo: 0
    }
 ]
 drawTeamOverlay: true
-shieldHealth: 800
+shieldHealth: 1100
 category: defense
 research: reactive-wall
 requirements: [
      phase-fabric/48
      Nickel/ 24
+     alumen-composite/ 12
 ]

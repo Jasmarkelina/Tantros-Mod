@@ -1,0 +1,54 @@
+name: Alumen Collider
+description: Collides Argus, Oblite and Tritium to create a strong and volatile composite.
+category: crafting
+type: GenericCrafter
+research: zinc-extractor
+alwaysUnlocked: false
+squareSprite: true
+health: 410
+lightRadius: 60
+size: 3
+requirements: [
+ cadmium/90
+ oblite/75
+ graphite/35
+ silicon/15
+ ]
+itemCapacity: 30
+consumes: {
+ power: 1.01
+ items: {
+  items: [
+   argus/1
+   oblite/6
+   ]
+  }
+ liquid: {
+  liquid: tritium
+  amount: 1.056
+  }
+ }
+craftEffect: turbinegenerate
+ambientSound: smelter
+outputItem: alumen-composite/1
+craftTime: 305
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawGlowRegion
+   suffix: -heat
+   alpha: 0.8
+   color: 87bbff
+  },
+  {
+   type: DrawRegion
+   rotateSpeed : 5
+   spinSprite : true
+   suffix : -rotator
+  },
+  {
+   type: DrawDefault
+  }
+  ]
+}

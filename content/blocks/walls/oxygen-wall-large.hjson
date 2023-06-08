@@ -4,7 +4,12 @@ description: "Protects structures from enemy projectiles."
 health: 2100
 size: 2
 category: defense
-research: oxygen-wall
+research: {
+   parent: oxygen-wall
+   requirements: [
+      oxygen/ 700
+   ]
+}
 requirements : [
         oxygen/24
     ]
