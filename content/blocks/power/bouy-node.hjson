@@ -8,6 +8,23 @@ destructible: true
 breakable: true
 consumesPower: true
 outputsPower: true
+laserColor1: 69C7FF
+laserColor2: 7591cc
+breakEffect: [
+   {
+    type: WaveEffect
+    rotation: 45
+    lifetime: 15
+    sides: 4
+    sizeFrom: 4
+    interp: pow2In
+    sizeTo: 9
+    strokeFrom: 2
+    strokeTo: 0
+    colorFrom: 7591cc
+    colorTo: aeccf3
+   }
+]
 consumes: {
     powerBuffered: 2000
     }
@@ -15,4 +32,9 @@ requirements: [
     Nickel/3
 ]
 category: power
-research: Hydrothermal-turbine
+research: {
+ parent: hydrothermal-turbine
+ requirements: [
+   Nickel/ 10
+ ]
+}

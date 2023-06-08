@@ -10,7 +10,7 @@
     range : 200
     type : ItemTurret
     squareSprite: false
-    outlineColor: 262c47
+    outlineColor: 2d2f39
     size : 2
     ammoPerShot: 3
     

@@ -3,7 +3,7 @@ name: Wreck
 description: "Fires standard torpedoes at enemy units."
 health: 1200
 size: 3
-range: 300
+range: 250
 ammoUseEffect: colorSparkBig
 outlineColor: 2d2F39
 squareSprite: false
@@ -12,7 +12,7 @@ minWarmup: 0.9
 shake: 3
 shootWarmupSpeed: 0.1
 shootY: 0
-reload: 60
+reload: 80
 ammoTypes: {
     Nickel: {
     lifetime: 0
@@ -62,8 +62,12 @@ drawer: {
    ]
 }
 category: turret
-research: core-ruin
+research: {
+   parent: core-ruin
+   requirements: [
+      Nickel/ 300
+   ]
+}
 requirements: [
-    copper/165
-    Nickel/75
+    Nickel/250
 ]

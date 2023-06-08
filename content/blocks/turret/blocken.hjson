@@ -7,6 +7,7 @@
     range : 180
     shake : 1.2
     name : Blocken
+    outlineColor: 2d2f39
     description : "Shoots energy projectiles, upon impact the enemy starts to melt. When firing during close enemy unit proximity, turret gains firing speed"
     type : PowerTurret
     size : 2

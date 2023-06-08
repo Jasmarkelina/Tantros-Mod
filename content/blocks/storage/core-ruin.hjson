@@ -1,14 +1,18 @@
 name: "Core: Ruin"
 planet: tantros
-description: "A Ruined Core. Once destroyed, the sector is Lost"
+description: "Core of the base. Once destroyed, the sector is Lost. Armored to withstand great water pressure."
+armor: 6
+fogRadius: 75
 type: CoreBlock
-health: 4200
+health: 4600
+isFirstTier: true
 size: 4
 itemCapacity: 4500
 category: effect
 unitCapModifier: 14
 unitType: recuperate
 buildVisibility: shown
+squareSprite: false
 alwaysUnlocked: true
 research: {
 root: true
@@ -17,6 +21,5 @@ requiresUnlock: false
 planet: tantros
 }
 requirements: [
-    Nickel/1700
-    cadmium/800
+    Nickel/3000
 ]

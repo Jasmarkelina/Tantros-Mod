@@ -5,6 +5,7 @@ details: "Breach with steroids"
 health: 1743
 squareSprite: false
 size: 3
+outlineColor: 2d2f39
 range: 366
 reload: 35
 inaccuracy: 6
