@@ -1,0 +1,29 @@
+name: "Mech Structurer"
+description: "Fabricates decent units using only nickel."
+type: UnitFactory
+health: 820
+size: 3
+category: units
+configurable: false
+consumes: {
+power: 0.85
+}
+plans: [
+  {
+    unit: reef
+    requirements: [
+      Nickel/45
+    ]
+    time: 1425
+  }
+]
+category: units
+requirements: [
+  Nickel/120
+]
+research:{
+  parent: core-ruin
+  requirements: [
+     Nickel/ 200
+  ]
+}
