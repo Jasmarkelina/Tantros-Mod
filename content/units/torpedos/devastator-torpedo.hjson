@@ -23,6 +23,9 @@ abilities: [
   {
    type: MoveEffectAbility
    teamColor: true
+   effectParam: 3
+   interval: 4
+   display: false
   }
 ]
 weapons: [

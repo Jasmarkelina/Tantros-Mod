@@ -6,14 +6,35 @@ flying: false
 speed: 0.80
 rotateSpeed: 3
 outlineColor: 2d2f39
+mechStepParticles: true
 armor: 5
+groundLayer: 75
 legCount: 4
 legExtesion: 4
-faceTarget: true
+lockLegBase: true
 legContinuousMove: true
+faceTarget: true
 hitSize: 8
 alwaysUnlocked: true
 itemCapacity: 45
+parts: [
+  {
+   type: ShapePart
+   x: 0
+   y: 3
+   sides: 4
+   rotation: 0
+   hollow: true
+   layer: 110
+   stroke: 0
+   strokeTo: 1
+   radius: 0
+   radiusTo: 3
+   rotateSpeed: 3
+   color: fdb380
+   colorTo: fdb380
+  }
+]
 weapons: [
   {
     name: none
@@ -23,24 +44,6 @@ weapons: [
     mirror: false
     shake: 2
     minWarmup: 0.9
-    shootEffect: [
-      {
-       type: ShootSpark
-      },
-      {
-       type: WaveEffect
-       lifetime: 15
-       sides: 4
-       sizeFrom: 0
-       hollow: true
-       sizeTo: 3
-       strokeFrom: 0
-       strokeTo: 3
-       colorFrom: AECCF3
-       colorTo: AECCF3
-      }
-    ]
-    smokeEffect: shootSmallSmoke
     shootSound: shotgun
     shootStatus: unmoving
     shootStatusDuration: 10
@@ -50,7 +53,24 @@ weapons: [
       length: 60
       collidesAir: true
       damage: 35
+      colors: ["c55d5baa", "fdb380", "ffffff"]
       recoil: 0.69
+      smokeEffect: shootSmokeSquare
+      shootEffect: [
+       {
+       type: WaveEffect
+       lifetime: 15
+       sides: 4
+       rotation: 45
+       sizeFrom: 2
+       sizeTo: 6
+       strokeFrom: 3
+       strokeTo: 0
+       interp: smooth
+       colorFrom: fdb380
+       colorTo: fdb380
+      }
+    ]
     }
   }
 ]

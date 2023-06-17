@@ -24,10 +24,13 @@ deathSound: explosion
 trailColor: 8deebb
 abilities: [
 {
-type: MoveEffectAbility
-x: 0
-y: 0
-color: 8deebb
+   type: MoveEffectAbility
+   x: 0
+   y: 0
+   effectParam: 3
+   interval: 4
+   display: false
+   color: 8deebb
 }
 {
 type: EnergyFieldAbility

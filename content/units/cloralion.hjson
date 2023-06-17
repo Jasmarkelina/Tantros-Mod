@@ -3,7 +3,7 @@ health: 6060
 flying: false
 controller: GroundAI
 speed: 0.50
-rotateSpeed: 0.88
+rotateSpeed: 1
 armor: 45
 hitSize: 25
 itemCapacity: 300
@@ -13,14 +13,12 @@ weapons: [
     x: 1.15
     y: 1
     mirror: true
-    continuous: true
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
-    reload: 0
+    reload: 25
     bullet: {
-      type: ContinuousFlameBulletType
+      type:ContinuousFlameBulletType
       damage: 20
-      lifeTime: 800
     }
   }
 ]
@@ -28,19 +26,23 @@ abilities: [
   {
    type: UnitSpawnAbility
       unit: cleroi
-      spawnTime: 600,
+      spawnTime: 1000,
       spawnX: 0,
       spawnY: 2
     },
     {
-     type: ForceFieldAbility
-     health: 2000
-     size: 5
+     type: ShieldArcAbility
+     max: 2000
+     radius: 5
+     region: "cloralion-shield"
+     cooldown: 480
+     regen: 0.5
+     whenShooting: false
     },
     {
    type: UnitSpawnAbility
       unit: anthicus
-      spawnTime: 2300,
+      spawnTime: 3000,
       spawnX: 0,
       spawnY: -5
 }

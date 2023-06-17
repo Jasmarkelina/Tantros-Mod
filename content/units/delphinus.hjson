@@ -1,6 +1,6 @@
 type: legs
 name: "Delphinus"
-description: "Fires Strong Artillery shells, spawns Minions."
+description: "Fires strong, exploding artillery shells at enemy units."
 hitSize: 14.75
 visualElevation: 0.35
 health: 2885
@@ -13,77 +13,91 @@ legBaseOffset: 1
 outlineColor: 2d2f39
 legExtension: 9
 legSpeed: 0.02
+groundLayer: 75
+stepShake: 1
 maxStretch: 5
 allowLegStep: true
 weapons: [
     {
-        name: large-repeater
-x: 0
-y: 0
-recoil: 1
-reload: 325
-mirror: false
-shootY: 0
-shootSound: shootSmite
-rotate: true
-rotationLimit: 75
-rotateSpeed: 1.2
-bullet: {
-type: ArtilleryBulletType
-damage: 125
-splashDamage: 175
-splashDamageRadius: 245
-shrinkY: 0.3
-shootEffect: shootBig
-trailLength: 10
-trailColor: E8BDD6
-backColor: FFFFFF
-frontColor: E8BDD6
-width: 18
-smokeEffect: shootBigSmoke
-collidesAir: true
-collidesGround: true
-height: 18
-knockback: 8
-recoil: 0
-hitEffect: {
-type: ExplosionEffect
-lifetime: 120
-waveStroke: 4
-waveRadBase: 3
-waveLife: 20
-waveRad: 100
-waveColor: E8BDD6
-smokeColor: E8BDD6
-sparkColor: E8BDD6
-sparks: 30
-smokes: 45
-sparkRad: 100
-smokeSize: 1
-smokeSizeBase: 1
-smokeRad: 100
-sparkStroke: 4
-sparkLen: 4
+    name: large-repeater
+    x: 0
+    y: 0
+    recoil: 1
+    reload: 325
+    mirror: false
+    shake: 2
+    shootY: 0
+    shootSound: shootSmite
+    rotate: true
+    rotationLimit: 75
+    rotateSpeed:1.2
+    bullet: {
+       type: ArtilleryBulletType
+       damage: 175
+       weaveMag: 4
+       weaveScale: 4
+       despawnSound: dullExplosion
+       hitSound: dullExplosion
+       splashDamage: 200
+       splashDamageRadius: 245
+       shrinkY: 0.3
+       shootEffect: shootBig
+       trailLength: 10
+       trailWidth: 4
+       trailColor: E8BDD6
+       backColor: E8BDD6
+       frontColor: E8BDD6
+       width: 15
+       smokeEffect: [
+     {
+      type: shootSmokeSquare
+     },
+     {
+      type: shootSmokeTitan
+     }   
+]   
+       collidesAir: true   
+       collidesGround: true
+       height: 18
+       knockback: 8
+       recoil: 0
+       hitEffect: {
+         type: ExplosionEffect
+         lifetime: 120
+         waveStroke: 20
+         waveRadBase: 3
+         waveLife: 60
+         waveRad: 100
+         waveColor: E8BDD6
+         sparkColor: E8BDD6
+         sparks: 35
+         sparkRad: 160
+         sparkStroke: 4
+         sparkLen: 4
+         smokeSize: 9
+         smokeSizeBase: 0
+         smokeRad: 100
+         smokes: 45
+         smokeColor: E8BDD6
 }
-despawnEffect: {
-type: ExplosionEffect
-lifetime: 120
-waveStroke: 4
-waveRadBase: 3
-waveLife: 20
-waveRad: 100
-waveColor: E8BDD6
-smokeColor: E8BDD6
-sparkColor: E8BDD6
-sparks: 30
-smokes: 45
-sparkRad: 100
-smokeSize: 1
-smokeSizeBase: 1
-smokeRad: 100
-sparkStroke: 4
-sparkStrokeTo: 0
-sparkLen: 4
+       despawnEffect: {
+         type: ExplosionEffect
+         lifetime: 120
+         waveStroke: 20
+         waveRadBase: 3
+         waveLife: 60
+         waveRad: 100
+         waveColor: E8BDD6
+         sparkColor: E8BDD6
+         sparks: 35
+         sparkRad: 160
+         sparkStroke: 4
+         sparkLen: 4
+         smokeSize: 9
+         smokeSizeBase: 0
+         smokeRad: 100
+         smokes: 45
+         smokeColor: E8BDD6
 }
 trailEffect: none
 lifetime: 60
