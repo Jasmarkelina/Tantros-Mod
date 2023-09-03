@@ -1,43 +1,84 @@
 type: hover
-health: 260
-shadowElevation: 0.2
+name: Cough
+description: Fires missiles at enemy targets. Protects itself using a Directional Shield
+health: 1300
+hovering: true
+shadowElevation: 0.1
+accel: 0.09
 drag: 0.07
 lowAltitude: false
 speed: 1.8
+outlineColor: 2d2f39
 rotateSpeed: 5
+drawShields: false
 hitSize: 8
 useEngineElevation: false
+parts: [
+   {
+    type: HoverPart
+    x: 0
+    y: -0.5
+    color: 6d56bf
+    radius: 13
+    layer: 50
+    phase: 90
+    stroke: 8
+   },
+   {
+    type: RegionPart
+    suffix: -blade
+    mirror: true
+    moveRot: 10
+   }
+]
 abilities: [
   {
    type: MoveEffectAbility
    teamColor: true
+   effectParam: 3
+   interval: 4
+   display: false
+   y: -5.5
+  },
+  {
+   type: ShieldArcAbility
+   radius: 5
+   region: "cough-shield"
+   regen: 0.2
+   max: 200
+   whenShooting: true
+   cooldown: 480
   }
 ]
 weapons: [
   {
-    name: none
+    name: cough-gun
     x: 0
-    y: 0
+    y: 4.5
     mirror: false
-    shootEffect: sparkShoot
-    smokeEffect: shootSmallSmoke
-    reload: 10
+    reload: 20
+    shootWarmupSpeed: 0.5
+    minWarmup: 0.9
     inaccuracy: 40
+    shootSound: missile
     bullet: {
       type: MissileBulletType
-      damage: 4
-      splashDamage: 2
+      damage: 7
+      speed: 1.5
+      splashDamage: 3
+      shootEffect: sparkShoot
+      smokeEffect: shootSmallSmoke
       splashDamageRadius: 16
       sideAngle: 45
       sideWidth: 4
       sideLength: 4
       hitEffect: blastExplosion
-      trailLength: 15
+      trailLength: 9
       homingRange: 70
       despawnEffect: blastExplosion
-      lifeTime: 150
-      shootSound: missile
+      lifetime: 52
+      recoil: 0.25
     }
   }
 ]
-research: hovership-factory 
+research: hovership-structurer

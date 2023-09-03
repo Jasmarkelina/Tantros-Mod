@@ -4,6 +4,7 @@ flying: true
 speed: 4
 hitSize: 2
 maxRange: 15
+drawCell: false
 lifetime: 135
 hidden: true
 outlineColor: 262c47

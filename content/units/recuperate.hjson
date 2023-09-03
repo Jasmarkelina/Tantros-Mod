@@ -3,7 +3,7 @@ health: 400
 controller: BuilderAI
 isEnemy: false
 mineWalls: true
-mineFloor: true
+mineFloor: false
 flying: true
 buildSpeed: 1.3
 accel: 0.09
@@ -12,11 +12,15 @@ buildRange: 220
 mineSpeed: 6.25
 mineTier: 3
 speed: 5.3
-engineSize: 0
+engineSize: 0.1
+engineOffset: 0
+trailLength: 4
+trailScl: 30
 coreUnitDock: true
 rotateSpeed: 7
 armor: 3
 hitSize: 9
+drawBuildBeam: false
 itemCapacity: 40
 outlineColor: "2d2f39"
 weapons: [
@@ -24,16 +28,23 @@ weapons: [
     name: none
     x: 0
     y: 0
+    shoot: {
+      type: ShootPattern
+      shots: 2
+      shotDelay: 6
+    }
     mirror: false
-    shootEffect: sparkShoot
-    smokeEffect: shootSmallSmoke
     shootSound: missile
     reload: 48
     inaccuracy: 9
     bullet: {
       type: MissileBulletType
       damage: 13
+      weaveMag: 3
+      weaveScale: 3
       splashDamage: 3
+      shootEffect: sparkShoot
+      smokeEffect: shootSmallSmoke
       splashDamageRadius: 16
       sideAngle: 45
       sideWidth: 4
@@ -41,10 +52,20 @@ weapons: [
       speed: 5
       hitEffect: blastExplosion
       trailLength: 5
+      trailWidth: 3
       homingRange: 150
       despawnEffect: blastExplosion
       lifeTime: 300
     }
+  }
+  {
+   type: BuildWeapon
+   name: recuperater
+   x: 4.7
+   y: 3
+   layerOffset: -0.001
+   rotate: true
+   rotateSpeed: 7
   }
 ]
 parts: [
