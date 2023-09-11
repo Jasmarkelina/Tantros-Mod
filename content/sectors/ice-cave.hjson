@@ -3,11 +3,11 @@ captureWave: 40
 sector: 79
 difficulty: 7
 research: {
-parent: "Frozen Plateau"
+parent: "Frozen-Plateau"
 objectives: [
     {
       type: SectorComplete
-      preset: "Frozen Plateau"
+      preset: "Frozen-Plateau"
     }
   ]
 }

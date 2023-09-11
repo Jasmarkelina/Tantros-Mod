@@ -3,7 +3,7 @@ planet: tantros
 sector: 16
 difficulty: 4
 research: {
-parent: cold-wasteland
+parent: frigid-wastewaters
 objectives: [
     {
       type: SectorComplete
