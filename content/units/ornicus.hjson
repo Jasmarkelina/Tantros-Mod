@@ -11,12 +11,12 @@ hitSize: 12
 itemCapacity: 90
 weapons: [
     {
-      x: 1
+      x: 6.5
   y: 0
-  shootY: 1
-  
+  shootY: 2
+  name: pulse-weapon
   mirror: true
-  rotate: false
+  rotate: true
   shootCone: 30
   inaccuracy: 25
   reload: 20
@@ -24,7 +24,7 @@ weapons: [
   targetInterval: 1
   targetSwitchInterval: 1
   cooldownTime: 50
-  recoil: 10
+  recoil: 4
   shootSound: missile
   
   bullet: {
@@ -53,14 +53,5 @@ weapons: [
    trailEffect: hitBulletColor
     }
   }
-]
-abilities: [
-  {
-   type: UnitSpawnAbility
-      unit: mite
-      spawnTime: 300
-      spawnX: 0,
-      spawnY: 2
-}
 ]
 research: ground-reestructurer
